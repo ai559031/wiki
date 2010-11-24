@@ -77,23 +77,19 @@
 <header>
 <nav>
     <ul>
-        <li class="first"><a href="../index.html" title="Home">Home</a></li>
-        <li><a href="index.html" title="Blog">Blog</a></li>
-        <li class="actived"><a href="../vimwiki/index.html" title="Wiki">Wiki</a></li>
-        <li><a href="../vimwiki/Vim.html" title="Vim">Vim</a></li>
+        <li class="first"><a href="http://hotoo.me/" title="Home">Home</a></li>
+        <li><a href="http://blog.hotoo.me/" title="Blog">Blog</a></li>
+        <li class="actived"><a href="http://wiki.hotoo.me/" title="Wiki">Wiki</a></li>
         <li><a href="https://twitter.com/hotoo" title="Twitter">Twitter</a></li>
-        <li class="last"><a href="../resume/resume.html" title="About Me">README</a></li>
+        <li class="last"><a href="http://github.com/hotoo" title="Project">Project</a></li>
+        <!-- li class="last"><a href="../resume/resume.html" title="About Me">README</a></li -->
     </ul>
 </nav>
 </header>
-<div id="container">
-    <article>
-
-<h1 id="toc_1">搜索</h1>
-<div id="cse">正在搜索...</div>
-
-    </article>
-    </div>
+<article>
+    <h1 id="toc_1">搜索</h1>
+    <div id="cse">正在搜索...</div>
+</article>
     <div>
     <section>
 <!--http://fis.io/ajax-google-custom-search-engine.html-->
@@ -127,34 +123,21 @@
             var title=$(this).html().replace(/\- 闲耘™.Wiki$/, "");
 			$(this).html(title);
 		});
-		//$('h3 > a[href*="twitter.com"]').parent().text('').addClass('search-twitter').next().addClass('tweet round5px').next().next().show();
-		//$('.tweet').each(function() {
-		//	var tweet = $(this).html().replace(/Login · Join Twitter! /, '').replace(/· fisio.*/g, '');
-		//	$(this).html(tweet);
-		//});
 		$('b:contains("...")').contents().unwrap();
 		$('.gsc-cursor-current-page').removeClass('gsc-cursor-page');
 
         t=window.setTimeout(function(){inCallback=false; t=null;}, 100);
 	});
-    //customSearchControl.setSearchCompleteCallback(null, function() {
-    //    $('input.gsc-input').select();
-    //    $('a.gs-title').unwrap().wrap('<h3></h3>').each(function() {
-    //        var title = $(this).html().replace(/\|.*/g, '');
-    //        $(this).html(title);
-    //    });
-    //    $('b:contains("...")').contents().unwrap();
-    //});
 
-    var key = location.hash.replace("#","");
-    if(!key){
-        var match = location.search.match(/q=([^&]*)(&|$)/);
-        if(match && match[1]){
-            key = match[1];
+    var k = location.hash.substring(1);
+    if(!k){
+        var m = location.search.match(/[?&]q=([^&]*)(&|$)/);
+        if(m && m[1]){
+            k = m[1];
         }
     }
-    if(key){
-        customSearchControl.execute(decodeURIComponent(key));
+    if(k){
+        customSearchControl.execute(decodeURIComponent(k));
     }
 
     window.onhashchange = function(){
@@ -162,9 +145,9 @@
             inCallback = false;
             return;
         }
-        var key = location.hash.replace("#","");
-        if(key){
-            customSearchControl.execute(decodeURIComponent(key));
+        var k = location.hash.substring(1);
+        if(k){
+            customSearchControl.execute(decodeURIComponent(k));
         }
     };
 }, true);
