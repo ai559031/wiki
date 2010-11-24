@@ -46,13 +46,13 @@
 <a href="http://blog.minidx.com/">中文 Flex 例子</a>
 </li>
 <li>
-<a href="http://opensource.adobe.com/wiki/display/flexsdk/Flex+SDK">Flex SDK</a>
-</li>
-<li>
 <a href="http://www.riameeting.com/">RIAMeeting</a> - 中国RIA开发者活动组织
 </li>
 <li>
 <a href="http://www.9ria.com/">9RIA天地会</a>
+</li>
+<li>
+<a href="http://www.k-zone.cn/zblog/post/flex-compiler-parameter.html">Flex编程注意之Flex Complier参数</a>
 </li>
 </ul>
 
@@ -95,6 +95,9 @@
 <h2 id="toc_1.3">Tools</h2>
 <ul>
 <li>
+<a href="http://opensource.adobe.com/wiki/display/flexsdk/Flex+SDK">Flex SDK</a>
+</li>
+<li>
 Flash(Flex) Builder
 </li>
 <ul>
@@ -118,9 +121,6 @@ Flash(Flex) Builder
 <a href="http://www.vim.org/scripts/script.php?script_id=1746">Vim Compiler plugins for Adobe Flex 2</a>
 </li>
 <li>
-<a href="http://abitno.me/use-vim-to-develop-flex-in-linux">在Linux下用vim做 Flex开发</a>
-</li>
-<li>
 <a href="http://www.vim.org/scripts/script.php?script_id=2933">vim-addon-fcsh : run adobe fcsh Flex compiler shell in background decreasing compilation times</a>
 </li>
 <li>
@@ -128,6 +128,30 @@ Flash(Flex) Builder
 </li>
 <li>
 <a href="http://www.vim.org/scripts/script.php?script_id=3225">Flex 4: Syntax highlighting for Adobe Flex 4</a>
+</li>
+<li>
+<a href="http://bluehua.org/2010/04/21/1135.html">ubuntu上flex开发相关</a>
+</li>
+<li>
+<a href="http://blog.minidx.com/2008/05/17/853.html">Linux上用ActionScript 3(Adobe FLEX 3.0 SDK)开发Adobe Flash应用</a>
+</li>
+<li>
+<a href="http://blog.minidx.com/2008/09/19/1404.html">在Unix/Linux下搭建Flash/Flex的开发环境</a>
+</li>
+<li>
+<a href="http://blog.minidx.com/2008/05/27/875.html">Linux下ActionScript 3的调试(Debug)方法</a>
+</li>
+<li>
+<a href="http://www.mindlence.com/WP/?p=301">Makefile for Flex</a>
+</li>
+<li>
+<a href="http://www.fireyang.com/blog/?p=115">vim添加as和mxml的语法高亮</a>
+</li>
+<li>
+<a href="http://abitno.me/use-vim-to-develop-flex-in-linux">在Linux下用vim做Flex开发</a>
+</li>
+<li>
+<a href="http://seancode.blogspot.com/2008/01/flex-mxml-highlighting-in-vim.html">Flex: MXML Highlighting in VIM</a>
 </li>
 </ul>
 
@@ -182,6 +206,41 @@ FX3:
 以后千万记住不要让QQ医生或者360把你的Hosts文件优化了！不然痛苦了！
 </p>
 
+<h2 id="toc_1.5">搭建开发环境</h2>
+<ol>
+<li>
+下载 <a href="http://opensource.adobe.com/wiki/display/flexsdk/Flex+SDK">Flex SDK</a>，不要下载 Free Adobe SDK 而不是 Open Source 的。
+</li>
+<li>
+解压到某目录（例如 E:\Adobe\flex_sdk）
+</li>
+<li>
+将上面的路径添加到系统环境变量 Path 中：
+<pre>
+FLEX_HOME = E:\Adobe\flex_sdk
+Path = %FLEX_HOME%\bin
+</pre>
+</li>
+<li>
+安装 Java 开发/运行时环境。
+</li>
+<li>
+下载 <a href="http://www.vim.org/scripts/script.php?script_id=1061">actionscript.vim</a>,
+    <a href="http://abdulqabiz.com/files/vim/mxml.vim">mxml.vim</a> 和 <a href="http://vim.cybermirror.org/patches/dtd.vim">dtd.vim</a>
+    放置到 .vim/syntax/ 目录。
+</li>
+<li>
+将如下代码加到 filetype.vim 中：
+<pre class="vim">
+au BufNewFile,BufRead *.mxml set filetype=mxml
+au BufNewFile,BufRead *.as set filetype=actionscript
+</pre>
+</li>
+<li>
+编译：mxmlc test.as 或 mxmlc test.mxml
+</li>
+</ol>
+
 <script type="text/javascript">
 function onSearch(){
     location.href = "search.html#"+document.getElementById("input_search").value;
@@ -200,7 +259,7 @@ function onSearch(){
     <p><a rel="license" href="http://creativecommons.org/licenses/by/2.5/"><img alt="Creative Commons License" style="border-width: 0pt;" src="http://i.creativecommons.org/l/by/2.5/88x31.png" align="right"></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 Generic License</a>.<br>
     Copyleft © 2010, Driven by <a href="http://code.google.com/p/vimwiki/">Vimwiki</a>, Theme by 闲耘™(@hotoo).
     </p>
-    <p>本页最后修订于 2010年09月02日 17:56:10</p>
+    <p>本页最后修订于 2010年11月24日 01:57:02</p>
 </footer>
 </div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
