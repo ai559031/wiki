@@ -7,7 +7,7 @@
 <!--[if IE]><script type="text/javascript" src="js/html5.js"></script><![endif]-->
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 <link rel="stylesheet" type="text/css" href="/css/vim-like.css" />
-<title>Java - 闲耘™.Wiki</title>
+<title>velocity-environment - 闲耘™.Wiki</title>
 </head>
 <body>
 <div id="wrapper">
@@ -25,33 +25,58 @@
 </header>
 <article>
 
-<h1 id="toc_1">Java</h1>
-<ul>
+<h1 id="toc_1">搭建 Velocity 开发环境</h1>
+<ol>
 <li>
-<a href="http://blog.csdn.net/huanghm88/archive/2009/03/07/3965218.aspx">java环境变量配置</a> - 非常详细。
+到 <a href="http://velocity.apache.org/">http://velocity.apache.org/</a> 的下载页；
 </li>
 <li>
-<a href="http://www.ibm.com/developerworks/cn/java/j-jtp04247.html">Java 理论与实践: 闭包之争</a>
+下载 velocity-x.zip (其中 x 是版本号)
 </li>
-</ul>
-
-<h2 id="toc_1.1">Frameworks</h2>
-<ul>
 <li>
-<a href="http://www.playframework.org/">Play framework</a>
+下载 velocity-tools-y.zip (同理，y 也是其对应的版本号)
 </li>
-</ul>
-
-<h2 id="toc_1.2">Tools</h2>
-<ul>
 <li>
-<a href="http://junit.org/">JUnit</a> <a href="http://sourceforge.net/projects/junit/">sf</a>
+解压 velocity-x.jar 到 WEB-INF/lib 目录；
 </li>
-</ul>
-
+<li>
+解压 velocity-tools-y/lib/*.jar 到 WEB-INF/lib 目录。
+</li>
+<li>
+WEB-INF/web.xml
 <pre>
-name = URLDecoder.decode(name, "UTF-8");
+&lt;?xml version="1.0" encoding="ISO-8859-1"?&gt;
+&lt;!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd"&gt;
+&lt;web-app&gt;
+   &lt;servlet&gt;
+     &lt;servlet-name&gt;velocityView&lt;/servlet-name&gt;
+     &lt;servlet-class&gt;org.apache.velocity.tools.view.servlet.VelocityViewServlet&lt;/servlet-class&gt;
+     &lt;init-param&gt;
+       &lt;param-name&gt;org.apache.velocity.toolbox&lt;/param-name&gt;
+       &lt;param-value&gt;/WEB-INF/toolbox.xml&lt;/param-value&gt;
+     &lt;/init-param&gt;
+   &lt;/servlet&gt;
+   &lt;servlet-mapping&gt;
+     &lt;servlet-name&gt;velocityView&lt;/servlet-name&gt;
+     &lt;url-pattern&gt;*.vm&lt;/url-pattern&gt;
+   &lt;/servlet-mapping&gt;
+&lt;/web-app&gt;
 </pre>
+</li>
+</ol>
+
+<h2 id="toc_1.1">参考阅读</h2>
+<ul>
+<li>
+<a href="http://hi.baidu.com/dalianitjingying/blog/item/325b7e3d09202006bba167c4.html">搭建velocity开发环境</a>
+</li>
+<li>
+<a href="http://www.grzz.com.cn/program/jsp/4454/">用Apache Velocity模板引擎速造网站</a>
+</li>
+<li>
+<a href="http://www.java3z.com/cwbwebhome/article/article2a/243.jsp?id=225">Velocity学习系列 之 Servlet应用</a>
+</li>
+</ul>
 
 <script type="text/javascript">
 function onSearch(){
@@ -71,7 +96,7 @@ function onSearch(){
     <p><a rel="license" href="http://creativecommons.org/licenses/by/2.5/"><img alt="Creative Commons License" style="border-width: 0pt;" src="http://i.creativecommons.org/l/by/2.5/88x31.png" align="right"></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 Generic License</a>.<br>
     Copyleft © 2010, Driven by <a href="http://code.google.com/p/vimwiki/">Vimwiki</a>, Theme by 闲耘™(@hotoo).
     </p>
-    <p>本页最后修订于 2010年12月19日 15:13:06</p>
+    <p>本页最后修订于 2010年12月19日 21:22:13</p>
 </footer>
 </div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>

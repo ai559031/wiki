@@ -37,6 +37,12 @@
 <a href="http://livedocs.adobe.com/flex/">Flex LiveDocs</a>
 </li>
 <li>
+<a href="http://livedocs.adobe.com/flex/3_cn/langref/">Flex 3.2 语言参考</a>
+</li>
+<li>
+<a href="http://help.adobe.com/zh_CN/AS3LCR/Flex_4.0/">Flex 4.1 语言参考</a>
+</li>
+<li>
 <a href="http://en.wikipedia.org/wiki/Adobe_Flex">Adobe Flex - Wikipedia</a>
 </li>
 <li>
@@ -54,10 +60,25 @@
 <li>
 <a href="http://www.k-zone.cn/zblog/post/flex-compiler-parameter.html">Flex编程注意之Flex Complier参数</a>
 </li>
+<li>
+<a href="http://www.favzone.com/">中文FLEX学习</a>
+</li>
+<li>
+<a href="http://flex4jiaocheng.com/">flex4jiaocheng.com</a>
+</li>
+<li>
+<a href="http://riaoo.com/?page_id=75">电子书及实用工具下载</a>
+</li>
 </ul>
 
 <h2 id="toc_1.1">Tutorial</h2>
 <ul>
+<li>
+<a href="http://livedocs.adobe.com/flex/3_cn/langref/">Adobe® Flex™ 3.2 语言参考</a>
+</li>
+<li>
+<a href="http://help.adobe.com/zh_CN/flashbuilder/using/index.html">Adobe Flash Builder 4 Help</a>
+</li>
 <li>
 <a href="http://www.blueidea.com/tech/multimedia/2004/2130.asp">Flex 入门教程</a> - blueidea
 </li>
@@ -89,6 +110,9 @@
 <li>
 <a href="http://flexpaper.devaldi.com/">FlexPaper - the open source document viewer solution for pdf, doc, ...</a>
     <a href="http://code.google.com/p/flexpaper/">google code</a>
+</li>
+<li>
+<a href="http://livedocs.adobe.com/flex/3/html/help.html?content=charts_types_01.html">Flex Chart</a>
 </li>
 </ul>
 
@@ -153,63 +177,41 @@ Flash(Flex) Builder
 <li>
 <a href="http://seancode.blogspot.com/2008/01/flex-mxml-highlighting-in-vim.html">Flex: MXML Highlighting in VIM</a>
 </li>
+<li>
+<a href="http://www.sothink.com/">Sothink</a>, <a href="http://riaoo.com/?p=997">下载 Sothink SWF Decompiler v5.1 多国语言版</a>
+<pre>
+031J81-97K5CD-5EFB66-Y9JXK9-K1P3YK-APKVYH-FXKAZG-HDHR26-HMQKZC-89DTE4-E19TKK-DEKHCR
+</pre>
+</li>
 </ul>
 
-<h2 id="toc_1.4">Flex Builder 4</h2>
-<p>
-首先把自己的hosts文件里加上一行：
-</p>
-<pre>
-127.0.0.1 activate.adobe.com
-
-127.0.0.1 practivate.adobe.com
-127.0.0.1 ereg.adobe.com
-127.0.0.1 activate.wip3.adobe.com
-127.0.0.1 wip3.adobe.com
-127.0.0.1 3dns-3.adobe.com
-127.0.0.1 3dns-2.adobe.com
-127.0.0.1 adobe-dns.adobe.com
-127.0.0.1 adobe-dns-2.adobe.com
-127.0.0.1 adobe-dns-3.adobe.com
-127.0.0.1 ereg.wip3.adobe.com
-127.0.0.1 activate-sea.adobe.com
-127.0.0.1 wwis-dubc1-vip60.adobe.com
-127.0.0.1 activate-sjc0.adobe.com
-</pre>
-<p>
-然后在打开Flex Builder 4
-输入如下注册码：
-</p>
-<pre>
-FB4:
-1424-4118-1138-0912-4001-7222
-1424-4884-4630-8952-4819-8520
-1377-4009-6596-2357-9400-4885
-
-F C :
-1395-1003-6369-7619-0587-6556
-
-FX3:
-1377-4167-5844-4698-0048-5821
-1377-4168-2018-0771-2432-1495
-1377-4760-3354-0772-2773-8996
-1377-4165-2080-7265-7813-8901
-1377-4964-5021-8182-2399-8235
-1306-4100-8708-9432-2243-5880
-1306-4867-8501-8670-3893-7864
-</pre>
-<p>
-注册，OK
-</p>
-
-<p>
-以后千万记住不要让QQ医生或者360把你的Hosts文件优化了！不然痛苦了！
-</p>
+<h2 id="toc_1.4">Books</h2>
+<ul>
+<li>
+《Flex第一步：基于ActionScript 3.0的Flex 2应用开发》
+</li>
+<li>
+《Programming Flex 3中文版》
+</li>
+<li>
+《Flex程序设计》
+</li>
+<li>
+《Flex 4 Cookbook》
+</li>
+<li>
+《Adobe Flex高级编程》
+</li>
+<li>
+《Flex 3权威指南》
+</li>
+</ul>
 
 <h2 id="toc_1.5">搭建开发环境</h2>
 <ol>
 <li>
-下载 <a href="http://opensource.adobe.com/wiki/display/flexsdk/Flex+SDK">Flex SDK</a>，不要下载 Free Adobe SDK 而不是 Open Source 的。
+下载 <a href="http://opensource.adobe.com/wiki/display/flexsdk/Flex+SDK">Flex SDK</a>，
+    下载 Free Adobe SDK 而不是 Open Source 的，后者编译 mxml 文件时可能不正常。
 </li>
 <li>
 解压到某目录（例如 E:\Adobe\flex_sdk）
@@ -222,7 +224,7 @@ Path = %FLEX_HOME%\bin
 </pre>
 </li>
 <li>
-安装 Java 开发/运行时环境。
+安装 Java 开发/运行时环境（Flex SDK 基于 Java）。
 </li>
 <li>
 下载 <a href="http://www.vim.org/scripts/script.php?script_id=1061">actionscript.vim</a>,
@@ -259,7 +261,7 @@ function onSearch(){
     <p><a rel="license" href="http://creativecommons.org/licenses/by/2.5/"><img alt="Creative Commons License" style="border-width: 0pt;" src="http://i.creativecommons.org/l/by/2.5/88x31.png" align="right"></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 Generic License</a>.<br>
     Copyleft © 2010, Driven by <a href="http://code.google.com/p/vimwiki/">Vimwiki</a>, Theme by 闲耘™(@hotoo).
     </p>
-    <p>本页最后修订于 2010年11月24日 01:57:02</p>
+    <p>本页最后修订于 2010年12月14日 10:10:16</p>
 </footer>
 </div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>

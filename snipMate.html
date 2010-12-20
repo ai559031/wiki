@@ -7,7 +7,7 @@
 <!--[if IE]><script type="text/javascript" src="js/html5.js"></script><![endif]-->
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 <link rel="stylesheet" type="text/css" href="/css/vim-like.css" />
-<title>snipMate - 闲耘™.Wiki</title>
+<title>snipMate.vim - 闲耘™.Wiki</title>
 </head>
 <body>
 <div id="wrapper">
@@ -25,25 +25,24 @@
 </header>
 <article>
 
-<h1 id="toc_1">snipMate</h1>
+<h1 id="toc_1">snipMate.vim</h1>
 <ul>
 <li>
-<a href="http://blog.liancheng.info/?p=211">snipMate反引号转义补丁</a>
-</li>
-<li>
-<a href="http://code.google.com/p/snipmate/">TextMate-style snippets for Vim</a>
+<a href="http://www.vim.org/scripts/script.php?script_id=2540">@vim.org</a>
+    <a href="http://code.google.com/p/snipmate/">@google.code</a>
+    <a href="https://github.com/msanders/snipmate.vim">@github</a>
 </li>
 <li>
 <a href="http://blog.liancheng.info/?p=211">snipMate反引号转义补丁</a> (似乎没考虑偶数个反斜杠的问题。)
 </li>
 <li>
-<a href="http://github.com/scrooloose/snipmate-snippets">snipMate-snippets</a>
+<a href="http://lilydjwg.is-programmer.com/posts/22799">snipMate表达式扩展补丁</a>
 </li>
 </ul>
 
 <h2 id="toc_1.1">插入日期时间</h2>
 <p>
-在 _.snippets 中加入如下代码，就可以在插入模式中输入 date&lt;Tab&gt;, time&lt;Tab&gt; 之类的方式快速插入日期时间了。
+在 _.snippets 中加入如下代码，就可以在插入模式中输入 <code>date&lt;Tab&gt;</code>, <code>time&lt;Tab&gt;</code> 之类的方式快速插入日期时间了。
 </p>
 <pre>
 snippet date
@@ -55,15 +54,7 @@ snippet time
 snippet time-
 	`strftime("%Y-%m-%d %H:%M:%S")`
 snippet week
-	`Week_cn()`
-</pre>
-<p>
-其中 <code>Week_cn</code> 是用来获得当前星期信息的函数，定义如下，置于 vimrc 中：
-</p>
-<pre>
-function Week_cn()
-    return "星期".strpart("日一二三四五六", strftime("%w")*3, 3)
-endfunction
+	`strftime("%A")`
 </pre>
 
 <script type="text/javascript">
@@ -84,7 +75,7 @@ function onSearch(){
     <p><a rel="license" href="http://creativecommons.org/licenses/by/2.5/"><img alt="Creative Commons License" style="border-width: 0pt;" src="http://i.creativecommons.org/l/by/2.5/88x31.png" align="right"></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 Generic License</a>.<br>
     Copyleft © 2010, Driven by <a href="http://code.google.com/p/vimwiki/">Vimwiki</a>, Theme by 闲耘™(@hotoo).
     </p>
-    <p>本页最后修订于 2010年06月25日 09:37:48</p>
+    <p>本页最后修订于 2010年11月29日 14:59:13</p>
 </footer>
 </div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
