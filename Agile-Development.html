@@ -7,7 +7,7 @@
 <!--[if IE]><script type="text/javascript" src="js/html5.js"></script><![endif]-->
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 <link rel="stylesheet" type="text/css" href="/css/vim-like.css" />
-<title>velocity-environment - 闲耘™.Wiki</title>
+<title>Agile-Development - 闲耘™.Wiki</title>
 </head>
 <body>
 <div id="wrapper">
@@ -25,59 +25,41 @@
 </header>
 <article>
 
-<h1 id="toc_1">搭建 Velocity 开发环境</h1>
-<ol>
-<li>
-到 <a href="http://velocity.apache.org/">http://velocity.apache.org/</a> 的下载页；
-</li>
-<li>
-下载 velocity-x.zip (其中 x 是版本号)
-</li>
-<li>
-下载 velocity-tools-y.zip (同理，y 也是其对应的版本号)
-</li>
-<li>
-解压 velocity-x.jar 到 WEB-INF/lib 目录；
-</li>
-<li>
-解压 velocity-tools-y/lib/*.jar 到 WEB-INF/lib 目录。
-</li>
-<li>
-WEB-INF/web.xml
-<pre>
-&lt;?xml version="1.0" encoding="ISO-8859-1"?&gt;
-&lt;!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd"&gt;
-&lt;web-app&gt;
-   &lt;servlet&gt;
-     &lt;servlet-name&gt;velocityView&lt;/servlet-name&gt;
-     &lt;servlet-class&gt;org.apache.velocity.tools.view.servlet.VelocityViewServlet&lt;/servlet-class&gt;
-     &lt;init-param&gt;
-       &lt;param-name&gt;org.apache.velocity.toolbox&lt;/param-name&gt;
-       &lt;param-value&gt;/WEB-INF/toolbox.xml&lt;/param-value&gt;
-     &lt;/init-param&gt;
-   &lt;/servlet&gt;
-   &lt;servlet-mapping&gt;
-     &lt;servlet-name&gt;velocityView&lt;/servlet-name&gt;
-     &lt;url-pattern&gt;*.vm&lt;/url-pattern&gt;
-   &lt;/servlet-mapping&gt;
-&lt;/web-app&gt;
-</pre>
-</li>
-</ol>
-
-<h2 id="toc_1.1">参考阅读</h2>
+<h1 id="toc_1">敏捷开发(Agile Development)</h1>
 <ul>
 <li>
-<a href="http://hi.baidu.com/dalianitjingying/blog/item/325b7e3d09202006bba167c4.html">搭建velocity开发环境</a>
+<a href="http://zh.wikipedia.org/zh-cn/%E6%95%8F%E6%8D%B7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91">敏捷软件开发</a>
 </li>
 <li>
-<a href="http://www.grzz.com.cn/program/jsp/4454/">用Apache Velocity模板引擎速造网站</a>
+<a href="http://www.ibm.com/developerworks/cn/linux/l-tdd/">浅谈测试驱动开发（TDD）</a>
 </li>
 <li>
-<a href="http://www.java3z.com/cwbwebhome/article/article2a/243.jsp?id=225">Velocity学习系列 之 Servlet应用</a>
+<a href="http://www.programmer.com.cn/1310/">敏捷开发中的Code Review</a>
 </li>
 <li>
-<a href="http://198334.blog.chinajavaworld.com/entry/4760/0/">velocity语法</a> - 里面也包含了环境搭建及 Velocity 与 Servlet 配合的例子。
+<a href="http://www.vckbase.com/document/viewdoc/?id=1027">极限编程与敏捷开发</a>
+</li>
+<li>
+<a href="http://www.infoq.com/cn/minibooks/scrum-xp-from-the-trenches">硝烟中的Scrum和XP</a>
+    <a href="http://www.slideshare.net/ohmygodlzl/scrum-1993831">Scrum 上路 - 导读</a>
+</li>
+</ul>
+
+<h2 id="toc_1.1">极限编程(eXtreme Programming, XProgramming, XP)</h2>
+
+<h2 id="toc_1.2">Scrum</h2>
+<ul>
+<li>
+<a href="http://zh.wikipedia.org/zh-cn/Scrum">@wikipedia</a>
+</li>
+<li>
+<a href="http://www.slideshare.net/rodrigoi/scrum-en-15-minutos">Scrum en 15 minutos</a>
+</li>
+<li>
+<a href="http://www.slideshare.net/montemontoya/agile-scrum-essentials-for-project-management">Agile &amp; Scrum Essentials for Project Management</a>
+</li>
+<li>
+<a href="http://www.slideshare.net/mortenjust/an-introduction-to-ux-in-scrum-1289533">An introduction to UX in Scrum</a>
 </li>
 </ul>
 
@@ -99,7 +81,7 @@ function onSearch(){
     <p><a rel="license" href="http://creativecommons.org/licenses/by/2.5/"><img alt="Creative Commons License" style="border-width: 0pt;" src="http://i.creativecommons.org/l/by/2.5/88x31.png" align="right"></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 Generic License</a>.<br>
     Copyleft © 2010, Driven by <a href="http://code.google.com/p/vimwiki/">Vimwiki</a>, Theme by 闲耘™(@hotoo).
     </p>
-    <p>本页最后修订于 2010年12月21日 18:46:25</p>
+    <p>本页最后修订于 2010年12月24日 10:01:42</p>
 </footer>
 </div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
