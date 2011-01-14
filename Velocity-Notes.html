@@ -59,13 +59,18 @@
 <p>
 带花括号的属性/方法调用方式，属性/方法需要在花括号之内：
 </p>
-<pre>
+<pre class="velocity">
 ${cookie.name}
 ${request.getCookies()}
 </pre>
 
+<p>
+注：jQuery 的 <code>$.ajax()</code> 之类的代码会导致 Velocity 解析异常，好在 Javascript
+语法的灵活性，可以增加无效空白 <code>$ .ajax()</code>，当然也可以使用 <code>jQuery.ajax()</code>
+</p>
+
 <h2 id="toc_1.2">#set()</h2>
-<pre>
+<pre class="velocity">
 #set($list = ["pine", "oak", "maple"])
 </pre>
 <p>
@@ -73,7 +78,7 @@ ${request.getCookies()}
 </p>
 
 <h2 id="toc_1.3">#if()</h2>
-<pre>
+<pre class="velocity">
 #if(true)
     TRUE.
 #elseif(false)
@@ -86,12 +91,12 @@ ${request.getCookies()}
 非常有用。
 例如：
 </p>
-<pre>
+<pre class="velocity">
 &lt;div class="#{if}(false)className1#{elseif}(true)className2#{else}className3#{end}"&gt;&lt;/div&gt;
 </pre>
 
 <h2 id="toc_1.4">#foreach()</h2>
-<pre>
+<pre class="velocity">
 #foreach($item in $list)
     ${velocityCount}. $item.
 #end
@@ -104,6 +109,18 @@ ${request.getCookies()}
 
 <h2 id="toc_1.6">#parse()</h2>
 <p>
+例如：a.vm 中包含如下代码
+</p>
+<pre class="velocity">
+#parse("b.vm")
+</pre>
+
+<p>
+则在解析 a.vm 页面的这行代码时，先将 b.vm 插入到其所在的位置，并解析执行，
+而且 b.vm 可以共享 a.vm 中的变量。
+</p>
+
+<p>
 如果 a.vm <code>#parse("b.vm")</code>，b.vm 可以直接使用 a.vm 中定义的变量。
 注意：如果 b.vm 定义了同名变量，则 b.vm 中使用自身的定义。
 </p>
@@ -112,7 +129,7 @@ ${request.getCookies()}
 <p>
 动态执行一串字符串的值：
 </p>
-<pre>
+<pre class="velocity">
 #evaluate('string with VTL #if(true)will be displayed#end')
 </pre>
 
@@ -120,17 +137,122 @@ ${request.getCookies()}
 <p>
 将文件原文包含进当前文档中。
 </p>
-<pre>
+<pre class="velocity">
 #include("a.vm" "readme.txt")
 </pre>
 
-<h2 id="toc_1.9">数组&amp;访问</h2>
+<h2 id="toc_1.9">#define()</h2>
+<p>
+类似于 C 语言的 <code>#define</code> 命令。
+</p>
+<pre class="velocity">
+    #define($hello)
+        Hello ${who}!
+    #end
+    #set($who = "World")
+
+    $hello
+    ## 显示 "Hello World!"
+</pre>
+
+<h2 id="toc_1.10">数组 &amp; 访问</h2>
 <p>
 Velocity 只能访问对象，无法通过类似 arr[2] 来访问特定位置的元素。
 </p>
+<pre class="velocity">
+#set($arr = [0, 1, 2, 3])
+$arr.get(2)
+</pre>
+<p>
+注：对于 Java 原生 Array 对象，只能够 <code>#foreach</code> 进行遍历，无法使用 <code>get()</code> 方法。
+</p>
 
-<h2 id="toc_1.10">#macros()</h2>
-<pre>
+<h2 id="toc_1.11">范围(range)</h2>
+<pre class="velocity">
+#foreach($item in [10..20])
+    $item
+#end
+</pre>
+
+<h2 id="toc_1.12">对象 &amp; 访问</h2>
+<pre class="velocity">
+#set($obj = {"key":"value", "name":"space"})
+$obj.get("key")
+
+#foreach(#item in $obj)
+    $item
+#end
+</pre>
+<p>
+上面的 $item 取到的是 values，如果需要在遍历对象过程中，同时取到对象的 keys，
+可以使用 <code>entrySet()</code> 或 <code>keySet()</code> 方法。
+</p>
+<pre class="velocity">
+#foreach($item in $!obj.entrySet())
+    $!item.key : $!item.value
+#end
+
+#foreach($item in $obj.keySet())
+    $item : $obj.get($item)
+#end
+</pre>
+<p>
+<strong>注：</strong> 这种集合的遍历是无序的，即遍历顺序可能不同于 $obj 中元素的定义顺序
+（据目前所知，是根据键的字母排序的）。
+</p>
+
+<p>
+另外有两种不完美解决方法：
+</p>
+<ol>
+<li>
+I:
+<pre class="velocity">
+#set($obj = [
+    {"key":"key", "value":"value"},
+    {"key":"name", "value":"space"}
+    ])
+#foreach($item in $obj)
+    $item.key : $item.value
+#end
+</pre>
+</li>
+<li>
+II:
+<pre class="velocity">
+#set($obj = [
+    ["key","value"],
+    ["name","space"]
+    ])
+#foreach($item in $obj)
+    $item.get(0) : $item.get(1)
+#end
+</pre>
+</li>
+</ol>
+
+<p>
+之所以说 <strong>不完美</strong> 是因为：对于已知的 key，本可以直接
+</p>
+<pre class="velocity">
+$obj.get("key")
+</pre>
+
+<p>
+现在只能遍历并进行比较取得，而且较早的 Velocity 版本无法使用 <code>#break</code>，
+以便在找到匹配项之后立即退出循环。
+</p>
+<pre class="velocity">
+#foreach($item in $obj)
+    #if("key" == $!obj.get(0))
+        #set($myKey = $!type.get(1))
+        ##break
+    #end
+#end
+</pre>
+
+<h2 id="toc_1.13">#macros()</h2>
+<pre class="velocity">
 #macro(macroName)
     #subMacro("name", "value")
 #end
@@ -145,18 +267,28 @@ Velocity 只能访问对象，无法通过类似 arr[2] 来访问特定位置的
 的宏不被加载。
 </p>
 
-<h2 id="toc_1.11">#stop</h2>
+<p>
+参考：
+</p>
+<ol>
+<li>
+<a href="http://hi.baidu.com/%BA%DC%B9%AD%CB%E4%B5%C480%BA%F3/blog/item/5d0a9e81785723dfbd3e1e7f.html">Velocity宏Velocimacros</a>
+</li>
+</ol>
+
+<h2 id="toc_1.14">#stop</h2>
 <p>
 停止模板引擎，在 Debug 时比较有用。
 </p>
 
-<h2 id="toc_1.12">转义</h2>
-<p>
-暂无
-</p>
+<h2 id="toc_1.15">转义</h2>
+<pre class="velocity">
+$\name
+$\{name}
+</pre>
 
-<h2 id="toc_1.13">不解析执行的内容</h2>
-<pre>
+<h2 id="toc_1.16">不解析执行的内容</h2>
+<pre class="velocity">
 #[[
     这段内容将不被 Velocity 引擎解析，原文打出。
 
@@ -166,11 +298,12 @@ Velocity 只能访问对象，无法通过类似 arr[2] 来访问特定位置的
 ]]#
 </pre>
 
-<h2 id="toc_1.14">内置对象</h2>
+<h2 id="toc_1.17">内置对象</h2>
 <p>
 <code>$request</code>, <code>$response</code>, <code>$session</code>
 </p>
-<pre>
+
+<pre class="velocity">
 #foreach($cookie in $request.getCookies())
     $cookie.name : $cookie.value
 #end
@@ -179,7 +312,7 @@ Velocity 只能访问对象，无法通过类似 arr[2] 来访问特定位置的
 <p>
 获得 URL 中的参数：
 </p>
-<pre>
+<pre class="velocity">
 #set($n = $!request.getParameter('n'))
 </pre>
 
@@ -187,8 +320,20 @@ Velocity 只能访问对象，无法通过类似 arr[2] 来访问特定位置的
 另外还可以使用 <code>$msg</code> 内的消息工具访问 Struts 的国际化资源。
 </p>
 
-<h2 id="toc_1.15">注释</h2>
-<pre>
+<p>
+参考：
+</p>
+<ol>
+<li>
+<a href="http://download.oracle.com/javaee/1.3/api/javax/servlet/ServletRequest.html">Interface ServletRequest</a>
+</li>
+<li>
+<a href="http://download.oracle.com/javaee/1.4/api/javax/servlet/http/HttpServletRequest.html">Interface HttpServletRequest</a>
+</li>
+</ol>
+
+<h2 id="toc_1.18">注释</h2>
+<pre class="velocity">
 ## 单行注释。
 #*
  * 多行注释。
@@ -204,20 +349,53 @@ Velocity 只能访问对象，无法通过类似 arr[2] 来访问特定位置的
 据说 vm 页面的末尾写注释，会导致解析异常 (SofaMVC?)。
 </p>
 
-<h2 id="toc_1.16">Tips</h2>
+<h2 id="toc_1.19">Tips</h2>
 <p>
 Velocity 在表单中添加 name="action" 的文本/隐藏域，可以调用对应 Java 类
 （submit 按钮的 name 则指定对应的方法名称，如 event_submit_do_save ），
-但是此时 IE 浏览器无法通过 js 获得 form 本身的 action 属性。
-其他浏览器可以通过 getAttribute 函数获得。
+但是此时 IE 浏览器通过 js 获得 form 元素本身的 action 属性值的方式，
+和其他浏览器稍有不同。
 </p>
+
+<p>
+例如对于如下 HTML DOM 结构：
+</p>
+<pre>
+&lt;form action="attr"&gt;
+    &lt;input name="action" value="elem" /&gt;
+&lt;/form&gt;
+</pre>
+
+<p>
+IE 中需要使用
+</p>
+<pre class="javascript">
+form.attributes["action"].value
+</pre>
+
+<p>
+非 IE 浏览器还可以使用：
+</p>
+<pre class="javascript">
+form.getAttribute("action")
+</pre>
+
+<p>
+以下是些详细的对照：
+</p>
+<pre class="javascript">
+form.action.value                   // IE: elem         !IE: elem
+form.getAttribute("action")         // IE: [object]     !IE: attr
+form.getAttribute("action").value   // IE: elem         !IE: undefined
+form.attributes["action"].value     // IE: attr         !IE: attr
+</pre>
 
 <p>
 Form 本身的 action 属性和 action 隐藏域在提交时，浏览器本身不受影响，
 action 隐藏域被当作正常的参数附在 Form 的 action 属性值所对应 URL 之后。
 </p>
 
-<h2 id="toc_1.17">延伸阅读</h2>
+<h2 id="toc_1.20">延伸阅读</h2>
 <ol>
 <li>
 <a href="Velocity.html">Velocity</a>
@@ -227,6 +405,9 @@ action 隐藏域被当作正常的参数附在 Form 的 action 属性值所对�
 </li>
 <li>
 <a href="http://velocity.apache.org/engine/releases/velocity-1.7/vtl-reference-guide.html">VTL Reference</a>
+</li>
+<li>
+<a href="http://www.uusam.com/uu/blog/?p=96">《Velocity 用户指南手册中文版》</a>
 </li>
 </ol>
 
@@ -248,7 +429,7 @@ function onSearch(){
     <p><a rel="license" href="http://creativecommons.org/licenses/by/2.5/"><img alt="Creative Commons License" style="border-width: 0pt;" src="http://i.creativecommons.org/l/by/2.5/88x31.png" align="right"></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 Generic License</a>.<br>
     Copyleft © 2010, Driven by <a href="http://code.google.com/p/vimwiki/">Vimwiki</a>, Theme by 闲耘™(@hotoo).
     </p>
-    <p>本页最后修订于 2010年12月30日 13:29:41</p>
+    <p>本页最后修订于 2011年01月12日 11:34:31</p>
 </footer>
 </div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>

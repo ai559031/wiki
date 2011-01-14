@@ -31,6 +31,119 @@
 或许有些许帮助。
 </p>
 
+<h2 id="toc_1.1">导入项目到 Eclipse</h2>
+<ol>
+<li>
+先执行命令初始化 Eclipse 项目
+<pre>
+%PROJECT_HOME%&gt; mvn eclipse:eclipse
+</pre>
+    Note: 提交项目时，可以使用如下命令清除生成的项目文件：
+<pre>
+%PROJECT_HOME%&gt; mvn eclipse:clean
+</pre>
+</li>
+<li>
+导入 Java 项目到 Eclipse。<br />
+    Import -&gt; Existing Projects into Workspace -&gt; Select root directory:
+<pre>
+D:\workbench\demo
+</pre>
+</li>
+<li>
+添加项目变量：<br />
+    项目目录 -&gt; 属性 -&gt; Java Build Path -&gt; Libraries -&gt; Add Variable -&gt; Configure Variables... -&gt; New...<br />
+    Name: M2_REPO<br />
+    Path: D:/dwtask/M2_REPO/sofa2.m2
+<pre>
+M2_REPO = D:/dwtask/M2_REPO/sofa2.m2
+</pre>
+</li>
+<li>
+导入模板文件<br />
+    New -&gt; Java Project -&gt; Create project from existing source<br />
+    D:\workbench\demo\htdocs
+</li>
+<li>
+运行<br />
+    demo-test:src/test/java/com.alipay.dss.test.WebSofaStarter.java<br />
+    Run As -&gt; Java Application.
+</li>
+</ol>
+
+<p>
+对于已有项目，需要修改
+Eclipse:     %PROJECT_NAME%-test/src/test/resources/sofa-test-config.properties
+Explore: %PROJECT_HOME%/app/test/src/test/resources/sofa-test-config.properties
+</p>
+<pre>
+%PROJECT_NAME%_template=%PROJECT_HOME%/htdocs/templates
+</pre>
+
+<h2 id="toc_1.2">配置 $staticServer</h2>
+<p>
+\${PROJECT_HOME}\app\web\home\src\main\resources\uri-brokers.xml
+</p>
+<pre>
+&lt;content-uri name="staticServer" expose="true"&gt;
+    &lt;serverURI&gt;${core_protocol}://${core_domainName}:${core_web_port}&lt;/serverURI&gt;
+&lt;/content-uri&gt;
+</pre>
+
+<h2 id="toc_1.3">Add bundle</h2>
+<p>
+后台 Java 部分：
+</p>
+<pre>
+%PROJECT_HOME%/app/web&gt; web bundle add --name cocoon
+</pre>
+<p>
+参考： <a href="http://doc.alipay.net/pages/viewpage.action?pageId=11240141">SpringRoo使用</a>
+</p>
+
+<p>
+前端 vm 部分在 %PROJECT_HOME%/htdocs/templates 下直接拷贝，或创建类似 home 的目录即可。
+</p>
+
+<p>
+在 %PROJECT_HOME%/app/test/pom.xml 中的 <code>&lt;dependencies&gt;</code> 标签内添加：
+</p>
+<pre>
+    &lt;dependency&gt;
+        &lt;groupId&gt;com.alipay.dss&lt;/groupId&gt;
+        &lt;artifactId&gt;demo-web-cocoon&lt;/artifactId&gt;
+    &lt;/dependency&gt;
+</pre>
+
+<p>
+在 %PROJECT_HOME%/assembly/ear/pom.xml 的 <code>&lt;artifactItems&gt;</code> 标签内添加：
+</p>
+<pre>
+    &lt;artifactItem&gt;
+        &lt;groupId&gt;com.alipay.dss&lt;/groupId&gt;
+        &lt;artifactId&gt;demo-web-cocoon&lt;/artifactId&gt;
+    &lt;/artifactItem&gt;
+</pre>
+
+<p>
+对于新建的 bundle 要导入到 Eclipse 中需要先清理并重新导入。
+</p>
+<pre>
+%PROJECT_HOME%&gt; mvn clean eclipse:clean
+%PROJECT_HOME%&gt; mvn eclipse:eclipse
+</pre>
+
+<p>
+<strong>注：</strong>
+home 之外的 Bunlde(Bunlde 和 Car 没明白是什么意思？) 必须 Java 类和 vm 访问的文件同名。
+某些版本的 Sofa 貌似是用过 <code>@RequestMapping("/index.htm")</code> 隐私的，而无需类名相同。
+困惑。
+</p>
+
+<p>
+新建的 Java 类需要重启服务。
+</p>
+
 <p>
 <strong>关键字</strong>
 </p>
@@ -49,7 +162,14 @@
 </li>
 </ul>
 
-<h2 id="toc_1.1">链接</h2>
+<p>
+<span class="todo">TODO:</span>
+layout/
+screen/
+tile/
+</p>
+
+<h2 id="toc_1.4">链接</h2>
 <p>
 <strong>内部系统链接</strong><br />
 使用 <code>xxxModule.setTarget("yyy.vm")</code> 而不是直接调用 <code>yyy.htm</code>。<br />
@@ -118,58 +238,7 @@
 <pre>
 #set($layout = "home/layout/login.vm")
 </pre>
-
-<h2 id="toc_1.2">Add bundle</h2>
-<p>
-后台 Java 部分：
-</p>
-<pre>
-%PROJECT_HOME%/app/web&gt; web bundle add --name cocoon
-</pre>
-<p>
-参考： <a href="http://doc.alipay.net/pages/viewpage.action?pageId=11240141">SpringRoo使用</a>
-</p>
-
-<p>
-前端 vm 部分在 %PROJECT_HOME%/htdocs/templates 下直接拷贝，或创建类似 home 的目录即可。
-</p>
-
-<p>
-在 %PROJECT_HOME%/app/test/pom.xml 中的 <code>&lt;dependencies&gt;</code> 标签内添加：
-</p>
-<pre>
-    &lt;dependency&gt;
-        &lt;groupId&gt;com.alipay.dss&lt;/groupId&gt;
-        &lt;artifactId&gt;demo-web-cocoon&lt;/artifactId&gt;
-    &lt;/dependency&gt;
-</pre>
-
-<p>
-在 %PROJECT_HOME%/assembly/ear/pom.xml 的 <code>&lt;artifactItems&gt;</code> 标签内添加：
-</p>
-<pre>
-    &lt;artifactItem&gt;
-        &lt;groupId&gt;com.alipay.dss&lt;/groupId&gt;
-        &lt;artifactId&gt;demo-web-cocoon&lt;/artifactId&gt;
-    &lt;/artifactItem&gt;
-</pre>
-
-<p>
-对于新建的 bundle 要导入到 Eclipse 中需要先清理并重新导入。
-</p>
-<pre>
-%PROJECT_HOME%&gt; mvn clean eclipse:clean
-%PROJECT_HOME%&gt; mvn eclipse:eclipse
-</pre>
-
-<p>
-<strong>注：</strong>
-home 之外的 Bunlde(Bunlde 和 Car 没明白是什么意思？) 必须 Java 类和 vm 访问的文件同名。
-某些版本的 Sofa 貌似是用过 <code>@RequestMapping("/index.htm")</code> 隐私的，而无需类名相同。
-困惑。
-</p>
-
-<h2 id="toc_1.3">参考阅读</h2>
+<h2 id="toc_1.5">参考阅读</h2>
 <ul>
 <li>
 <a href="Velocity.html">Velocity</a>
@@ -185,6 +254,9 @@ home 之外的 Bunlde(Bunlde 和 Car 没明白是什么意思？) 必须 Java �
 </li>
 <li>
 <a href="http://yekai.net/?p=232">Velocity模板开发常见问题分享</a>
+</li>
+<li>
+<a href="http://personal.demo.alipay.net/user/vmflower.htm">VM开发分享</a>
 </li>
 </ul>
 
@@ -206,7 +278,7 @@ function onSearch(){
     <p><a rel="license" href="http://creativecommons.org/licenses/by/2.5/"><img alt="Creative Commons License" style="border-width: 0pt;" src="http://i.creativecommons.org/l/by/2.5/88x31.png" align="right"></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 Generic License</a>.<br>
     Copyleft © 2010, Driven by <a href="http://code.google.com/p/vimwiki/">Vimwiki</a>, Theme by 闲耘™(@hotoo).
     </p>
-    <p>本页最后修订于 2010年12月30日 13:51:27</p>
+    <p>本页最后修订于 2011年01月04日 15:23:48</p>
 </footer>
 </div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
