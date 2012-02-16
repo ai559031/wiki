@@ -25,30 +25,76 @@
 </header>
 <article>
 
+    
+
 <h1 id="toc_1">操作系统(Operating System)</h1>
 <ul>
 <li>
 <a href="http://www.linux.org/">The Linux Home Page at Linux Online</a>
-</li>
+
 <li>
 <a href="http://www.linuxsir.org/">LinuxSir.org</a>
-</li>
+
 <li>
 <a href="http://fedoraproject.org/">Fedora</a>
-</li>
+
 <li>
 <a href="http://www.linux.fm/">linux.fm</a>
-</li>
+
 <li>
 <a href="http://www.freebsd.org/">FreeBSD</a>
-</li>
+
 </ul>
 
-<h2 id="toc_1.1">Windows</h2>
+<h2 id="toc_1.1">Physical Address Extension(PAE)</h2>
+<ul>
+<li>
+<a href="http://zh.wikipedia.org/wiki/%E7%89%A9%E7%90%86%E5%9C%B0%E5%9D%80%E6%89%A9%E5%B1%95">物理地址扩展</a>
+    <a href="http://en.wikipedia.org/wiki/Physical_Address_Extension">en@wikipedia</a>
+
+<li>
+<a href="http://msdn.microsoft.com/en-us/library/aa366796.aspx">for Windows</a>
+
+</ul>
+
+<h2 id="toc_1.2">双系统卸载 Linux</h2>
+<p>
+1. 下载MBRFix工具，放在c盘，利用命令提示符，进入软件所在目录，cd c:\mbrfix    （cd后面一个空格）
+<a href="http://www.linuxidc.com/Linux/2007-11/8785.htm">http://www.linuxidc.com/Linux/2007-11/8785.htm</a>
+</p>
+
+<p>
+2.输入 MBRFix /drive 0 fixmbr /yes
+</p>
+
+<p>
+3.重启，发现直接进入Win 7，现在可以用Win 7的磁盘管理（打不开的话，可以用Win 7优化大师里带的）格式化Ubuntu所在分区（就是没有盘符的，选定删除卷时会提示是其他系统的数据）了~~~
+</p>
+
+
+<hr />
+<p>
+拿出XP的安装光盘，启动系统，进入故障恢复控制台。依次序键入这两个命令：
+</p>
+
+<p>
+fixboot
+fixmbr
+</p>
+
+<p>
+命令成功完成后，重起系统。
+</p>
+
+<p>
+使用PQMagic等磁盘分区管理软件（推荐使用DOS版），找到Linux所在的分区，直接删除，然后将剩余空间与Windows分区合并，或者为剩余空间重新分区。用硬盘重起到Windows。至此所有工作完成。
+</p>
+
+<h1 id="toc_2">Windows</h1>
 <ul>
 <li>
 <a href="http://www.levenez.com/windows/">Windows History</a>
-</li>
+
 </ul>
 
 <p>
@@ -62,10 +108,10 @@
 <ol>
 <li>
 菜单：显示 -&gt; 详细信息
-</li>
+
 <li>
 菜单：工具 -&gt; 文件夹选项 -&gt; 查看 -&gt; 应用到所有文件夹。
-</li>
+
 </ol>
 
 <p>
@@ -75,7 +121,7 @@
 <ul>
 <li>
 Open Command Window Here
-</li>
+
 </ul>
 <p>
 <a href="http://www.commandline.co.uk/cmdhere/index.html">CmdHere - Cmd Prompt Here for NT/2000/XP/2003</a>
@@ -117,13 +163,13 @@ REGEDIT4
 <a href="http://blog.chinaunix.net/u/13492/showart_277138.html">http://blog.chinaunix.net/u/13492/showart_277138.html</a>
 </blockquote>
 
-<h2 id="toc_1.2">Windows Server 2003 启用 DirectX</h2>
+<h1 id="toc_3">Windows Server 2003 启用 DirectX</h1>
 <p>
 桌面右键 -&gt; 属性 -&gt; 设置 -&gt; 高级 -&gt; 疑难解答 -&gt; 硬件加速 -&gt; 完全。
 &lt;Win-r&gt;dxdiag -&gt; 显示 -&gt; 启用 DirectDraw 加速。
 </p>
 
-<h2 id="toc_1.3">Tools</h2>
+<h1 id="toc_4">Tools</h1>
 <p>
 hdtune - 磁盘检查程序
 </p>
@@ -132,7 +178,7 @@ hdtune - 磁盘检查程序
 MemTest - 内存检查程序。
 </p>
 
-<h2 id="toc_1.4">command (cmd)</h2>
+<h1 id="toc_5">command (cmd)</h1>
 <pre>
 dxdiag
 msconfig
@@ -261,56 +307,407 @@ utilman--------辅助工具管理器　　
 gpedit.msc-----组策略
 </pre>
 
-<h2 id="toc_1.5">Unix</h2>
+<h2 id="toc_5.1">Unix</h2>
 <ul>
 <li>
 <a href="http://www.levenez.com/unix/">Unix History</a>
-</li>
+
 <li>
 <a href="http://net.ytu.edu.cn/share/%D7%CA%C1%CF/Unix%CD%B4%BA%DE%D5%DF%CA%D6%B2%E1.htm">UNIX痛恨者手册</a>
-</li>
+
 <li>
 <a href="http://www.ibm.com/developerworks/cn/linux/l-tip-prompt/l-pex/">如何远程安装Linux</a>
-</li>
+
 <li>
 <a href="http://www.gnome.org/">GNOME</a>
-</li>
+
 <li>
 <a href="http://www.kde.org/">KDE - Experience Freedom!</a>
-</li>
+
 <li>
 <a href="http://ikde.org/">I, KDE</a> - 关注 KDE 软件集。
-</li>
+
 <li>
 <a href="http://i.linuxtoy.org/docs/guide/">开源世界旅行手册</a>
-</li>
+
 <li>
 <a href="http://awesome.naquadah.org/">awesome window manager</a>
-</li>
+
+<li>
+<a href="http://www.osmsg.com/">OSMSG</a>
+
 </ul>
 
-<h2 id="toc_1.6">Ubuntu</h2>
+<pre>
+find
+xargs
+</pre>
+
+<h2 id="toc_5.2">Ubuntu</h2>
 <ul>
 <li>
 <a href="Ubuntu.html">Ubuntu</a>
-</li>
+
 <li>
 <a href="http://www.gnome.org/">GNOME: The Free Software Desktop Project</a>
-</li>
+
 </ul>
 
-<h2 id="toc_1.7">Mac</h2>
+<h2 id="toc_5.3">Mac</h2>
 <ul>
 <li>
 <a href="http://www.tip4mac.com/">Tip2Mac</a>
-</li>
+
 </ul>
-<h2 id="toc_1.8">Books</h2>
+<h2 id="toc_5.4">Books</h2>
 <ul>
 <li>
 <a href="http://linuxcommand.org/tlcl.php">The Linux Command Line</a> (pdf)
-</li>
+
 </ul>
+
+
+<h2 id="toc_5.5">操作系统版本号对照表</h2>
+
+<table>
+<tr>
+<th>
+OS
+</th>
+<th>
+version
+</th>
+<th>
+&nbsp;
+</th>
+<th>
+&nbsp;
+</th>
+<th>
+&nbsp;
+</th>
+</tr>
+<tr>
+<td>
+Windows 95/NT
+</td>
+<td>
+4.0
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+<tr>
+<td>
+Windows 98/98 SE
+</td>
+<td>
+4.10
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+<tr>
+<td>
+Windows ME
+</td>
+<td>
+4.90
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+<tr>
+<td>
+Windows 2000
+</td>
+<td>
+5.0
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+<tr>
+<td>
+Windows XP
+</td>
+<td>
+5.1
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+<tr>
+<td>
+Windows Server 2003
+</td>
+<td>
+5.2
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+<tr>
+<td>
+Windows Vista
+</td>
+<td rowspan="2">
+6.0
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+<tr>
+<td>
+Windows Server 2008
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+<tr>
+<td>
+Windows 7
+</td>
+<td rowspan="2">
+6.1
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+<tr>
+<td>
+Windows Server 2008 R2
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+</table>
+
+
+<table>
+<tr>
+<th>
+&nbsp;
+</th>
+<th>
+Windows
+</th>
+<th>
+Windows
+</th>
+<th>
+Windows
+</th>
+<th>
+Windows NT
+</th>
+<th>
+Windows
+</th>
+<th>
+Windows
+</th>
+<th>
+Windows
+</th>
+<th>
+Windows
+</th>
+</tr>
+<tr>
+<th>
+&nbsp;
+</th>
+<th>
+95
+</th>
+<th>
+98
+</th>
+<th>
+Me
+</th>
+<th>
+4.0
+</th>
+<th>
+2000
+</th>
+<th>
+XP
+</th>
+<th>
+Vista
+</th>
+<th>
+7
+</th>
+</tr>
+<tr>
+<td>
+PlatformID
+</td>
+<td>
+1
+</td>
+<td>
+1
+</td>
+<td>
+1
+</td>
+<td>
+2
+</td>
+<td>
+2
+</td>
+<td>
+2
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+<tr>
+<td>
+主版本号
+</td>
+<td>
+4
+</td>
+<td>
+4
+</td>
+<td>
+4
+</td>
+<td>
+4
+</td>
+<td>
+5
+</td>
+<td>
+5
+</td>
+<td>
+6
+</td>
+<td>
+6
+</td>
+</tr>
+<tr>
+<td>
+副版本号
+</td>
+<td>
+0
+</td>
+<td>
+10
+</td>
+<td>
+90
+</td>
+<td>
+0
+</td>
+<td>
+0
+</td>
+<td>
+1
+</td>
+<td>
+0
+</td>
+<td>
+1
+</td>
+</tr>
+</table>
+
+<ul>
+<li>
+<a href="http://hi.baidu.com/wangjunwangjuna/blog/item/6bfdc85c918a2d56faf2c0fb.html">判断操作系统版本号</a>
+
+</ul>
+
 
 <script type="text/javascript">
 function onSearch(){
@@ -330,7 +727,7 @@ function onSearch(){
     <p><a rel="license" href="http://creativecommons.org/licenses/by/2.5/"><img alt="Creative Commons License" style="border-width: 0pt;" src="http://i.creativecommons.org/l/by/2.5/88x31.png" align="right"></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 Generic License</a>.<br>
     Copyleft © 2010, Driven by <a href="http://code.google.com/p/vimwiki/">Vimwiki</a>, Theme by 闲耘™(@hotoo).
     </p>
-    <p>本页最后修订于 2011年02月25日 20:54:41</p>
+    <p>本页最后修订于 %time_stamp%</p>
 </footer>
 </div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>

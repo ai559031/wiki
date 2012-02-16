@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link type="image/x-icon" rel="icon" href="favicon.ico" />
+<link type="image/x-icon" rel="shortcut icon" href="favicon.ico" />
+<!--[if IE]><script type="text/javascript" src="js/html5.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="/css/vim-like.css" />
+<title>user-behavior-analysis - 闲耘™.Wiki</title>
+</head>
+<body>
+<div id="wrapper">
+<header>
+<nav>
+    <ul>
+        <li class="first"><a href="http://hotoo.me/" title="Home">Home</a></li>
+        <li><a href="http://blog.hotoo.me/" title="Blog">Blog</a></li>
+        <li class="actived"><a href="http://wiki.hotoo.me/" title="Wiki">Wiki</a></li>
+        <li><a href="https://twitter.com/hotoo" title="Twitter">Twitter</a></li>
+        <li class="last"><a href="http://github.com/hotoo" title="Project">Project</a></li>
+        <!-- li class="last"><a href="../resume/resume.html" title="About Me">README</a></li -->
+    </ul>
+</nav>
+</header>
+<article>
+
+    
+
+<h1 id="toc_1">用户行为分析</h1>
+
+<ul>
+<li>
+<a href="http://wiki.ued.taobao.net/doku.php?id=tms:spm埋点方案">全站链接埋点监控参考</a>
+
+<li>
+<a href="https://www.google.com/analytics/siteopt/exptlist?account=2048484">Google 统计实验</a>
+
+<li>
+<a href="http://new.cnzz.com/about/heatmap.html">cnzz 热点图</a>
+
+<li>
+<a href="http://www.slideshare.net/taobaoued/marmot">刘平川：【用户行为分析】Marmot实践</a>
+
+<li>
+<a href="http://ued.ctrip.com/blog/?p=3090">如何让数据说话！ —网站实例分析</a>
+
+<li>
+<a href="http://dcci.com.cn/">DCCI互联网数据中心</a>
+
+<li>
+<a href="http://www.seowhy.com/">SEO 十万个为什么</a>
+
+</ul>
+
+<h2 id="toc_1.1">数据采集</h2>
+<ul>
+<li>
+<a href="http://www.imkevinyang.com/2010/01/document-referrer%E4%B8%A2%E5%A4%B1%E7%9A%84%E5%87%A0%E4%B8%AA%E5%8E%9F%E5%9B%A0.html">Document.Referrer丢失的几个原因</a>
+
+<li>
+<a href="http://mvbridge.blog.sohu.com/171962292.html">IE中window.location丢失的referer</a>
+
+<li>
+<a href="http://www.cnblogs.com/zhujie/archive/2011/02/11/1951415.html">referer丢失问题的小结--web analytics系列</a>
+
+<li>
+<a href="http://www.dup2.org/node/1086">用 js 做 URL 跳转带来的 Referer 丢失问题.</a>
+
+<li>
+<a href="http://ryee.iteye.com/blog/965069">细说Google Analytics中的流量来源</a>
+
+<li>
+<a href="http://support.google.com/googleanalytics/bin/topic.py?hl=zh-Hant&amp;topic=10977">關於 Google Analytics (分析)</a>
+
+</ul>
+
+<pre>
+header('location: http://xxx');
+
+&lt;meta http-equiv="refresh" content="2;url=http://xxxx" /&gt;
+</pre>
+
+<h2 id="toc_1.2">其他</h2>
+<ul>
+<li>
+跳出率
+
+<li>
+离开率
+
+<li>
+访问率
+
+<li>
+转化率
+
+<li>
+停留时间
+
+<li>
+直接流量
+
+</ul>
+
+
+<script type="text/javascript">
+function onSearch(){
+    location.href = "search.html#"+document.getElementById("input_search").value;
+    return false;
+}
+</script>
+<div style="border-top:1px solid #ccc; background:#f6f6f6 none;padding:8px;">
+    <form action="search.html" id="searchbox" onsubmit="return onSearch();">
+        <input type="text" name="q" id="input_search" />
+        <input type="submit" value="搜索" />
+    </form>
+</div>
+</article>
+<footer>
+    <a href="index.html" id="back-home">&lsaquo; 首页</a>
+    <p><a rel="license" href="http://creativecommons.org/licenses/by/2.5/"><img alt="Creative Commons License" style="border-width: 0pt;" src="http://i.creativecommons.org/l/by/2.5/88x31.png" align="right"></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 Generic License</a>.<br>
+    Copyleft © 2010, Driven by <a href="http://code.google.com/p/vimwiki/">Vimwiki</a>, Theme by 闲耘™(@hotoo).
+    </p>
+    <p>本页最后修订于 %time_stamp%</p>
+</footer>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<!--[if lte IE 6]><script type="text/javascript" src="js/ie6.js"></script><![endif]-->
+<!-- <script type="text/javascript" src="js/WikiWords.js"></script>
+<script type="text/javascript" src="js/vim-like.js"></script> -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15922433-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

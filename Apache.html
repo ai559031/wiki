@@ -25,27 +25,35 @@
 </header>
 <article>
 
+    
+
 <h1 id="toc_1">Apache</h1>
 <ul>
 <li>
 <a href="http://www.apache.org/">Apache</a>
-</li>
+
 <li>
 <a href="http://www.phpfans.net/manu/apache/">Apache手册 版本2.2</a>
-</li>
+
 <li>
 <a href="http://lamp.linux.gov.cn/Apache/ApacheMenu/">Apache HTTP Server Version 2.2 文档</a>
     <a href="http://man.chinaunix.net/newsoft/Apache2.2_chinese_manual/index.html">2</a>
     <a href="http://www.phpchina.com/manual/apache/">3</a>
     <a href="http://apache.jz123.cn/">4</a>
-</li>
+
 </ul>
 
-<h2 id="toc_1.1">Notes</h2>
+<h2 id="toc_1.1">for Linux</h2>
+<pre>
+sudo service apache2 restart
+sudo /etc/init.d/apache2 restart
+</pre>
+
+<h2 id="toc_1.2">for Windows</h2>
 <ul>
 <li>
 <a href="apache-tomcat-integration.html">Apache 与 Tomcat 整合</a>
-</li>
+
 <li>
 <a href="apache-jboss-integration.html">Apache 与 jboss 整合</a>
 <pre>
@@ -53,7 +61,7 @@ httpd -k install -n apache
 
 httpd -?
 </pre>
-</li>
+
 </ul>
 
 <p>
@@ -87,6 +95,7 @@ Include conf/extra/httpd-vhosts.conf
 &lt;/VirtualHost&gt;
 </pre>
 
+
 <script type="text/javascript">
 function onSearch(){
     location.href = "search.html#"+document.getElementById("input_search").value;
@@ -105,7 +114,7 @@ function onSearch(){
     <p><a rel="license" href="http://creativecommons.org/licenses/by/2.5/"><img alt="Creative Commons License" style="border-width: 0pt;" src="http://i.creativecommons.org/l/by/2.5/88x31.png" align="right"></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 Generic License</a>.<br>
     Copyleft © 2010, Driven by <a href="http://code.google.com/p/vimwiki/">Vimwiki</a>, Theme by 闲耘™(@hotoo).
     </p>
-    <p>本页最后修订于 2010年12月28日 16:04:33</p>
+    <p>本页最后修订于 %time_stamp%</p>
 </footer>
 </div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>

@@ -25,6 +25,11 @@
 </header>
 <article>
 
+    
+<p>
+&lt;!--%nohtml--&gt;
+</p>
+
 <h1 id="toc_1">支付宝 SofaMVC</h1>
 <p>
 这部分是支付宝内部框架(SofaMVC) 一些简单的内容，对于前端工程师了解后台运作方式
@@ -42,14 +47,14 @@
 <pre>
 %PROJECT_HOME%&gt; mvn eclipse:clean
 </pre>
-</li>
+
 <li>
 导入 Java 项目到 Eclipse。<br />
     Import -&gt; Existing Projects into Workspace -&gt; Select root directory:
 <pre>
 D:\workbench\demo
 </pre>
-</li>
+
 <li>
 添加项目变量：<br />
     项目目录 -&gt; 属性 -&gt; Java Build Path -&gt; Libraries -&gt; Add Variable -&gt; Configure Variables... -&gt; New...<br />
@@ -58,17 +63,17 @@ D:\workbench\demo
 <pre>
 M2_REPO = D:/dwtask/M2_REPO/sofa2.m2
 </pre>
-</li>
+
 <li>
 导入模板文件<br />
     New -&gt; Java Project -&gt; Create project from existing source<br />
     D:\workbench\demo\htdocs
-</li>
+
 <li>
 运行<br />
     demo-test:src/test/java/com.alipay.dss.test.WebSofaStarter.java<br />
     Run As -&gt; Java Application.
-</li>
+
 </ol>
 
 <p>
@@ -150,16 +155,16 @@ home 之外的 Bunlde(Bunlde 和 Car 没明白是什么意思？) 必须 Java �
 <ul>
 <li>
 <code>$homeModule.setTarget("status.vm")</code>
-</li>
+
 <li>
 <code>$tile.setTemplate("")</code>
-</li>
+
 <li>
 <code>$rundata.moduleInfo.setLayoutTemplate("layout/mobile.vm", false)</code>
-</li>
+
 <li>
 <code>setParameter("name", "value")</code>
-</li>
+
 </ul>
 
 <p>
@@ -205,29 +210,59 @@ tile/
 <code>parse()</code> 和 <code>$tile.setTemplate()</code>
 <table>
 <tr>
-<th>&nbsp;</th>
-<th>#parse()</th>
-<th>$tile.setTemplate()</th>
+<th>
+&nbsp;
+</th>
+<th>
+#parse()
+</th>
+<th>
+$tile.setTemplate()
+</th>
 </tr>
 <tr>
-<td>时机</td>
-<td>先插入，后解析</td>
-<td>先解析，后插入</td>
+<td>
+时机
+</td>
+<td>
+先插入，后解析
+</td>
+<td>
+先解析，后插入
+</td>
 </tr>
 <tr>
-<td>变量/参数</td>
-<td>被 #parse 的页面共享变量</td>
-<td>需要传入参数</td>
+<td>
+变量/参数
+</td>
+<td>
+被 #parse 的页面共享变量
+</td>
+<td>
+需要传入参数
+</td>
 </tr>
 <tr>
-<td>controller</td>
-<td>不需要</td>
-<td>需要</td>
+<td>
+controller
+</td>
+<td>
+不需要
+</td>
+<td>
+需要
+</td>
 </tr>
 <tr>
-<td>配置默认 path</td>
-<td>需要</td>
-<td>不需要</td>
+<td>
+配置默认 path
+</td>
+<td>
+需要
+</td>
+<td>
+不需要
+</td>
 </tr>
 </table>
 </p>
@@ -242,23 +277,24 @@ tile/
 <ul>
 <li>
 <a href="Velocity.html">Velocity</a>
-</li>
+
 <li>
 <a href="Velocity-Notes.html">Velocity-Notes</a>
-</li>
+
 <li>
 <a href="http://doc.alipay.net/pages/viewpage.action?pageId=13605311">velocity模板开发</a>
-</li>
+
 <li>
 <a href="http://doc.alipay.net/pages/viewpage.action?pageId=11245005">模板开发约定手册</a>
-</li>
+
 <li>
 <a href="http://yekai.net/?p=232">Velocity模板开发常见问题分享</a>
-</li>
+
 <li>
 <a href="http://personal.demo.alipay.net/user/vmflower.htm">VM开发分享</a>
-</li>
+
 </ul>
+
 
 <script type="text/javascript">
 function onSearch(){
@@ -278,7 +314,7 @@ function onSearch(){
     <p><a rel="license" href="http://creativecommons.org/licenses/by/2.5/"><img alt="Creative Commons License" style="border-width: 0pt;" src="http://i.creativecommons.org/l/by/2.5/88x31.png" align="right"></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 Generic License</a>.<br>
     Copyleft © 2010, Driven by <a href="http://code.google.com/p/vimwiki/">Vimwiki</a>, Theme by 闲耘™(@hotoo).
     </p>
-    <p>本页最后修订于 2011年01月04日 15:23:48</p>
+    <p>本页最后修订于 %time_stamp%</p>
 </footer>
 </div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>

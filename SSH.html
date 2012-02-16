@@ -25,21 +25,56 @@
 </header>
 <article>
 
+    
+
 <h1 id="toc_1">SSH</h1>
 <ul>
 <li>
 <a href="http://fuse.sourceforge.net/sshfs.html">SSH Filesystem</a>
-</li>
+
 <li>
 <a href="http://wowubuntu.com/sshfs.html">在 Ubuntu 上使用 sshfs 映射远程 ssh 文件系统为本地磁盘</a>
-</li>
+
 <li>
 <a href="http://code.google.com/p/macfuse/">MacFUSE</a>
-</li>
+
 <li>
 <a href="http://www.macupdate.com/app/mac/23721/sshfs-for-mac-os-x">sshfs for Mac OS X</a>
-</li>
+
 </ul>
+
+<h2 id="toc_1.1">多证书支持</h2>
+<ul>
+<li>
+<a href="http://www.lainme.com/doku.php/blog/2011/01/%E4%BD%BF%E7%94%A8ssh_config">使用SSH CONFIG</a>
+
+</ul>
+
+<p>
+vi ~/.ssh/config
+</p>
+<pre>
+Host ${host_name}
+    HostName        ${host_name}
+    User            ${user_name}
+    IdentityFile    ${path/to/rsa_key}
+Host github_corp
+    HostName github.com
+    User     hotoo
+    IdentityFile ~/.ssh/corp_github_rsa_key
+</pre>
+<pre>
+$ git clone git@github_corp:corp/repo.git
+</pre>
+
+<h2 id="toc_1.2">Books</h2>
+<ul>
+<li>
+《SSH权威指南》
+    <a href="http://my.opera.com/cloudislet/blog/show.dml/364652">ssh2学习笔记 --《ssh权威指南》</a>
+
+</ul>
+
 
 <script type="text/javascript">
 function onSearch(){
@@ -59,7 +94,7 @@ function onSearch(){
     <p><a rel="license" href="http://creativecommons.org/licenses/by/2.5/"><img alt="Creative Commons License" style="border-width: 0pt;" src="http://i.creativecommons.org/l/by/2.5/88x31.png" align="right"></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 Generic License</a>.<br>
     Copyleft © 2010, Driven by <a href="http://code.google.com/p/vimwiki/">Vimwiki</a>, Theme by 闲耘™(@hotoo).
     </p>
-    <p>本页最后修订于 2011年04月12日 22:32:30</p>
+    <p>本页最后修订于 %time_stamp%</p>
 </footer>
 </div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>

@@ -25,63 +25,92 @@
 </header>
 <article>
 
+    
+
 <h1 id="toc_1">Google Chrome</h1>
 <ul>
 <li>
 <a href="http://www.google.com/chrome">Google Chrome</a>
-</li>
+
 </ul>
 
 <h2 id="toc_1.1">Plugin Develop</h2>
 <ul>
 <li>
 <a href="https://chrome.google.com/extensions/">Google Chrome Extensions</a>
-</li>
+
 <li>
 <a href="https://code.google.com/chrome/extensions/index.html">Google Chrome Extensions</a>
-</li>
+
 <li>
 <a href="http://code.google.com/p/chromedevtools/">Google Chrome Developer Tools</a>
-</li>
+
+<li>
+<a href="http://open.chrome.360.cn/html/dev_doc.html">插件开发文档中文翻译</a>
+
 <li>
 <a href="http://www.css88.com/archives/2102">【前端开发工具】google Chrome开发人员工具（Chrome Web Developer Tools）</a>
-</li>
+
 <li>
 <a href="http://nottiansyf.javaeye.com/blog/546612">Chrome 插件开发</a>
-</li>
+
 <li>
 <a href="http://kuozhan.chromeplus.org/">ChromePlus, Google Chrome中文扩展程序</a>
-</li>
+
 <li>
 <a href="http://gdfans.net/?p=14">Chrome插件开发之一: 搭建基本结构</a>
     <a href="http://gdfans.net/?p=210">Chrome插件开发之二: 添砖加瓦</a>
-</li>
+
 <li>
 <a href="http://dev.chromechina.com/">Chrome扩展开发</a>
-</li>
+
 <li>
 <a href="http://iove.net/archives/2881.html">Chrome插件开发中国际化的一些技巧</a>
-</li>
+
 <li>
 <a href="http://rowez.com/2010/11/chrome-plugin-content-scripts/">Chrome插件开发之Content Scripts</a>
-</li>
+
+<li>
+<a href="http://www.groovyq.net/content/chrome%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91">Chrome插件开发</a>
+
 </ul>
+
+<ul>
+<li>
+<a href="http://www.guao.hk/posts/about-chrome-extension-security.html">不可忽视的 Chrome 扩展安全性</a>
+
+</ul>
+
+<p>
+chrome插件是不需要签名的。
+你在插件管理页面 build 插件时，如果没有签名就不选，这个时候会生产一个 crx 的插件文件，
+和一个 pem 的密匙文件，你在开发时，每次 build 时都选上这个 pem 文件就可以保证你每次 build 的插件的 id 一样。
+</p>
+
+<p>
+还有，上传到谷歌插件中心不是上传crx文件，而是上传插件目录打包的zip文件。
+</p>
+
 
 <h2 id="toc_1.2">Tools</h2>
 <ul>
 <li>
 Vim
-</li>
+
 <ul>
 <li>
 <a href="http://vimium.github.com/">Vimium - Vim for Chrome</a>
-</li>
+
 <li>
 <a href="http://code.google.com/p/vimlike-smooziee/">vimlike-smooziee</a> - Google Chrome extension which behaves like vim or vimperator
-</li>
+
 <li>
 <a href="http://code.google.com/p/vime/">vime - A vim operation style like plugin for google chrome.</a>
-</li>
+
+<li>
+<a href="https://chrome.google.com/webstore/detail/gghkfhpblkcmlkmpcpgaajbbiikbhpdi">Vichrome</a>
+        <a href="http://github.com/k2nr/ViChrome">@github</a>
+
 </ul>
 </ul>
 
@@ -94,8 +123,9 @@ Vim
 <ul>
 <li>
 <a href="Google.html">Google</a>
-</li>
+
 </ul>
+
 
 <script type="text/javascript">
 function onSearch(){
@@ -115,7 +145,7 @@ function onSearch(){
     <p><a rel="license" href="http://creativecommons.org/licenses/by/2.5/"><img alt="Creative Commons License" style="border-width: 0pt;" src="http://i.creativecommons.org/l/by/2.5/88x31.png" align="right"></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 Generic License</a>.<br>
     Copyleft © 2010, Driven by <a href="http://code.google.com/p/vimwiki/">Vimwiki</a>, Theme by 闲耘™(@hotoo).
     </p>
-    <p>本页最后修订于 2011年02月22日 15:08:37</p>
+    <p>本页最后修订于 %time_stamp%</p>
 </footer>
 </div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>

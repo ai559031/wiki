@@ -25,110 +25,189 @@
 </header>
 <article>
 
+    
+
 <h1 id="toc_1">Mac: Macintosh</h1>
 <ul>
 <li>
 <a href="http://blog.zhaojie.me/2010/09/how-to-install-mac-os-x-snow-leopard-on-virtualbox.html">Win7 + VirtualBox安装Mac OS X雪豹操作系统图文详解</a>
-</li>
+
 <li>
 <a href="http://mxcl.github.com/homebrew/">HomeBrew</a>
     <a href="https://github.com/mxcl/homebrew">@github</a>
     <a href="http://snowolf.javaeye.com/blog/774312">让Mac也能拥有apt-get类似的功能——Brew</a>
-</li>
+
 <li>
 <a href="http://www.apple.com.cn/findouthow/mac/">Mac 基础</a>
-</li>
+
 <li>
 <a href="http://www.memac.cn/read-mac-tid-10.html">Mac OS X 新手从入门到精通教程</a>
-</li>
+
 <li>
 <a href="http://www.macfav.com/?cat=3">#文字教程</a>
-</li>
+
 <ul>
 <li>
 <a href="http://www.macfav.com/?p=145">mac入门系列教程之二–Mac与众不同（1）</a>
-</li>
+
 <li>
 <a href="http://www.macfav.com/?p=228">mac入门系列教程之三–-文件、Dock和窗口（1）</a>
-</li>
+
 </ul>
 <li>
 <a href="http://apple.tgbus.com/zt/macos/">MAC OS 使用教程</a>
-</li>
+
 <li>
 <a href="http://www.apple.com/support/mac101/">Mac 101</a>
     *
     [<a href="http://support.apple.com/kb/index?page=search&amp;src=support_site.kbase.search&amp;locale=en_US&amp;q=mac%20101">http://support.apple.com/kb/index?page=search&amp;src=support_site.kbase.search&amp;locale=en_US&amp;q=mac%20101</a>
     Search on Apple]
-</li>
+
 <ul>
 <li>
 <a href="http://support.apple.com/kb/HT2521?viewlocale=zh_CN">Mac 101：Safari 3</a>
-</li>
+
 <li>
 <a href="http://support.apple.com/kb/HT2500?viewlocale=zh_CN">Mac 101: Mail</a>
-</li>
+
 </ul>
 <li>
 <a href="http://www.tuaw.com/category/mac-101/">Mac 101</a>
-</li>
+
 </ul>
 
-<h2 id="toc_1.1">即时通讯(IM)</h2>
+<h2 id="toc_1.1">屏保</h2>
+<ul>
+<li>
+<a href="http://www.macupdate.com/app/mac/19934/lotsawater">LotsaWater</a>
+
+<ul>
+<li>
+<a href="http://blog.sina.com.cn/s/blog_4d9ede450100exvj.html">苹果电脑Mac OS X系统下的水波屏保“LotsaWater”</a>
+    /资源库/Screen Savers/LotsaWater.saver
+    系统偏好设置-&gt;桌面与屏幕保护
+
+</ul>
+</ul>
+
+<h2 id="toc_1.2"><a href="http://www.xuecs.com/blog/?p=44">苹果mac os x下面软件的安装</a></h2>
+<p>
+Mac OS X下软件有四种安装方式。
+</p>
+
+<ol>
+<li>
+最简单的拖拽安装，很多软件通过这种方式，
+    用户只需要把软件包拖动到本地程序目录就可以使用。<br />
+    它的原理主要是根据苹果系统能够自动动态链接到需要的类库，
+    并且程序的配置信息会在动在当前用户的Application Support文件夹创建。
+
+<li>
+通过安装程序安装，这种方式和windows下的安装包类似，一般文件结尾是.pkg，
+    通过向导提示用户一步一步的安装。一般会在系统的多个地方添加文件，
+    因此不能直接复制到一个位置。
+
+<li>
+<a href="http://www.finkproject.org/">fink</a> 是为了把unix下面的各种软件移植到Mac OS X下面而构建的，
+    它专门用于安装、管理各种软件包。一般安装位置在/sw 下。常用命令包括:
+
+<ol>
+<li>
+<code>fink configure</code> 配置fink，包括下载目录、代理、下载站点、
+        是否打开unstable等，它会保存文件到/sw/etc/fink.conf
+
+<li>
+<code>fink apropos &lt;package&gt;</code> 查找软件包
+
+<li>
+<code>fink list</code> 列出所有的软件包
+
+<li>
+<code>fink install &lt;package&gt;</code> 安装指定的软件包
+
+</ol>
+<li>
+<a href="http://www.macports.org/">MacPorts</a> 是和fink类似的另外一个软件包安装和管理工具
+
+</ol>
+
+<p>
+编译注意：
+</p>
+
+<p>
+fink 提供了pkg-config命令，可以得到编译类库的各种选项，包括：
+</p>
+
+<ol>
+<li>
+<code>pkg-config –list-all</code> 列出当前已经安装的软件包/类库
+
+<li>
+<code>pkg-config –libs  &lt;libname&gt;</code> 列出编译引用选项
+
+<li>
+<code>pkg-config –cflags &lt;libname&gt;</code> 列出编译其他选项，一般包括 <code>-I</code>
+
+</ol>
+
+
+
+<h2 id="toc_1.3">即时通讯(IM)</h2>
 <ul>
 <li>
 <a href="http://mac.taobao.com/mac.html">阿里旺旺 for Mac</a>
-</li>
+
 <li>
 <a href="http://code.google.com/p/iwangwang/">iWangWang</a>
-</li>
+
 </ul>
 
-<h2 id="toc_1.2">输入法(IME)</h2>
+<h2 id="toc_1.4">输入法(IME)</h2>
 <ul>
 <li>
 <a href="http://code.google.com/p/sunpinyin/">SunPinyin</a>
-</li>
+
 <ol>
 <li>
 安装 SunPinyin
-</li>
+
 <li>
 系统偏好设置 -&gt; 语言与文本 -&gt; 输入源 -&gt; 选中 SunPinyin
-</li>
+
 <li>
 <a href="http://blahblahs.com/2010/08/mac-os-x-%E8%BE%93%E5%85%A5%E6%B3%95%E6%8E%A8%E8%8D%90-sunpinyin/">Mac OS X 输入法推荐 – SunPinyin</a>
-</li>
+
 <li>
 <a href="http://www.appinn.com/mac-ime-fit-qim-sunpinyin/">三足鼎立 – Mac 输入法横向对比</a>
-</li>
+
 <li>
 <a href="http://yongsun.me/">Author's Blog</a>
-</li>
+
 <li>
 <a href="http://yongsun.me/2010/04/%E5%AF%BC%E5%85%A5google%E5%92%8Csogou%E8%BE%93%E5%85%A5%E6%B3%95%E7%9A%84%E7%94%A8%E6%88%B7%E8%AF%8D%E5%85%B8/">导入google和sogou输入法的用户词典</a>
-</li>
+
 <li>
 <a href="http://yongsun.me/2010/07/%E5%AF%BC%E5%85%A5sogou%E8%BE%93%E5%85%A5%E6%B3%95%E7%9A%84%E7%BB%86%E8%83%9E%E8%AF%8D%E5%BA%93/">导入sogou输入法的细胞词库</a>
-</li>
+
 </ol>
 <li>
 Google Pinyin for Mac
-</li>
+
 <ul>
 <li>
 <a href="http://marc.f2e.org/2010/09/14/google-ime-for-mac/">Google 输入法 for Mac 曝光 速度下载</a>
-</li>
+
 </ul>
 </ul>
 
-<h2 id="toc_1.3">虚拟机</h2>
+<h2 id="toc_1.5">虚拟机</h2>
 <p>
 使用 Parallels 安装 Windows XP，登陆需要 <code>&lt;Ctrl-Alt-Del&gt;</code> 3 个键同时按，在 Mac
 键盘上需要按 <code>&lt;fn-Ctrl-Option-Del&gt;</code> 4 个键。
 </p>
 
-<h2 id="toc_1.4">终端</h2>
+<h2 id="toc_1.6">终端</h2>
 <p>
 终端命令的别名
 </p>
@@ -145,7 +224,7 @@ alias 'll'='ls -l'
 vi /etc/ssh/ssh_config
 </pre>
 
-<h2 id="toc_1.5">快捷键</h2>
+<h2 id="toc_1.7">快捷键</h2>
 <dl>
 <dt><code>&lt;COMMAND-n&gt;</code></dt>
 <dd>打开新窗口。</dd>
@@ -161,56 +240,67 @@ vi /etc/ssh/ssh_config
 <dd>撤销。</dd>
 </dl>
 
-<h2 id="toc_1.6">Finder</h2>
+<h2 id="toc_1.8">Finder</h2>
 <p>
 右键 Finder，连接服务器，输入 <code>smb://ip.addr.ess/</code>，类似于 Windows 的运行
 <code>\\ip.addr.ess</code>。
 </p>
 
-<h2 id="toc_1.7">MacVim</h2>
+<h2 id="toc_1.9">MacVim</h2>
 <p>
 设置透明
 </p>
 <ol>
 <li>
 参数设置-&gt;勾选 Use experimental renderer.
-</li>
+
 <li>
 <code>set Transparency=6</code>
-</li>
+
 <li>
 <a href="http://vim.1045645.n5.nabble.com/Starting-MacVim-from-the-command-line-td1213657.html">Starting MacVim from the command line?</a>
 <pre>
 alias 'gvim'='/Applications/MacVim.app/Contents/MacOS/Vim -g'
 </pre>
-</li>
+
 </ol>
 
-<h2 id="toc_1.8">环境变量</h2>
+<p>
+设置为在新 tabs 中打开文件，在终端执行命令：
+</p>
+<pre>
+defaults write org.vim.MacVim MMOpenFilesInTabs 1
+</pre>
+<p>
+对于 MacVim 7.3，全局菜单：MacVim -&gt; Perferences -&gt; General
+Open files from applications: in the current window, with a tab for each file.
+</p>
+
+<h2 id="toc_1.10">环境变量</h2>
 <ol>
 <li>
 系统环境变量
-</li>
+
 <ol>
 <li>
 终端
 <pre>
 $ sudo vi /etc/profile
 </pre>
-</li>
+
 <li>
 加入：
 <pre>
 export PATH="$PATH:/path/you/need"
 </pre>
-</li>
+
 <li>
 重启终端
-</li>
+
 </ol>
 <li>
 用户环境变量
-</li>
+
 <ol>
 <li>
 终端
@@ -218,11 +308,11 @@ export PATH="$PATH:/path/you/need"
 $ sudo vi ~/.profile
 </pre>
     同上。
-</li>
+
 </ol>
 </ol>
 
-<h2 id="toc_1.9">网络</h2>
+<h2 id="toc_1.11">网络</h2>
 <p>
 系统偏好设置 -&gt; Internet与无线 -&gt; 网络 -&gt; 位置：自动 -&gt; 以太网
 使用DHCP -&gt; 高级 -&gt; 802.1X
@@ -230,19 +320,19 @@ $ sudo vi ~/.profile
 <ul>
 <li>
 点击加号(+)新建用户描述文件
-</li>
+
 <li>
 用户名称：domain.name\user.name
-</li>
+
 <li>
 密码：******
-</li>
+
 <li>
 鉴定：选中 MD5 即可。
-</li>
+
 <li>
 好
-</li>
+
 </ul>
 <p>
 点击“连接”，如果提示“已通过"MD5"被鉴定就是连接好了。
@@ -264,7 +354,7 @@ $ sudo vi ~/.profile
 <a href="http://opnir.com/307/mac-os-x-access-windows-shared-folders">Mac OS X 访问 Windows 共享文件夹</a>
 </p>
 
-<h2 id="toc_1.10">Tools</h2>
+<h2 id="toc_1.12">Tools</h2>
 <ul>
 <li>
 <a href="http://soft.macx.cn/soft3439.htm">Paragon NTFS 8</a>
@@ -274,7 +364,7 @@ MacX.cn
 www.MacX.cn
 1141E-34FEF-3786C-2F090
 </pre>
-</li>
+
 <li>
 iWork(<a href="http://www.apple.com/iwork/pages/">Pages'09</a> <a href="http://zh.wikipedia.org/wiki/Pages">@wikipedia</a>)
     序列号：
@@ -287,18 +377,26 @@ PN3E-GPUC-E499-MOFO-MOFO-5S2
 Y93U-HMME-3YRG-MOFO-MOFO-5S2
 M44K-UMER-KM33-MOFO-MOFO-5S2
 </pre>
-</li>
+
+<li>
+<a href="http://visor.binaryage.com/">Visor</a>
+    <a href="https://github.com/darwin/visor">@github</a>
+
+<li>
+<a href="http://www.omnigroup.com/products/omniplan/">OmniPlan</a> - project.
+
 </ul>
 
-<h2 id="toc_1.11">See Also</h2>
+<h2 id="toc_1.13">See Also</h2>
 <ul>
 <li>
 <a href="OS.html">OS</a>
-</li>
+
 <li>
 <a href="Oracle.html">Oracle</a>
-</li>
+
 </ul>
+
 
 <script type="text/javascript">
 function onSearch(){
@@ -318,7 +416,7 @@ function onSearch(){
     <p><a rel="license" href="http://creativecommons.org/licenses/by/2.5/"><img alt="Creative Commons License" style="border-width: 0pt;" src="http://i.creativecommons.org/l/by/2.5/88x31.png" align="right"></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 Generic License</a>.<br>
     Copyleft © 2010, Driven by <a href="http://code.google.com/p/vimwiki/">Vimwiki</a>, Theme by 闲耘™(@hotoo).
     </p>
-    <p>本页最后修订于 2011年04月15日 23:30:27</p>
+    <p>本页最后修订于 %time_stamp%</p>
 </footer>
 </div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>

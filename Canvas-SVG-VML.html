@@ -25,20 +25,23 @@
 </header>
 <article>
 
+    
+
 <h1 id="toc_1">Web Graph: Canvas, SVG, VML</h1>
 
 <div class="toc">
 <ul>
-<li><a href="#toc_1">Web Graph: Canvas, SVG, VML</a></li>
+<li><a href="#toc_1">Web Graph: Canvas, SVG, VML</a>
 <ul>
-<li><a href="#toc_1.1">VML</a></li>
-<li><a href="#toc_1.2">SVG</a></li>
-<li><a href="#toc_1.3">Canvas</a></li>
-<li><a href="#toc_1.4">Framewrok</a></li>
-<li><a href="#toc_1.5">Project</a></li>
-<li><a href="#toc_1.6">Games</a></li>
-<li><a href="#toc_1.7">Tools</a></li>
-<li><a href="#toc_1.8">Others</a></li>
+<li><a href="#toc_1.1">VML</a>
+<li><a href="#toc_1.2">SVG</a>
+<li><a href="#toc_1.3">Canvas</a>
+<li><a href="#toc_1.4">Framewrok</a>
+<li><a href="#toc_1.5">Project</a>
+<li><a href="#toc_1.6">Games</a>
+<li><a href="#toc_1.7">Tools</a>
+<li><a href="#toc_1.8">Others</a>
+<li><a href="#toc_1.9">See Also</a>
 </ul>
 </ul>
 </div>
@@ -47,10 +50,10 @@
 <ul>
 <li>
 <a href="http://www.itlearner.com/code/vml/">(Thinking in VML)</a>
-</li>
+
 <li>
 <a href="http://msdn.microsoft.com/en-us/library/bb264280%28VS.85%29.aspx">(Vector Markup Language[VML</a>)]
-</li>
+
 </ul>
 
 
@@ -58,19 +61,19 @@
 <ul>
 <li>
 <a href="http://www.w3.org/TR/SVG/">(Scalable Vector Graphics (SVG) 1.1 Specification)</a>
-</li>
+
 <li>
 <a href="http://wiki.svg.org/Main_Page">(Svg wiki)</a>
-</li>
+
 <li>
 <a href="http://www.adobe.com/svg/">(Explore the possibilities of SVG)</a>
-</li>
+
 <li>
 <a href="http://www.planetsvg.com/">(Planet SVG [svg.org</a>)]
-</li>
+
 <li>
 <a href="http://dev.opera.com/articles/svg/">(SVG - Opera Developer Community)</a>
-</li>
+
 </ul>
 
 
@@ -78,22 +81,23 @@
 <ul>
 <li>
 <a href="https://developer.mozilla.org/en/Canvas_tutorial">(Canvas tutorial [en</a>)]
-</li>
-<li>
-<a href="https://developer.mozilla.org/cn/Canvas_tutorial">(Canvas tutorial [cn</a>)]
-</li>
+    <a href="https://developer.mozilla.org/cn/Canvas_tutorial">中文</a>
+
 <li>
 <a href="http://www.ernestdelgado.com/archive/rendering-polygons-with-canvas/">http://www.ernestdelgado.com/archive/rendering-polygons-with-canvas/</a>
-</li>
+
 <li>
 <a href="http://kb.operachina.com/node/190">(HTML 5 canvas -- 基本语法)</a>
-</li>
+
 <li>
 <a href="http://wiki.moztw.org/index.php/%E7%94%A8_Canvas_%E7%95%AB%E5%9C%96">(用 Canvas 畫圖)</a>
-</li>
+
 <li>
 <a href="http://www.rgraph.net/">Canvas 图表库</a>
-</li>
+
+<li>
+<a href="http://www.devbean.info/2011/05/dive_into_html5_5_5/">Dive Into HTML5：绘图（续五）</a>
+
 </ul>
 
 
@@ -101,22 +105,37 @@
 <ul>
 <li>
 <a href="http://www.jgraph.com/mxgraph.html">(mxGraph - the AJAX diagramming soluting)</a>
-</li>
+
 <li>
 <a href="http://code.google.com/p/svgweb/">(Scalable Vector Graphics Web Browser using Flash)</a>
-</li>
+
 <li>
 <a href="http://code.google.com/p/explorercanvas/">(HTML5 Canvas for Internet Explorer)</a>
-</li>
+
+<ul>
+<li>
+<a href="http://fatkun.com/2010/11/excanvas.html">在IE下动态创建canvas使用excanvas时失效解决方法</a>
+<pre class="javascript">
+$(function(){
+    var canvas=document.createElement("canvas");
+    document.body.appendChild(canvas);
+    if($.browser.msie){
+        canvas=window.G_vmlCanvasManager.initElement(canvas);
+    }
+    if(canvas.getContext){alert("support");}
+});
+</pre>
+
+</ul>
 <li>
 <a href="http://code.google.com/p/svg2vml/">(Library that provides support for SVG and VML with an SVG style interface.)</a>
-</li>
+
 <li>
 <a href="http://www.walterzorn.com/jsgraphics/jsgraphics_e.htm">(DHTML: Draw Line, Ellipse, Oval, Circle, Polyline, Polygon, Triangle, with JavaScript)</a>
-</li>
+
 <li>
 <a href="http://www.cnblogs.com/webgis8/articles/1529588.html">(翻译Browser Drawing一篇:Canvas/SVG/VML Drawing Roundup)</a>
-</li>
+
 </ul>
 
 
@@ -124,21 +143,30 @@
 <ul>
 <li>
 <a href="http://github.com/mrdoob/three.js">Three.js</a>
-</li>
+
 <li>
 <a href="http://raphaeljs.com/">Raphaël</a> - 非常棒的跨平台 JavaScript 图形库。
-</li>
+
 <ul>
 <li>
 <a href="http://github.com/DmitryBaranovskiy/raphael">raphael@github</a>
-</li>
+
 <li>
 <a href="http://dmitry.baranovskiy.com/">blog</a>
-</li>
+
 </ul>
 <li>
+<a href="http://paperjs.org/">Paper.js</a> - 开源矢量js图。
+
+<li>
 <a href="http://code.google.com/p/uupaa-js-spinoff/">uupaa.js spin-off projects</a>
-</li>
+
+<li>
+<a href="http://www.patrick-wied.at/static/heatmapjs/">heatmap.js</a> - 热图。
+
+<li>
+<a href="http://mbostock.github.com/protovis/">Protovis</a>
+
 </ul>
 
 
@@ -146,31 +174,34 @@
 <ul>
 <li>
 <a href="http://henrikfalck.com/unrealsoccer/">(Unreal Soccer)</a>
-</li>
+
 <li>
 <a href="http://www.benjoffe.com/code/demos/canvascape/">(Canvascape)</a>
-</li>
+
 <li>
 <a href="http://dave-webster.com/projects/index.php?page=incs/plasma_demo1">(Plasma demo using the HTML Canvas element)</a>
-</li>
+
 <li>
 <a href="http://www.student.kuleuven.be/~m0216922/CG/plasma.html">(Lode's Computer Graphics Tutorial)</a>
-</li>
+
 <li>
 <a href="http://alteredqualia.com/cubeout/">CubeOut</a> - 3D 俄罗斯方块
-</li>
+
 <li>
 <a href="http://canvasrider.com/tracks/all">自行车越野</a>
-</li>
+
 <li>
 <a href="http://box2d-js.sourceforge.net/index2.html">Box2DJS</a>
-</li>
+
 <li>
 <a href="http://www.effectgames.com/demos/canvascycle/?sound=1">Canvas Cycles</a>
-</li>
+
 <li>
 <a href="http://agent8ball.com/">Agent 8 Ball</a> - 台球
-</li>
+
+<li>
+<a href="http://ued.ctrip.com/blog/wp-content/uploads/2012/01/canvas-chess.html">象棋</a>
+
 </ul>
 
 
@@ -178,7 +209,7 @@
 <ul>
 <li>
 <a href="http://inkscape.org/">Inkscape. Draw Freely.</a>
-</li>
+
 </ul>
 
 
@@ -186,44 +217,52 @@
 <ul>
 <li>
 <a href="http://www.ernestdelgado.com/archive/rendering-polygons-with-canvas/">(Rendering Polygons with Canvas)</a>
-</li>
+
 <li>
 <a href="http://www.javaeye.com/news/2692">(用Canvas画布拼接图片)</a>
-</li>
+
 <li>
 <a href="http://www.ernestdelgado.com/">(Ernest Delgado)</a>
-</li>
+
 </ul>
 
 <ul>
 <li>
 <a href="http://jiachen.blogbus.com/logs/29567413.html">(Canvas使用教程——开题)</a>
-</li>
+
 <li>
 <a href="http://jiachen.blogbus.com/logs/29569584.html">(Canvas使用教程——基本语法)</a>
-</li>
+
 <li>
 <a href="http://jiachen.blogbus.com/logs/29596111.html">(Canvas使用教程——图形绘制)</a>
-</li>
+
 <li>
 <a href="http://jiachen.blogbus.com/logs/32827552.html">(Canvas使用教程——图片应用)</a>
-</li>
+
 </ul>
 
 <ul>
 <li>
 <a href="http://www.cnblogs.com/miloyip/archive/2010/03/29/1698953.html">用 JavaScript玩转计算机图形学(一)光线追踪入门</a>
-</li>
+
 <li>
 <a href="http://www.cnblogs.com/miloyip/archive/2010/04/02/1702768.html">用 JavaScript玩转计算机图形学(二)基本光源</a>
-</li>
+
 </ul>
 
 <ul>
 <li>
 <a href="http://www.walterzorn.com/rotate_img/rotate_img.htm">Rotate Image</a>
-</li>
+
 </ul>
+
+<h2 id="toc_1.9">See Also</h2>
+<ul>
+<li>
+<a href="HTML5.html">HTML5</a>
+
+</ul>
+
 
 <script type="text/javascript">
 function onSearch(){
@@ -243,7 +282,7 @@ function onSearch(){
     <p><a rel="license" href="http://creativecommons.org/licenses/by/2.5/"><img alt="Creative Commons License" style="border-width: 0pt;" src="http://i.creativecommons.org/l/by/2.5/88x31.png" align="right"></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 Generic License</a>.<br>
     Copyleft © 2010, Driven by <a href="http://code.google.com/p/vimwiki/">Vimwiki</a>, Theme by 闲耘™(@hotoo).
     </p>
-    <p>本页最后修订于 2010年12月06日 12:29:21</p>
+    <p>本页最后修订于 %time_stamp%</p>
 </footer>
 </div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>

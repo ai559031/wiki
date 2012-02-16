@@ -25,26 +25,93 @@
 </header>
 <article>
 
+    
+
 <h1 id="toc_1">PuTTY</h1>
 <ul>
 <li>
 <a href="http://www.putty.org/">PuTTY</a>
-</li>
+
 <li>
 <a href="http://code.google.com/p/puttycn/">PuTTY 中文版</a>
-</li>
+
 <li>
 <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/">PuTTY: A Free Telnet/SSH Client</a>
-</li>
+
 <li>
 <a href="http://chaifeng.com/blog/2007/06/putty_200611.html">PuTTY 中文教程</a>
     <a href="https://docs.google.com/View?docid=ajbgz6fp3pjh_2dwwwwt">@google docs</a>
     <a href="http://blog.csdn.net/niuniuchou/archive/2010/03/16/5387250.aspx">转</a>
-</li>
+
 <li>
 <a href="http://zh.wikipedia.org/wiki/PuTTY">@wikipedia</a>
-</li>
+
+<li>
+<a href="http://ecloud.chinaunix.com/space.php?uid=10289946&amp;do=blog&amp;id=346489">Putty，SecureCRT ssh登录Linux设置</a>
+
 </ul>
+
+<ul>
+<li>
+<a href="http://safe.it168.com/a2012/0201/1305/000001305829.shtml">中文版putty后门事件分析</a>
+
+<li>
+<a href="http://net.it168.com/a2012/0201/1305/000001305780.shtml">PuTTY后门最新进展 上万服务器密码泄露</a>
+
+</ul>
+
+<h2 id="toc_1.1">SuperPutty</h2>
+<ul>
+<li>
+<a href="http://code.google.com/p/superputty/">SuperPutty</a>
+
+</ul>
+
+<ul>
+<li>
+<a href="http://blogs.msdn.com/b/robdelacruz/archive/2004/08/22/218499.aspx">Command-line aliases and shortcuts</a>
+
+<li>
+<a href="http://www.uberullu.com/alias-in-windows-command-line-ms-dos-how-to/">Alias in windows command line MS-DOS</a>
+
+</ul>
+
+
+<p>
+windows cmd:
+</p>
+<pre>
+doskey ..=cd ..
+</pre>
+
+<h2 id="toc_1.2">上传文件</h2>
+<p>
+将 pscp.exe 放至系统环境变量 Path 所在目录，
+或者将 putty 安装目录加入到 Path 环境变量中。
+</p>
+
+<p>
+执行命令：
+</p>
+<pre>
+pscp "C:\path\to\file.zip" user@hostname:/path/to/target
+</pre>
+
+<p>
+如果提示
+</p>
+<pre>
+pscp: unable to open /path/to/target/file.zip: permission denied
+</pre>
+
+<p>
+进入远程主机，修改目前访问权限：
+</p>
+<pre>
+cd /path/to/target
+sudo chmod 777 .
+</pre>
+
 
 <script type="text/javascript">
 function onSearch(){
@@ -64,7 +131,7 @@ function onSearch(){
     <p><a rel="license" href="http://creativecommons.org/licenses/by/2.5/"><img alt="Creative Commons License" style="border-width: 0pt;" src="http://i.creativecommons.org/l/by/2.5/88x31.png" align="right"></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 Generic License</a>.<br>
     Copyleft © 2010, Driven by <a href="http://code.google.com/p/vimwiki/">Vimwiki</a>, Theme by 闲耘™(@hotoo).
     </p>
-    <p>本页最后修订于 2011年03月03日 18:23:13</p>
+    <p>本页最后修订于 %time_stamp%</p>
 </footer>
 </div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
