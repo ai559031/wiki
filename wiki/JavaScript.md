@@ -33,6 +33,14 @@
 * [ECMAScript 6 compatibility table](http://kangax.github.io/es5-compat-table/es6/)
 * [ECMAScript extensions compatibility table](http://kangax.github.io/es5-compat-table/non-standard/)
 
+## AngularJS
+
+* [angularjs.org](http://angularjs.org/)
+  [@github](https://github.com/angular/angular.js)
+* [Angular.js](http://www.angularjs.cn/)
+* [AngularjsTutorial_cn](https://github.com/zensh/AngularjsTutorial_cn)
+* [shyamseshadri/angularjs-book](https://github.com/shyamseshadri/angularjs-book)
+
 ## JavaScript MVC
 
 * [underscore.js](http://underscorejs.org/)
