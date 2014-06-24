@@ -381,7 +381,8 @@ http://ark.asengard.net/blog/wp-content/uploads/2009/10/success_vim.jpg [来源]
 
 
 打开、保存文件时，显示文件选择对话框，更多可以 `:h browse`。
-```class="code"
+
+```
 :browse w<cr>
 :bro e<cr>
 ```
@@ -599,6 +600,7 @@ http://imgs.xkcd.com/comics/real_programmers.png via: [REAL PROGRAMMERS](http://
 ```
 
 《大腕》编辑器版：
+
 ```
 ..周围同事不是用 Vim 就是 Emacs , 你要是用一 UltraEdit，你都不好意思跟人家打招呼…
   什么插件呀，语法高亮呀，拼写检查呀，能给它开的都给它开着，就是一个字儿：酷。
@@ -616,9 +618,13 @@ http://imgs.xkcd.com/comics/real_programmers.png via: [REAL PROGRAMMERS](http://
                 --Satish Reddy
 ```
 
-    商业化产品可能是有用的，<br />
-    但最好的东西往往是免费的，<br />
-    空气，水，Vim。
+```
+商业化产品可能是有用的，
+但最好的东西往往是免费的，
+空气，水，Vim。
+```
 
-    Q: How to generate a random string?<br />
-    A: Put a fresh student in front of vi and tell him to quit.
+```
+Q: How to generate a random string?
+A: Put a fresh student in front of vi and tell him to quit.
+```
