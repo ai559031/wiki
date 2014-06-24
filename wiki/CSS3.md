@@ -44,3 +44,5 @@
 * [Path 2.0 Flyout Menu by CSS](http://sparanoid.com/lab/path-menu/)
 * [Animate.css](http://daneden.me/animate/)
     [@github](https://github.com/daneden/animate.css)
+* [ihover](http://gudh.github.io/ihover/dist/index.html)
+  [@github](https://github.com/gudh/ihover)

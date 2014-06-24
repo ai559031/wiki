@@ -6,6 +6,8 @@
 * [PHP: cURL - Manual](http://php.net/manual/en/book.curl.php)
 * [libcurl的使用总结（一）](http://www.vimer.cn/2010/03/libcurl%E7%9A%84%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93%EF%BC%88%E4%B8%80%EF%BC%89.html)
 * [libcurl的使用总结（二）](http://www.vimer.cn/2010/03/libcurl%E7%9A%84%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93%EF%BC%88%E4%BA%8C%EF%BC%89.html)
+* [cURL - 使用指南](http://article.yeeyan.org/view/26492/53928)
+* [用curl访问HTTPS站点并登录](http://blog.csdn.net/csfreebird/article/details/9237925)
 
 ## 常用参数说明
 

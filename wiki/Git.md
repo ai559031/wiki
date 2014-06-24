@@ -69,6 +69,22 @@
     // 执行正常提交等操作即可。
     ```
 
+* 合并两个仓库
+
+  ```
+  $ git co master
+  // 添加要合并进来的远程仓库 repo2
+  $ git remote add repo2 repo2_url
+  // 拉取远程仓库 repo2
+  $ git fetch repo2
+  // 基于 repo2/master 分支创建新的分支 br2，并切换过去。
+  $ git co -b br2 repo2/master
+  // 啥都不说了。
+  $ git co master
+  // [可选]
+  $ git merge br2
+  ```
+
 ```
 git svn clone <URL> --authors-file=user.txt repo-name
 ```
@@ -78,6 +94,7 @@ git svn clone <URL> --authors-file=user.txt repo-name
 ```
 svn-name = git-name
 user.name = user.name<user.name@mail.com>
+(no author) = hotoo<user.name@mail.com>
 ```
 
 ## Git Flow

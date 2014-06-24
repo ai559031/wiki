@@ -54,6 +54,8 @@
 ## Project
 
 * [WMD: The Wysiwym Markdown Editor](http://wmd-editor.com/)
+* [Markdown here](http://markdown-here.com/)
+  [@github](https://github.com/adam-p/markdown-here)
 
 ## See Also
 

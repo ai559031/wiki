@@ -46,3 +46,4 @@ http://dianying.tao123.com/?get_fennei=0&get_guojia=0&get_sort=&get_update=2&get
     * [十岁女孩Hollie Steel天籁之音](http://v.youku.com/v_show/id_XMTMwMTE4ODI0.html)
     * [37岁披萨快递员震惊全场的演出](http://v.youku.com/v_show/id_XMTMwMTIyNTUy.html)
     * [第二季决赛 小男孩Andrew天籁之音再现初赛曲目](http://v.youku.com/v_show/id_XMTMwMTIyMjI4.html)
+* [【Lunar小婷初投稿】【恋空予报】](http://bilibili.kankanews.com/video/av1171297/?ADUIN=147638804&ADSESSION=1401937254&ADTAG=CLIENT.QQ.5329_.0&ADPUBNO=26349)

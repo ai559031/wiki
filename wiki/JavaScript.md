@@ -33,14 +33,6 @@
 * [ECMAScript 6 compatibility table](http://kangax.github.io/es5-compat-table/es6/)
 * [ECMAScript extensions compatibility table](http://kangax.github.io/es5-compat-table/non-standard/)
 
-## AngularJS
-
-* [angularjs.org](http://angularjs.org/)
-  [@github](https://github.com/angular/angular.js)
-* [Angular.js](http://www.angularjs.cn/)
-* [AngularjsTutorial_cn](https://github.com/zensh/AngularjsTutorial_cn)
-* [shyamseshadri/angularjs-book](https://github.com/shyamseshadri/angularjs-book)
-
 ## JavaScript MVC
 
 * [underscore.js](http://underscorejs.org/)
@@ -194,7 +186,8 @@ function(){
     * [Vim, Javascript, DoctorJS (jsctags) and Taglist (Source code browsing).](http://stackoverflow.com/questions/5833531/vim-javascript-doctorjs-jsctags-and-taglist-source-code-browsing)
     * [Tagging Javascript source code : jsctags](http://stackoverflow.com/questions/6139520/tagging-javascript-source-code-jsctags)
 * jshint
-* [JSHint 使用说明](http://zhang.zipeng.info/vimwiki/Entries/Reference/Tools/jshint.html)
+  * [JSHint 使用说明](http://zhang.zipeng.info/vimwiki/Entries/Reference/Tools/jshint.html)
+* [ESLint](http://eslint.org/docs/about/)
 * jslint
     * [JSLint](http://www.jslint.com/)
     * [JavaScript Lint](http://javascriptlint.com/)
