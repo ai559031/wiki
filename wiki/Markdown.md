@@ -49,6 +49,8 @@
         不提供编辑工具，你可以使用自己喜欢的编辑器进行编辑。
         缺点：需要保存之后才能预览（Marked 会自动刷新），编辑过程中无法预览。
         如果解决了这个问题，就完美了。
+    * [markdownLive](https://github.com/rentzsch/markdownlive)
+    * [macdown](https://github.com/uranusjr/macdown)
 
 
 ## Project
