@@ -138,6 +138,11 @@
   [4](http://www.markboulton.co.uk/journal/comments/five-simple-steps-to-designing-grid-systems-part-4)
   [5](http://www.markboulton.co.uk/journal/comments/five-simple-steps-to-designing-grid-systems-part-5)
 
+## 技巧
+
+* [图片模糊](css-image-blur.md)
+* [文本模糊](css-text-blur.md)
+
 ## CSS Hacks
 
 * [CSS-Hacks](CSS-Hacks.md)
