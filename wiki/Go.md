@@ -7,3 +7,4 @@
     [@google.code](http://code.google.com/p/go/)
 * [@wikipedia](http://en.wikipedia.org/wiki/Go_(programming_language))
     [中文](http://zh.wikipedia.org/wiki/Go)
+* [awesome-go](https://github.com/avelino/awesome-go) Go Language refs.
