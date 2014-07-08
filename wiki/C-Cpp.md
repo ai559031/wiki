@@ -12,6 +12,7 @@
 * [Linux 常用 C 函数(中文版)](http://net.pku.edu.cn/~yhf/linux_c/)
 * [C Programing](http://www.cprogramming.com/)
 * [The Biggest Changes in C++11 (and Why You Should Care)](http://www.softwarequalityconnection.com/2011/06/the-biggest-changes-in-c11-and-why-you-should-care/)
+* [C++11 语法记录](http://www.tairan.com/archives/5898)
 
 ## Note
 
