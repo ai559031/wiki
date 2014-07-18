@@ -34,6 +34,12 @@
 * [GitX](http://gitx.frim.nl/)
 * [Open Git](http://opengit.org/)
 * [git - 简易指南](http://rogerdudler.github.com/git-guide/index.zh.html)
+* [使用GitHub进行团队合作](http://xiaocong.github.io/blog/2013/03/20/team-collaboration-with-github/)
+
+
+## 永久删除
+
+* [Remove sensitive data](https://help.github.com/articles/remove-sensitive-data)
 * [Git如何永久删除文件(包括历史记录)](http://www.cnblogs.com/shines77/p/3460274.html)
 
 ```
