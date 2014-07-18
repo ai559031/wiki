@@ -34,6 +34,16 @@
 * [GitX](http://gitx.frim.nl/)
 * [Open Git](http://opengit.org/)
 * [git - 简易指南](http://rogerdudler.github.com/git-guide/index.zh.html)
+* [Git如何永久删除文件(包括历史记录)](http://www.cnblogs.com/shines77/p/3460274.html)
+
+```
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch path/to/your/remove/file' --prune-empty --tag-name-filter cat -- --all
+git push origin master --force
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git gc --prune=now
+git gc --aggressive --prune=now
+```
 
 ## 常用命令
 
