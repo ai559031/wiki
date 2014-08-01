@@ -14,6 +14,10 @@
 
 http://dianying.tao123.com/?get_fennei=0&get_guojia=0&get_sort=&get_update=2&get_year=1
 
+## BT
+
+* [BT天堂](http://www.bttiantang.com/)
+* [Usabit](http://www.usabit.com/)
 
 ## TED
 
