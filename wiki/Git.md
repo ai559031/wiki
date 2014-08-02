@@ -35,6 +35,7 @@
 * [Open Git](http://opengit.org/)
 * [git - 简易指南](http://rogerdudler.github.com/git-guide/index.zh.html)
 * [使用GitHub进行团队合作](http://xiaocong.github.io/blog/2013/03/20/team-collaboration-with-github/)
+* [Export your Issues and Wikis from Github Repo and Import to Bitbucket (Migration)](http://codetheory.in/export-your-issues-and-wikis-from-github-repo-and-import-to-bitbucket-migration/)
 
 
 ## 永久删除
