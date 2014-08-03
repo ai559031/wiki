@@ -44,6 +44,7 @@
     * [Vim Markdown Folding?](http://stackoverflow.com/questions/3828606/vim-markdown-folding)
 * [Markdownr](http://markdownr.com/)
 * Mac
+    * [LightPaper](http://clockworkengine.com/lightpaper-mac/)
     * [mou.app](http://mouapp.com/) - Chen Luo 作品，边编辑边预览。
     * [marked.app](http://markedapp.com/) - 打开 Markdown 文件进行格式化预览，
         不提供编辑工具，你可以使用自己喜欢的编辑器进行编辑。
