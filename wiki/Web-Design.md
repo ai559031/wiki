@@ -53,7 +53,6 @@
 * [MarkMan](http://www.getmarkman.com/) - 自动在图片上做长度和间距标记的 AIR 工具，给设计师。
 * [Code Cola](http://www.zhouqicf.com/code-cola)
     [visual-firebug@google.code](http://code.google.com/p/visual-firebug/)
-* [compatibility_detector.crx](http://wiki.ued.taobao.net/doku.php?id=group:f2e:tools) - 兼容性检测 - for Google Chrome.
 * [Test a website's performance](http://www.webpagetest.org/)
 * [Wirify](http://www.wirify.com/)
     * [把网页转为线框图工具：Wirify](http://www.lidalu.com/post/621.html)

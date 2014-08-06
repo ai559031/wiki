@@ -24,7 +24,6 @@
 * [etao体验中心](http://ux.etao.com/)
 * [E-Commerce User Experience Design](http://ecd.tencent.com/)
     * [CSS3 Animation](http://ecd.tencent.com/css3/index.html)
-* [支付宝无线UED产品演示中心](http://ux.alipay-inc.com/app/wb/)
 
 ## Web Design(Person)
 
@@ -112,7 +111,6 @@
 
 * [TechCrunch 中文站](http://www.techcrunchchina.com/)
 * [51CTO](http://www.51cto.com/)
-* [阿里巴巴技术协会](http://www.alibabatech.org/)
 
 ## Others
 
@@ -170,7 +168,6 @@
 ## 其它团队
 
 * [淘宝搜索](http://www.searchtb.com/) -- 淘宝搜索技术blog
-* [Alibaba DBA Team](http://www.alidba.net/) -- 这里记录着阿里巴巴数据库团队成员的点点滴滴
 * [淘宝Data](http://www.tbdata.org/) -- 淘宝数据平台与产品部，是淘宝核心的数据平台技术和数据产品研发团队
 * [淘宝DBA Team](http://www.taobaodba.com/) -- 淘宝数据库技术团队
 * [淘宝JAVA中间件团队](http://rdc.taobao.com/team/jm/) -- 我们是淘宝JAVA中间件团队。我们为淘宝网构建JAVA底层架构和基础服务。

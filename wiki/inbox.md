@@ -17,7 +17,7 @@ http://www.dwway.com/
     [Angular.js](http://www.angularjs.cn/)
         [DWR](http://directwebremoting.org) |
         [AJAXRPC](http://ajaxrpc.com/)([中文](http://ajaxrpc.com/cn/index.html))
-    * [Kissy - Taobao](kissy.md) | [Arale - Alipay](http://arale.alipay.net/) | [Tangram - Baidu](http://tangram.baidu.com/)
+    * [Kissy - Taobao](kissy.md) | [Tangram - Baidu](http://tangram.baidu.com/)
 * [ECMAScript6](ecmascript6.md)
 * [koa](http://koajs.com/)
   [@github](https://github.com/koajs/koa)
@@ -135,8 +135,6 @@ http://www.dwway.com/
     * Code Review
         * [Rietveld Code Review Tool](http://codereview.appspot.com/)
             [@google.code](http://code.google.com/p/rietveld/)
-        * [Tala codeReviewer - quick start](http://www.aliway.com/read.php?fid=38&tid=115953)
-        * [Tala Reviewer---让天下没有难做的Code Review](http://www.aliway.com/read.php?fid=38&tid=87853)
         * [CodeReviewer.vim : Utility for code reviews (using quickfix)](http://www.vim.org/scripts/script.php?script_id=1041)
         * [patchreview.vim : Plugin for doing single or multipatch code reviews and workspace diff reviews](http://www.vim.org/scripts/script.php?script_id=1563)
             [@github](https://github.com/junkblocker/patchreview-vim)
@@ -148,7 +146,6 @@ http://www.dwway.com/
     * [淘宝网开放平台](http://open.taobao.com/)
     * [阿里云](http://www.aliyun.com/)
     * [支付宝开放平台](http://open.alipay.com/)
-    * [支付宝外部接口资源平台](http://opensrc.alipay.net/)
     * [腾讯开放平台](http://open.qq.com/)
     * [Sina App Engine](http://sae.sina.com.cn/)
 * [Sohu.com Open Source Mirror Site](http://mirrors.sohu.com/)
