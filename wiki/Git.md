@@ -114,6 +114,10 @@ user.name = user.name<user.name@mail.com>
 (no author) = hotoo<user.name@mail.com>
 ```
 
+## Rebase
+
+* [Git-rebase 小筆記](http://blog.yorkxin.org/posts/2011/07/29/git-rebase)
+
 ## Git Flow
 
 * [一个成功的Git分支模型](http://www.juvenxu.com/2010/11/28/a-successful-git-branching-model/)
