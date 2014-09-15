@@ -12,6 +12,7 @@ wiki.hotoo.me/
 |- template/
 |- theme/
 `- wiki/
+    |- ...
     |- [index.md](wiki/index.md)
     `- [inbox.md](wiki/inbox.md)
 ```
