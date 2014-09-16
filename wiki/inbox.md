@@ -212,6 +212,7 @@ http://www.dwway.com/
         * [wymeditor](http://www.wymeditor.org/)
         * [ACE Editor](http://ace.ajax.org/) [@github](https://github.com/ajaxorg/ace)
         * [Baidu UEditor](http://ueditor.baidu.com/website/)
+* [NameChanger](http://mrrsoftware.com/namechanger/) - 批量修改文件名工具。
 
 ### 画图
 
