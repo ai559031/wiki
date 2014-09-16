@@ -46,10 +46,11 @@
 * Mac
     * [LightPaper](http://clockworkengine.com/lightpaper-mac/)
     * [mou.app](http://mouapp.com/) - Chen Luo 作品，边编辑边预览。
-    * [marked.app](http://markedapp.com/) - 打开 Markdown 文件进行格式化预览，
+    * [marked.app](http://markedapp.com/), [marded 2](http://marked2app.com/) - 打开 Markdown 文件进行格式化预览，
         不提供编辑工具，你可以使用自己喜欢的编辑器进行编辑。
         缺点：需要保存之后才能预览（Marked 会自动刷新），编辑过程中无法预览。
         如果解决了这个问题，就完美了。
+    * [Byword](http://bywordapp.com/)
     * [markdownLive](https://github.com/rentzsch/markdownlive)
     * [macdown](https://github.com/uranusjr/macdown)
 

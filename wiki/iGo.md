@@ -5,7 +5,8 @@
 
 * [围棋](http://zh.wikipedia.org/zh/%E5%9B%B4%E6%A3%8B) - 维基百科
 * [Macintosh Go](http://senseis.xmp.net/?MacintoshGo)
-    * [Goban](http://www.sente.ch/software/goban/)
+    * [Goban](http://www.gobanapp.com/)
+      [2](http://www.sente.ch/software/goban/)
 
 ## Goban
 

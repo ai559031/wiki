@@ -3,10 +3,11 @@
 
 ----
 
-TODO:
-http://py.kdd.cc/index.asp
-http://en.wikipedia.org/wiki/Data_warehouse
-http://www.dwway.com/
+## TODO:
+
+* http://py.kdd.cc/index.asp
+* http://en.wikipedia.org/wiki/Data_warehouse
+* http://www.dwway.com/
 
 ## Programming
 
@@ -601,7 +602,7 @@ http://www.dwway.com/
 * [Genealogy|族谱](Genealogy|族谱.md)
 * [GTD|Getting Things Done(GTD)](GTD|Getting Things Done(GTD).md)
     * [ManicTime](http://www.manictime.com/) - Time management software.
-* [Games|游戏](Games|游戏.md) | [iGo|圍棋](iGo|圍棋.md) | [Chess|象棋](Chess|象棋.md) | [Harmonica|口琴](Harmonica|口琴.md) | [sports|体育运动](sports|体育运动.md)
+* [Games|游戏](Games|游戏.md) | [iGo圍棋](iGo.md) | [Chess|象棋](Chess|象棋.md) | [Harmonica|口琴](Harmonica|口琴.md) | [sports|体育运动](sports|体育运动.md)
   [书法](calligraphy.md)
 * [驾校一点通](http://www.jxedt.com/) | [自行车](bicycle.md)
 * [网络电视(TV)](Online-TVs.md) | [影视](video.md) | [音乐](music.md) | [网络电话](VoIP.md) | [卡通&漫画](cartoon.md)
