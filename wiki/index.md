@@ -39,6 +39,7 @@
   * [SPDY](spdy.md)
 * [OpenSearch](opensearch.md)
 * [Web Fundamentals](https://developers.google.com/web/fundamentals/)
+* [虚拟化技术](virtualization.md)
 
 ### 文档(Document)
 
