@@ -179,6 +179,7 @@
     [Google-Chrome](Google-Chrome.md)([Google Chrome Frame](http://code.google.com/chrome/chromeframe/)) |
     [Apple-Safari](Apple-Safari.md) | [Opera](Opera.md)
 * [Maxthon|傲游](Maxthon|傲游.md) | [The World Browser|世界之窗](The World Browser|世界之窗.md) | [Green Browser](Green Browser.md)
+* [phantomjs](http://phantomjs.org/)
 * [StatCounter Global Stats](http://gs.statcounter.com/)
 * 瀏覽器的發展簡史：[中文 PDF 版](http://moztw.org/foxmosa/download/2009_Browser_History_zh.pdf)
     [中文 PNG 版](http://moztw.org/foxmosa/download/2009_Browser_History_zh.png)
@@ -596,13 +597,13 @@
 * [优米网](http://www.umiwi.com/) | [中国企业家网](http://www.iceo.com.cn/)
 * [咖啡树](http://www.kafeishu.com/) - DIY Tee.
 * [jobsDigg](http://jobsdigg.com/)
-* [Books|书籍(books)](Books|书籍(books).md) | [English|英语](English|英语.md) | [Amazon-Kindle](Amazon-Kindle.md) | [noteslate](http://noteslate.com/)
-* [edu|教育](edu|教育.md) | [Financial|金融/财务](Financial|金融/财务.md) | [math|数学](math|数学.md) | [National-Geographic|国家地理](National-Geographic|国家地理.md) | [Magazine|杂志](Magazine|杂志.md) |
+* [书籍(books)](Books.md) | [英语](English.md) | [Amazon-Kindle](Amazon-Kindle.md) | [noteslate](http://noteslate.com/)
+* [教育](edu.md) | [金融/财务](Financial.md) | [数学](math.md) | [国家地理](National-Geographic.md) | [杂志](Magazine.md) |
     [Oursic Loaded](http://www.oursci.org/)
-* [Genealogy|族谱](Genealogy|族谱.md)
-* [GTD|Getting Things Done(GTD)](GTD|Getting Things Done(GTD).md)
+* [族谱](Genealogy.md)
+* [Getting Things Done(GTD)](GTD.md)
     * [ManicTime](http://www.manictime.com/) - Time management software.
-* [Games|游戏](Games|游戏.md) | [iGo圍棋](iGo.md) | [Chess|象棋](Chess|象棋.md) | [Harmonica|口琴](Harmonica|口琴.md) | [sports|体育运动](sports|体育运动.md)
+* [游戏](Games.md) | [iGo圍棋](iGo.md) | [象棋](Chess.md) | [口琴](Harmonica.md) | [体育运动](sports.md)
   [书法](calligraphy.md)
 * [驾校一点通](http://www.jxedt.com/) | [自行车](bicycle.md)
 * [网络电视(TV)](Online-TVs.md) | [影视](video.md) | [音乐](music.md) | [网络电话](VoIP.md) | [卡通&漫画](cartoon.md)
@@ -610,7 +611,7 @@
 * [mobile](mobile.md) | [相机](Camera.md) | [天气预报](weather.md) | [邮编库](http://www.youbianku.com/) | [杭州](Hangzhou.md)
 * [快递之家](http://www.kiees.cn/default.htm)
 <!-- * [自由](freedom.md) | [GFW](GFW.md) -->
-* [ClassicQuotations|经典语录](ClassicQuotations|经典语录.md) | [duanzi|段子](duanzi|段子.md) | [text-smile](text-smile.md)
+* [经典语录](ClassicQuotations.md) | [段子](duanzi.md) | [text-smile](text-smile.md)
 * [名头网](http://www.mingtou.com/) | [我起名](http://www.57name.com/)
 * 硬件(Hardware)
     * [Wacom](http://www.wacom.com/) - 多点触摸数位板
