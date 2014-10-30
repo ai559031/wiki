@@ -254,6 +254,7 @@
     * [NeoOffice](http://www.neooffice.org/neojava/en/index.php)
     * [Adobe Photoshop CS5 Extended](https://www.adobe.com/cfusion/tdrc/index.cfm?product=photoshop) - Download
     * [Type with me](http://typewith.me/)
+    * [word.baidu.com](http://word.baidu.com/) - Baidu Doc
 * Docs
     * [Google Docs](https://docs.google.com) | [ZOHO](http://www.zoho.com/) | [Docs for Facebook](http://docs.com/)
     * [TypeWith.me](http://typewith.me/)
