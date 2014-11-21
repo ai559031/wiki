@@ -327,6 +327,7 @@ colorDepth:: 返回当前颜色设置所用的位数 -1：黑白；8：256色；
 
 * [1kjs,独创压缩算法,纯Js实现GBK编码,超小体积挑战纯忽悠版本VBS版](http://www.iteye.com/topic/1114934)
 * ![pic](http://www.1kjs.com/lib/widget/gbk/GBK转码组件)
+* [aaencode](http://utf-8.jp/public/aaencode.html) - Encode any JavaScript program to Japanese style emoticons (`^_^`)
 
 ## console
 

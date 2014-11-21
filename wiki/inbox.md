@@ -13,6 +13,10 @@
 
 * [Web-Design](Web-Design.md) | [Links](Links.md) | [MIME-Type](MIME-Type.md)
 * [JavaScript](JavaScript.md) | [jQuery](jQuery.md)([Zepto](Zepto.md)) | [YUI](YUI.md) | [Prototype](Prototype.md) | [MooTools](MooTools.md) |
+  * [component](https://github.com/componentjs/component)
+  * [polymer](https://github.com/Polymer)
+  * [React](react.md)
+  * [webpack](webpack.md) - Module Bundler
     [ExtJS](ExtJS.md) | [Dojo](http://www.dojotoolkit.org/) | [MS Ajax](http://www.asp.net/ajax/) |
     [moment.js](http://momentjs.com/)
     [Angular.js](http://www.angularjs.cn/)
