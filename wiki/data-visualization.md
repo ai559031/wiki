@@ -44,6 +44,12 @@
 * [淘宝指数](http://shu.taobao.com/)
 * [百度 Echarts](http://echarts.baidu.com/)
 
+## qplot && ggplot
+
+* [ggplot2](http://ggplot2.org/)
+* [qplot](http://www.hitseq.com/ggplot/qplot.html)
+* [Getting started with qplot](http://ggplot2.org/book/qplot.pdf)
+
 ## 常见图形
 
 * 折线图(Line Chart)

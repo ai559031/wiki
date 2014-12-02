@@ -113,7 +113,7 @@
 
 * http://tongji.baidu.com/
 * http://mtj.baidu.com/web/welcome/login
-* [data-visualization|数据可视化](data-visualization|数据可视化.md) | [BI|商业智能](BI|商业智能.md) | [database|数据库(Database)](database|数据库(Database).md) |
+* [数据可视化](data-visualization.md) | [BI|商业智能](BI|商业智能.md) | [database|数据库(Database)](database|数据库(Database).md) |
     [Data-Mining|数据挖掘](Data-Mining|数据挖掘.md) | [NoSQL](NoSQL.md)
     Oracle | MySQL | [mongoDB](mongoDB.md) | [PostgreSQL](http://www.postgresql.org/) | [SQLite](SQLite.md) | couchdb
 * [user-behavior-analysis|用户行为分析](user-behavior-analysis|用户行为分析.md)
