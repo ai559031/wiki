@@ -13,6 +13,7 @@
 * [MagicDraw UML](http://www.nomagic.com/products/magicdraw.html)
 * [Creately](http://creately.com/) - 有基于 Flash Web 版和桌面版。
 * http://www.omnigroup.com/
+* [Astah](http://astah.net/)
 
 ## tools @web
 
