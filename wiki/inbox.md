@@ -97,6 +97,8 @@
 * [iBeacon](iBeacon.md)
 * [风铃](http://zhan.qq.com/)
 
+* [代码覆盖率](code-coverage.md)
+
 ## 团队协作
 
 * [teambition](https://www.teambition.com/)
