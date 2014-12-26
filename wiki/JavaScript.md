@@ -329,6 +329,15 @@ colorDepth:: 返回当前颜色设置所用的位数 -1：黑白；8：256色；
 * ![pic](http://www.1kjs.com/lib/widget/gbk/GBK转码组件)
 * [aaencode](http://utf-8.jp/public/aaencode.html) - Encode any JavaScript program to Japanese style emoticons (`^_^`)
 
+## 混淆加密解密
+
+* [packer](http://dean.edwards.name/packer/)
+  * https://github.com/evanw/packer
+  * [@51js](http://www.jb51.net/tools/packer.htm)
+  * [packer之base62分析](http://51hired.com/questions/14003/packer%E4%B9%8Bbase62%E5%88%86%E6%9E%90)
+  * [packer和base62分析](http://www.cnblogs.com/chyong168/archive/2012/06/27/2565347.html)
+* [HDS 在线JS混淆加密器](http://www.moralsoft.com/jso-online/hdojso.htm)
+
 ## console
 
 * [Blackbird](http://www.gscottolson.com/blackbirdjs/)
