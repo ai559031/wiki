@@ -620,6 +620,7 @@
   [书法](calligraphy.md)
 * [驾校一点通](http://www.jxedt.com/) | [自行车](bicycle.md)
 * [网络电视(TV)](Online-TVs.md) | [影视](video.md) | [音乐](music.md) | [网络电话](VoIP.md) | [卡通&漫画](cartoon.md)
+* [字幕](subtitles.md)
 * [【blog圖黨™】](http://blogtd.org/) | [xkcd](http://xkcd.com/)
 * [mobile](mobile.md) | [相机](Camera.md) | [天气预报](weather.md) | [邮编库](http://www.youbianku.com/) | [杭州](Hangzhou.md)
 * [快递之家](http://www.kiees.cn/default.htm)
