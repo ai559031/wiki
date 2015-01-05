@@ -3,6 +3,8 @@
 
 ----
 
+* https://html5.org/
+* https://platform.html5.org/
 * [HTML5 Helpful Links](http://www.last-child.com/html5-helpful-links/)
 * [HTML5 专题 - IBM](http://www.ibm.com/developerworks/cn/web/lp/html5/)
 * [HTML5 slides ever](http://apirocks.com/html5/html5.html)^GFW^
