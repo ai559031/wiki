@@ -49,11 +49,13 @@ ControlPersist 8h
 
 ## scp
 
-scp ![pic](可选参数) file_source file_target
+```
+scp [可选参数] file_source file_target
 
 
-scp /path/to/local ![pic](username@)remote_ip:/path/to/remote
+scp /path/to/local [username@]remote_ip:/path/to/remote
 scp -r www.cumt.edu.cn:/path/to/remote /path/to/local
+```
 
 ## Books
 
