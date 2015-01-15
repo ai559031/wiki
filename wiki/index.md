@@ -20,6 +20,9 @@
 * [JavaScript 执行覆盖分析工具 —— Tracker](http://ucren.com/blog/archives/319)
   - 通过脚本抓取页面及其外联源码，通过服务端分析再呈现到前端页面。
 * [JavaScript 类库集](http://www.jsdb.io/)
+* 性能
+  * [网络加载性能](network-performance.md)
+  * [JavaScript 执行效率](javascript-performance.md)
 
 ## 编程基础
 
