@@ -52,6 +52,10 @@
 * 字幕
   * [夏末字幕组](http://www.xmqzmz.org/)
 
+## 设计
+
+* [Dribbble - Show and tell for designers](https://dribbble.com/)
+
 ## 运维
 
 * 网站运维之道
