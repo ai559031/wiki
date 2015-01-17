@@ -124,6 +124,7 @@ user.name = user.name<user.name@mail.com>
   * [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
   * [nvie/gitflow](https://github.com/nvie/gitflow)
   * [一个成功的Git分支模型](http://liang.eu/git/a-successful-git-branching-model)
+* [Simple Git workflow is simple](https://www.atlassian.com/git/articles/simple-git-workflow-is-simple/)
 * [Git 分支管理策略](http://www.ruanyifeng.com/blog/2012/07/git.html)
 * [理解Git工作流](http://heikezhi.com/2011/08/04/understanding-the-git-workflow/)
 * [Git的推广心得](http://www.jeffkit.info/2010/12/885/)
