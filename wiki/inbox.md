@@ -241,6 +241,14 @@
     * [paperjs](http://paperjs.org/)
       [@github](https://github.com/paperjs/paper.js)
 
+* Server 端
+  * [nchart](http://www.chartjs.org/)
+    * [@github](https://github.com/fundon/nchart)
+    * [@npm](https://www.npmjs.com/package/nchart)
+  * [node-canvas](https://github.com/Automattic/node-canvas)
+  * [node-highcharts](https://github.com/davidpadbury/node-highcharts)
+    * [@npm](https://www.npmjs.com/package/node-highcharts)
+
 ### 标尺(Ruler)
 
     * [JR Screen Ruler (For Windows 95/98/2000/NT/ME/XP)](http://www.spadixbd.com/freetools/jruler.htm)
