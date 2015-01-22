@@ -36,6 +36,21 @@
 * [Light Table](http://www.lighttable.com/)
 * [node-webkit](node-webkit.md)
 
+## 数据库
+
+* MySQL
+  * [node-mysql](https://github.com/felixge/node-mysql/)
+  * [用Nodejs连接MySQL](http://blog.fens.me/nodejs-mysql-intro/)
+* [redis](http://redis.io/)
+  * [@github](https://github.com/antirez/redis)
+  * [node_redis](https://github.com/mranney/node_redis)
+  * [redis 中文](http://redis.cn/)
+  * https://github.com/rediscn/rediscn
+* [ssdb](http://ssdb.io/)
+  * [@github](https://github.com/ideawu/ssdb)
+  * [node-ssdb](https://github.com/eleme/node-ssdb)
+  * https://github.com/hit9/ssdb.api.docs
+
 ## 技术篇
 
 * 网络
@@ -55,6 +70,7 @@
 ## 设计
 
 * [Dribbble - Show and tell for designers](https://dribbble.com/)
+* http://semantic-ui.com/
 
 ## 运维
 
