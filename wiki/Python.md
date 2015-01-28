@@ -35,6 +35,7 @@
 * [Python Notes](http://www.swaroopch.com/notes/Python)
 * [简明 Python 教程](http://i.linuxtoy.org/docs/bop/)
 * [9 本免费的 Python 语言编程书籍](http://linuxtoy.org/archives/9-free-python-books.html)
+* [Learn Python the Hard Way](http://learnpythonthehardway.org/book/)
 
 ## Framework
 
