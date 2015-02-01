@@ -250,6 +250,11 @@
   * [node-highcharts](https://github.com/davidpadbury/node-highcharts)
     * [@npm](https://www.npmjs.com/package/node-highcharts)
 
+* [highcharts](http://www.highcharts.com/)
+  * [@github](https://github.com/highslide-software/highcharts.com)
+* [highcharts 中文网](http://www.hcharts.cn/) - 提供中文文档、示例、CDN 服务
+  * [@github](https://github.com/hcharts)
+
 ### 标尺(Ruler)
 
     * [JR Screen Ruler (For Windows 95/98/2000/NT/ME/XP)](http://www.spadixbd.com/freetools/jruler.htm)
