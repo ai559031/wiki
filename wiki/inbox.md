@@ -178,6 +178,8 @@
     #FFF1A8
     #FFF7D7
     ```
+* https://www.pixelapse.com/
+* https://layervault.com/
 
 ## UI Layout
 
