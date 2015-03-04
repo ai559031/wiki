@@ -11,6 +11,7 @@
 ## 软件开发进阶
 
 * 自动化测试
+  * [cypress.io](http://www.cypress.io/) - Testing, the way is should be.
   * [Let’s Code: Test-Driven JavaScript](http://www.letscodejavascript.com/)
     - 非常赞的一键测试驱动工具，介绍视频中也有详细的原理介绍。
 * 持续集成, 构建及其自动化
