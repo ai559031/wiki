@@ -8,3 +8,8 @@
 * [XSS 前端防火墙 —— 内联事件拦截](http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-1/)
 * [XSS 前端防火墙 —— 可疑模块拦截](http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-2/)
 * [Excess XSS](http://excess-xss.com/) - A comprehensive tutorial on cross-site scripting
+
+## 挑战赛
+
+* [无声杯 xss 挑战赛 writeup](http://drops.wooyun.org/tips/2671)
+* [alert(1) to win](http://escape.alf.nu/)
