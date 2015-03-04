@@ -135,6 +135,14 @@ set clipboard+=unnamed
 exe "startinsert"
 ```
 
+### 粘贴
+
+* [Vim 复制粘贴探秘](http://www.cnblogs.com/jianyungsun/archive/2011/03/19/1988855.html)
+
+```
+:set paste # 避免粘贴时重新格式化操作。
+```
+
 
 ### 映射(Mapping)
 
