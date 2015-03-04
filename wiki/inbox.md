@@ -436,6 +436,7 @@
     * [VeryCD](http://www.verycd.com/) | [SimpleCD](http://www.simplecd.org/)
     * [爱问 - 分享资料](http://ishare.iask.sina.com.cn/)
     * [Mac下安装下载工具 axel](http://blog.hebine.com/archives/1438.html)
+    * [燕子BT](http://www.54new.com/)
 * 文件同步
     * [rsync](rsync.md)
     * [Allway Sync](Allway Sync.md) | [SyncToy](SyncToy.md) [Unison](http://www.cis.upenn.edu/~bcpierce/unison/)
