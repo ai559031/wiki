@@ -204,6 +204,7 @@
     [Readability for Chrome](https://chrome.google.com/extensions/detail/mopngoefggcibgpnefgiojkehfmdfcjn)
 * [浏览器开发工具的秘密](http://jinlong.github.io/blog/2013/08/29/devtoolsecrets/)
 * [HAR](HAR.md)
+* [hellotether](http://hellotether.com/) - 用 iPhone 自动锁屏和解锁 Mac
 
 ### 编辑器(IDE/Editor)
 
