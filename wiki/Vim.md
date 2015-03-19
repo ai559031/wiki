@@ -412,6 +412,8 @@ http://ark.asengard.net/blog/wp-content/uploads/2009/10/success_vim.jpg [来源]
 * [进行有效编辑的七种习惯](http://bbs.chinaunix.net/viewthread.php?tid=194152)
 * [手把手教你把Vim改装成一个IDE编程环境(图文)](http://blog.csdn.net/wooin/archive/2007/10/31/1858917.aspx)
 
+* https://github.com/jez/vim-as-an-ide
+
 ## 其他技巧 (Tips)
 
 * [Vim-tips|Vim 技巧(tips)](Vim-tips|Vim 技巧(tips).md)
