@@ -312,6 +312,5 @@ action 隐藏域被当作正常的参数附在 Form 的 action 属性值所对�
 ## 延伸阅读
 
 # [Velocity](Velocity.md)
-# [Alipay-SofaMVC](Alipay-SofaMVC.md)
 # [VTL Reference](http://velocity.apache.org/engine/releases/velocity-1.7/vtl-reference-guide.html)
 # [《Velocity 用户指南手册中文版》](http://www.uusam.com/uu/blog/?p=96)

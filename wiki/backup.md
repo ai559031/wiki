@@ -21,9 +21,6 @@ E:\WinRAR\WinRAR.exe
 CLASSPATH=.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar
 FLEX_HOME=E:\Adobe\flex_sdk_4
 JAVA_HOME=E:\Java\jdk1.6.0_06
-MAVEN_HOME=F:\Alipay.com\apache-maven-2.2.1
-ORACLE_HOME=F:\Alipay.com\oracle\client
-Path=%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;E:\shortcut;C:\Program Files\Intel\DMIX;C:\Program Files\ThinkPad\ConnectUtilities;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;E:\Git\cmd;E:\Git\bin;E:\MinGW\bin;%FLEX_HOME%\bin;%JAVA_HOME%\bin;C:\Program Files\Common Files\Thunder Network\KanKan\Codecs;E:\SlikSvn\bin\;%ORACLE_HOME%\bin;%ORACLE_HOME%\lib\win32;%MAVEN_HOME%\bin;F:\Alipay.com\apache-ant-1.7.0;C:\Program Files\Common Files\Lenovo;C:\Program Files\nodejs\;E:\putty
 
 ## 必装
 
