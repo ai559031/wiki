@@ -9,6 +9,10 @@
 * ![pic](http://www.simppa.fi/blog/gallery/) - 非常好的 3D 渲染效果。
 * [seculus country](http://www.seculuscountry.com.br/) - 根据滚动设计的动画特效，非常赞的效果。
 
+## 颜色 (Color)
+
+* [当我们谈论颜色时，我们在谈论什么 - 基础知识篇](http://efe.baidu.com/blog/what-we-talk-about-when-we-talk-about-color-basic/)
+
 ## 表格(Table)
 
 * [15个优秀的表格设计技巧](http://article.yeeyan.org/view/155461/108136)
