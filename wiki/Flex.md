@@ -60,6 +60,7 @@
 * [在Linux下用vim做Flex开发](http://abitno.me/use-vim-to-develop-flex-in-linux)
 * [Flex: MXML Highlighting in VIM](http://seancode.blogspot.com/2008/01/flex-mxml-highlighting-in-vim.html)
 * [Sothink](http://www.sothink.com/), [下载 Sothink SWF Decompiler v5.1 多国语言版](http://riaoo.com/?p=997)
+
     ```
     031J81-97K5CD-5EFB66-Y9JXK9-K1P3YK-APKVYH-FXKAZG-HDHR26-HMQKZC-89DTE4-E19TKK-DEKHCR
     ```
@@ -79,17 +80,21 @@
     下载 Free Adobe SDK 而不是 Open Source 的，后者编译 mxml 文件时可能不正常。
 * 解压到某目录（例如 E:\Adobe\flex_sdk）
 * 将上面的路径添加到系统环境变量 Path 中：
+
     ```
     FLEX_HOME = E:\Adobe\flex_sdk
     Path = %FLEX_HOME%\bin
     ```
+
 * 安装 Java 开发/运行时环境（Flex SDK 基于 Java）。
 * 下载 [actionscript.vim](http://www.vim.org/scripts/script.php?script_id=1061),
     [mxml.vim](http://abdulqabiz.com/files/vim/mxml.vim) 和 [dtd.vim](http://vim.cybermirror.org/patches/dtd.vim)
     放置到 .vim/syntax/ 目录。
 * 将如下代码加到 filetype.vim 中：
-    ```class="vim"
+
+    ```
     au BufNewFile,BufRead *.mxml set filetype=mxml
     au BufNewFile,BufRead *.as set filetype=actionscript
     ```
+
 * 编译：`mxmlc test.as` 或 `mxmlc test.mxml`

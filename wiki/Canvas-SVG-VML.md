@@ -36,7 +36,8 @@
 * [(Scalable Vector Graphics Web Browser using Flash)](http://code.google.com/p/svgweb/)
 * [(HTML5 Canvas for Internet Explorer)](http://code.google.com/p/explorercanvas/)
     * [在IE下动态创建canvas使用excanvas时失效解决方法](http://fatkun.com/2010/11/excanvas.html)
-    ```class="javascript"
+
+    ```javascript
     $(function(){
         var canvas=document.createElement("canvas");
         document.body.appendChild(canvas);
@@ -46,6 +47,7 @@
         if(canvas.getContext){alert("support");}
     });
     ```
+
 * [(Library that provides support for SVG and VML with an SVG style interface.)](http://code.google.com/p/svg2vml/)
 * [(DHTML: Draw Line, Ellipse, Oval, Circle, Polyline, Polygon, Triangle, with JavaScript)](http://www.walterzorn.com/jsgraphics/jsgraphics_e.htm)
 * [(翻译Browser Drawing一篇:Canvas/SVG/VML Drawing Roundup)](http://www.cnblogs.com/webgis8/articles/1529588.html)

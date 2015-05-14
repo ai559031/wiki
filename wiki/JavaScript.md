@@ -82,6 +82,7 @@
 ## Tips
 
 * [不询问关闭窗口](http://www.cnblogs.com/Bear-Study-Hard/archive/2006/12/15/593253.html)
+
     ```
     window.opener = null;
     window.close();
@@ -92,12 +93,15 @@ tr.rowIndex
 ```
 
 位于字符串加法拼接的表达式中，三元符号需要被括在括号中，否则下面的表达式报错。
-```class="javascript"
+
+```javascript
 var a = null;
 "" + a ? a.toString() : ""
 ```
+
 需要：
-```class="javascript"
+
+```javascript
 var a = null;
 "" + (a ? a.toString() : "")
 ```
@@ -116,7 +120,8 @@ var a = null;
 
 由标点符号不正确造成的变量未预定义，成为全局变量而导致框架页的名字被修改，
 然后指定到这个框架页的导航失效，全部在_self中打开。示例代码：
-```class="javascript"
+
+```javascript
 function(){
     var key = "key";
         name = "name",
