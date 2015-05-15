@@ -137,3 +137,4 @@ Goban -> Open Library and Servers.. .
 另外钱进貌似也是转载 [neo89_新浪博客](http://blog.sina.com.cn/u/1409206171)
 
 * [日本围棋 棋盘篇之：巨木之恨](igo-chessboard-0.md)
+* [日本围棋   棋盘篇二：鬼斧神工（上）](igo-chessboard-1.md)
