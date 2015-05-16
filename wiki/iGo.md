@@ -31,7 +31,7 @@ Goban -> Open Library and Servers.. .
     [BUG] 對于包含中文或 UTF-8 文件編碼的棋譜，可能會導致程序崩潰；另外也不支持記憶最后的打譜位置。<br />
     使用手册可以查看 [PANDA-glGo manual](http://www.pandanet.co.jp/English/glgo/manual/index.html) 。<br />
     我个人很喜欢的棋子 [glGo flat graphics](http://frankiii.blogspot.com/2005/08/glgo-flat-graphics.html)
-    [下载](http://fejes.net/frank/go/files/glgo_images_flat.zip) 。
+[下载](http://fejes.net/frank/go/files/glgo_images_flat.zip) 。
 
     > Windows: C:\Program Files\glGo\share\data<br />
     > Linux: /usr/share/games/glGo/data/<br />
@@ -41,7 +41,7 @@ Goban -> Open Library and Servers.. .
     非常專業的圍棋打譜軟件，不能用來下棋，但可以完美的打譜，支持多種編碼棋譜，支持多分支棋谱，能夠記憶最后的打譜位置。
 * [StoneBase 围棋网站](http://www.stonebase.cn/stonebase/chs/)
 
-![pic](http://farm5.static.flickr.com/4126/4845320309_053e1f1b47_b.jpg)
+! [pic](http://farm5.static.flickr.com/4126/4845320309_053e1f1b47_b.jpg)
 
 ## 学习围棋
 
@@ -139,3 +139,4 @@ Goban -> Open Library and Servers.. .
 * [日本围棋 棋盘篇之：巨木之恨](igo-chessboard-0.md)
 * [日本围棋 棋盘篇二：鬼斧神工（上）](igo-chessboard-1.md)
 * [日本围棋 棋盘篇二：鬼斧神工（中）_钱进_新浪博客](igo-chessboard-2.md)
+* [日本围棋 棋盘篇二：鬼斧神工（下）_钱进_新浪博客](igo-chessboard-3.md)
