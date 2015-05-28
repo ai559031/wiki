@@ -7,8 +7,6 @@
 * [Adobo Site Catalyst](http://sitecatalyst.com.cn/)
 * [百度统计](http://tongji.baidu.com/)
 * [百度统计开放平台](http://tongji.baidu.com/open/) - [API 文档](http://tongji.baidu.com/open/api/more)
-
-* [全站链接埋点监控参考](http://wiki.ued.taobao.net/doku.php?id=tms:spm埋点方案)
 * [Google 统计实验](https://www.google.com/analytics/siteopt/exptlist?account=2048484)
 * [刘平川：【用户行为分析】Marmot实践](http://www.slideshare.net/taobaoued/marmot)
 * [如何让数据说话！ —网站实例分析](http://ued.ctrip.com/blog/?p=3090)
