@@ -53,8 +53,8 @@ ControlPersist 8h
 scp [可选参数] file_source file_target
 
 
-scp /path/to/local [username@]remote_ip:/path/to/remote
-scp -r www.cumt.edu.cn:/path/to/remote /path/to/local
+scp /path/to/local [username@]remote.host:/path/to/remote
+scp -r [username@]remote.host:/path/to/remote /path/to/local
 ```
 
 ## Books

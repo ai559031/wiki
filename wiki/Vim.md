@@ -563,6 +563,8 @@ Learning the Vi and Vim
 
 ## 幽默 & 文化
 
+![Holy-War.png](./img/Holy-War.png)
+
 http://www.jonlee.ca/wp-content/uploads/2008/04/control_escape_comic.gif
 [来源](http://www.jonlee.ca/quick-vim-tip-esc-alternative/)
 [可以印Tee的大图](http://i.min.us/i7k94.png) [2](http://i.min.us/i3yji.png)
