@@ -5,6 +5,7 @@
 
 * [Internet Archive](http://archive.org/)
 * [World Wide Web Consortium](http://www.w3.org/)
+* [W3C 中国](http://www.chinaw3c.org/)
 * [The Web Standards Project](http://www.webstandards.org/)
 * [W3Schools Online Web Tutorials](http://www.w3schools.com/)
 * [w3school - 在线教程](http://www.w3school.com.cn)

@@ -16,32 +16,32 @@
 * [Guides: Using Git and Github for the Windows for newbies](http://github.com/guides/using-git-and-github-for-the-windows-for-newbies)
 * [Git Quick Start](https://wincent.com/wiki/Git_quickstart)
 * [使用 Git 管理源代码](http://www.ibm.com/developerworks/cn/linux/l-git/)
-* [面向 Subversion 用户的 Git，第 1 部分: 入门指南](http://www.ibm.com/developerworks/cn/linux/l-git-subversion-1/)
+* [面向 Subversion 用户的 Git，第 1 部分：入门指南](http://www.ibm.com/developerworks/cn/linux/l-git-subversion-1/)
     [en](http://www.ibm.com/developerworks/linux/library/l-git-subversion-1/)
-* [面向 Subversion 用户的 Git，第 2 部分: 实施控制](http://www.ibm.com/developerworks/cn/linux/l-git-subversion-2/)
+* [面向 Subversion 用户的 Git，第 2 部分：实施控制](http://www.ibm.com/developerworks/cn/linux/l-git-subversion-2/)
     [en](http://www.ibm.com/developerworks/opensource/library/l-git-subversion-2/index.html)
 * [Git 改变了分布式 Web 开发规则](http://www.ibm.com/developerworks/cn/web/wa-git/)
     [en](http://www.ibm.com/developerworks/web/library/wa-git/)
 * [为什么说 Git 将取代 SVN 做软件版本控制？](http://www.joomlagate.com/article/joomla-review/why-subversion-will-be-replaced-by-git-for-version-control/)
-* [SVN+GIT=鱼与熊掌兼得](http://rubynroll.javaeye.com/blog/203133)
+* [SVN+GIT= 鱼与熊掌兼得](http://rubynroll.javaeye.com/blog/203133)
 * [群英汇博客#Git](http://blog.ossxp.com/tag/git/)
 * [Git：中文教程及资料整理](http://railser.cn/index.php/blog/git-tutorial-cn)
-* [分布式版本控制工具Git简明笔记](http://www.elias.cn/Develop/GitMini)
-* [译文:GIT日常命令20来条](http://labs.chinamobile.com/mblog/225_2822)
-* [Git历险记（一）](http://www.infoq.com/cn/news/2011/01/git-adventures-1)
+* [分布式版本控制工具 Git 简明笔记](http://www.elias.cn/Develop/GitMini)
+* [译文：GIT 日常命令 20 来条](http://labs.chinamobile.com/mblog/225_2822)
+* [Git 历险记（一）](http://www.infoq.com/cn/news/2011/01/git-adventures-1)
 * [git ready](http://gitready.com/)
 * [Gitti](http://www.gittiapp.com/)
 * [GitX](http://gitx.frim.nl/)
 * [Open Git](http://opengit.org/)
 * [git - 简易指南](http://rogerdudler.github.com/git-guide/index.zh.html)
-* [使用GitHub进行团队合作](http://xiaocong.github.io/blog/2013/03/20/team-collaboration-with-github/)
+* [使用 GitHub 进行团队合作](http://xiaocong.github.io/blog/2013/03/20/team-collaboration-with-github/)
 * [Export your Issues and Wikis from Github Repo and Import to Bitbucket (Migration)](http://codetheory.in/export-your-issues-and-wikis-from-github-repo-and-import-to-bitbucket-migration/)
 
 
 ## 永久删除
 
 * [Remove sensitive data](https://help.github.com/articles/remove-sensitive-data)
-* [Git如何永久删除文件(包括历史记录)](http://www.cnblogs.com/shines77/p/3460274.html)
+* [Git 如何永久删除文件（包括历史记录）](http://www.cnblogs.com/shines77/p/3460274.html)
 
 ```
 git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch path/to/your/remove/file' --prune-empty --tag-name-filter cat -- --all
@@ -98,7 +98,7 @@ git gc --aggressive --prune=now
   $ git co -b br2 repo2/master
   // 啥都不说了。
   $ git co master
-  // [可选]
+  // 『可选』
   $ git merge br2
   ```
 
@@ -114,22 +114,37 @@ user.name = user.name<user.name@mail.com>
 (no author) = hotoo<user.name@mail.com>
 ```
 
+### GIT_COMMITTER_DATE / GIT_AUTHOR_DATE
+
+```bash
+; 日期格式可以使用：
+;   2013-08-01 23:01:01 +0900
+;   Fri Jun 21 20:26:41 2013 +0900
+export GIT_COMMITTER_DATE="2013-08-01 23:01:01 +0900"
+git commit --amend --date "2013-08-01 23:01:01 +0900" -m 'fix committer_date and author_date'
+unset GIT_COMMITTER_DATE
+```
+export GIT_COMMITTER_DATE="Fri Jun 21 20:26:41 2013 +0900"
+git commit --amend --date "Fri Jun 21 20:26:41 2013 +0900" -m 'fix committer_date and author_date'
+unset GIT_COMMITTER_DATE
+
+
 ## Rebase
 
 * [Git-rebase 小筆記](http://blog.yorkxin.org/posts/2011/07/29/git-rebase)
 
 ## Git Flow
 
-* [一个成功的Git分支模型](http://www.juvenxu.com/2010/11/28/a-successful-git-branching-model/)
+* [一个成功的 Git 分支模型](http://www.juvenxu.com/2010/11/28/a-successful-git-branching-model/)
   * [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
   * [nvie/gitflow](https://github.com/nvie/gitflow)
-  * [一个成功的Git分支模型](http://liang.eu/git/a-successful-git-branching-model)
+  * [一个成功的 Git 分支模型](http://liang.eu/git/a-successful-git-branching-model)
 * [Simple Git workflow is simple](https://www.atlassian.com/git/articles/simple-git-workflow-is-simple/)
 * [Git 分支管理策略](http://www.ruanyifeng.com/blog/2012/07/git.html)
-* [理解Git工作流](http://heikezhi.com/2011/08/04/understanding-the-git-workflow/)
-* [Git的推广心得](http://www.jeffkit.info/2010/12/885/)
-* [你为神马不用git-flow呢?](http://www.jeffkit.info/2010/12/860/)
-* [开始实践git-flow](http://www.jeffkit.info/2010/12/842/)
+* [理解 Git 工作流](http://heikezhi.com/2011/08/04/understanding-the-git-workflow/)
+* [Git 的推广心得](http://www.jeffkit.info/2010/12/885/)
+* [你为神马不用 git-flow 呢？](http://www.jeffkit.info/2010/12/860/)
+* [开始实践 git-flow](http://www.jeffkit.info/2010/12/842/)
 * [有策略地进行分支](http://msdn.microsoft.com/zh-cn/library/ee782536.aspx) - MSDN
 * [版本控制与常见分支模型](http://www.slideshare.net/tonydeng/ss-6341292)
 * [Git 分布式工作流程](http://wangyan.org/blog/git-work.html)
@@ -170,7 +185,7 @@ user.name = user.name<user.name@mail.com>
 * [Tower](http://www.git-tower.com/)
 * [the Hg-Git mercurial plugin](http://hg-git.github.com/) [2](http://hghub.com/)
 
-## 开源项目(OpenSource)
+## 开源项目 (OpenSource)
 
 * [GitLab](http://gitlabhq.com/)
 
@@ -208,7 +223,7 @@ user.name = user.name<user.name@mail.com>
 
 ## Notes
 
-* [git中文乱码解决](http://www.fordragon.com/git_charset.html)
+* [git 中文乱码解决](http://www.fordragon.com/git_charset.html)
 
 如果希望提交到第三方代码托管服务器上，需要配置 ssh key，
 系统通过这个 key 来验证用户身份。参考：[Set Up Git](http://help.github.com/set-up-git-redirect)
@@ -258,7 +273,7 @@ git diff hashcode1:filename hashcode2:filename
 git branch -D master
 ```
 
-### 使用 Vim 作为 Git 默认编辑器(for Windows)
+### 使用 Vim 作为 Git 默认编辑器 (for Windows)
 
 可以在 `git commit` 的时候弹出编辑器窗口。
 
@@ -280,7 +295,7 @@ git config --global core.editor gvimf.cmd
 
 参考 [using gvim as editor on Windows](http://comments.gmane.org/gmane.comp.version-control.git/141606)
 
-### (文本)图形化查看 log
+### （文本）图形化查看 log
 
 * 执行以下命令：
 
