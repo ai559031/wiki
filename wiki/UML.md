@@ -16,6 +16,8 @@
 * http://www.omnigroup.com/
 * [Astah](http://astah.net/)
 * [plantUML](http://plantuml.com/)
+  * http://zh.plantuml.com/
+  * http://www.planttext.com/planttext
 
 ## tools @web
 
