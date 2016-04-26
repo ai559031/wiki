@@ -101,3 +101,7 @@ $ kill pid
   * [携程网实践案例分享：利用 HTML5 监控网站性能](http://www.admin5.com/article/20130117/484692.shtml)
   * [7 天打造前端性能监控系统](http://fex.baidu.com/blog/2014/05/build-performance-monitor-in-7-days/)
   * [百度前端性能监控与优化实践](http://www.slideshare.net/taobaoued/ss-13602073)
+
+## 开发者大会
+
+* [蘑菇街 (MDay)](http://mday.mogu.io/)
