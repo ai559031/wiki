@@ -102,6 +102,11 @@ $ kill pid
   * [7 天打造前端性能监控系统](http://fex.baidu.com/blog/2014/05/build-performance-monitor-in-7-days/)
   * [百度前端性能监控与优化实践](http://www.slideshare.net/taobaoued/ss-13602073)
 
+## 技术资讯论坛
+
+- https://segmentfault.com/
+- https://stackoverflow.com/
+
 ## 开发者大会
 
 * [蘑菇街 (MDay)](http://mday.mogu.io/)
