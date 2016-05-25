@@ -279,6 +279,7 @@
 * [screenshots|截屏（截图）工具](screenshots|截屏（截图）工具.md)
 * [Shutter - ScreenShot Tool](http://shutter-project.org/)
 * ![pic](http://snip.qq.com/) - 腾讯截屏工具
+* [licecap](http://www.cockos.com/licecap/) [中文文档 - xbeta.info](http://xbeta.info/files/licecap.htm)
 
 ### 文档 (Docs/Slide)
 
