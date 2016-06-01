@@ -18,6 +18,9 @@
 * [plantUML](http://plantuml.com/)
   * http://zh.plantuml.com/
   * http://www.planttext.com/planttext
+  * http://uml.mvnsearch.org/
+    * https://github.com/linux-china/plantuml-gist
+  * [使用Emacs敲出UML，PlantUML快速指南](http://archive.3zso.com/archives/plantuml-quickstart.html)
 
 ## tools @web
 
