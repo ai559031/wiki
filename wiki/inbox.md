@@ -237,16 +237,16 @@
 
 ### 画图
 
-    * [UML](UML.md) | [mind-mapping|思维导图](mind-mapping|思维导图.md) | [原型图](Prototype-Drawings.md)
-    * [Google Sketchup](http://sketchup.google.com/) | [Asymptote](http://asymptote.sourceforge.net/)
-        [GraphViz](http://www.graphviz.org/)
-    * [Markup.io](http://markup.io/) - 保存为书签，到任意一网页点击该书签，或地址栏执行其脚本，然后就可以使用右上角的工具在网页上画图了。
-    * [Gantt-chart|甘特图](Gantt-chart|甘特图.md)
-    * [Shutter](http://shutter-project.org/)
-    * [ECharts - Baidu](http://echarts.baidu.com/)
-      [@github](https://github.com/ecomfe/echarts)
-    * [paperjs](http://paperjs.org/)
-      [@github](https://github.com/paperjs/paper.js)
+* [UML](UML.md) | [思维导图](mind-mapping.md) | [原型图](Prototype-Drawings.md)
+* [Google Sketchup](http://sketchup.google.com/) | [Asymptote](http://asymptote.sourceforge.net/)
+    [GraphViz](http://www.graphviz.org/)
+* [Markup.io](http://markup.io/) - 保存为书签，到任意一网页点击该书签，或地址栏执行其脚本，然后就可以使用右上角的工具在网页上画图了。
+* [Gantt-chart|甘特图](Gantt-chart|甘特图.md)
+* [Shutter](http://shutter-project.org/)
+* [ECharts - Baidu](http://echarts.baidu.com/)
+  [@github](https://github.com/ecomfe/echarts)
+* [paperjs](http://paperjs.org/)
+  [@github](https://github.com/paperjs/paper.js)
 
 * Server 端
   * [nchart](http://www.chartjs.org/)
@@ -280,6 +280,10 @@
 * [Shutter - ScreenShot Tool](http://shutter-project.org/)
 * ![pic](http://snip.qq.com/) - 腾讯截屏工具
 * [licecap](http://www.cockos.com/licecap/) [中文文档 - xbeta.info](http://xbeta.info/files/licecap.htm)
+
+### 屏幕亮度、颜色自动调节
+
+- [f.lux](https://justgetflux.com/)
 
 ### 文档 (Docs/Slide)
 
@@ -484,6 +488,7 @@
     * [UltraVNC](http://www.uvnc.com/)
     * [VNC](VNC.md)
     * [join.me](https://join.me/) - Free Screen Share and Online Metting. 非常强大，跨平台应用和浏览器支持。
+    * https://appear.in/
 * 网络安全
     * [xfocus team](http://www.xfocus.net/)
     * [Bypass Preventing CSRF](http://www.xfocus.net/articles/200801/964.html)

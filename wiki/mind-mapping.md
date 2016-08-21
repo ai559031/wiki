@@ -1,9 +1,9 @@
 
-# 思维导图(mind mapping)
+# 思维导图 (mind mapping)
 
 ----
 
-* ([XMind](http://www.xmind.net/)
+* [XMind](http://www.xmind.net/)
     [@google.code](http://code.google.com/p/xmind3/)
 * [FreeMind](http://freemind.sourceforge.net/wiki/index.php/Main_Page)
 * [MindMangager](http://www.mindjet.com/)
@@ -14,3 +14,4 @@
 * [TheBrain](http://www.thebrain.com/)
 * [Labyrinth](http://people.gnome.org/~dscorgie/labyrinth.html)
 * [My Mind Map](http://my-mind.github.io/) - 一个基于 Web 的开源思维导图绘制工具。
+* [jsMind](https://github.com/hizzgdev/jsmind)

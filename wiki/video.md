@@ -1,8 +1,9 @@
 
-# 影视(Movie, Video)
+# 影视 (Movie, Video)
 
 ---
 
+* [Live Coding](https://www.livecoding.tv/)
 * [Vimeo, Video Sharing For You](http://vimeo.com/)
 * [YouTube](http://www.youtube.com/)
 * [优酷网](http://www.youku.com/)
@@ -16,7 +17,7 @@ http://dianying.tao123.com/?get_fennei=0&get_guojia=0&get_sort=&get_update=2&get
 
 ## BT
 
-* [BT天堂](http://www.bttiantang.com/)
+* [BT 天堂](http://www.bttiantang.com/)
 * [Usabit](http://www.usabit.com/)
 
 ## TED
@@ -29,7 +30,7 @@ http://dianying.tao123.com/?get_fennei=0&get_guojia=0&get_sort=&get_update=2&get
 
 ## 沙画
 
-* [支付宝下一步的进化-支付与移动互联网峰会沙画视频](http://v.youku.com/v_show/id_XMjE1OTMwNzMy.html)
+* [支付宝下一步的进化 - 支付与移动互联网峰会沙画视频](http://v.youku.com/v_show/id_XMjE1OTMwNzMy.html)
 
 
 ## 推荐
@@ -37,7 +38,7 @@ http://dianying.tao123.com/?get_fennei=0&get_guojia=0&get_sort=&get_update=2&get
 * [坂上之云](http://zh.wikipedia.org/zh-cn/%E5%9D%82%E4%B8%8A%E4%B9%8B%E4%BA%91)
 * [走向共和](http://zh.wikipedia.org/zh-cn/%E8%B5%B0%E5%90%91%E5%85%B1%E5%92%8C)
     * [@youku](http://www.youku.com/playlist_show/id_782468.html)
-* [11度青春系列电影](http://www.youku.com/show_page/id_zac398d46a47011df97c0.html)
+* [11 度青春系列电影](http://www.youku.com/show_page/id_zac398d46a47011df97c0.html)
 * [物体跟踪的算法](http://72.232.254.235/show.php?f=1&t=1136535&m=8336756) - Zdenek Kalal
 * [Ok Go: Skyscrapers](http://v.youku.com/v_show/id_XMzczNTAxMjAw.html)
 * [乔布斯：遗失的访谈_中英双语字幕版](http://v.youku.com/v_show/id_XNTUxNDY1NDY4.html)
@@ -46,8 +47,8 @@ http://dianying.tao123.com/?get_fennei=0&get_guojia=0&get_sort=&get_update=2&get
 ## 《英国达人》最爱精品
 
 * Sing Song
-    * [十岁小女孩飙高音PK碧昂斯](http://v.youku.com/v_show/id_XMTMwMTIyODIw.html)
-    * [十岁女孩Hollie Steel天籁之音](http://v.youku.com/v_show/id_XMTMwMTE4ODI0.html)
-    * [37岁披萨快递员震惊全场的演出](http://v.youku.com/v_show/id_XMTMwMTIyNTUy.html)
-    * [第二季决赛 小男孩Andrew天籁之音再现初赛曲目](http://v.youku.com/v_show/id_XMTMwMTIyMjI4.html)
-* [【Lunar小婷初投稿】【恋空予报】](http://bilibili.kankanews.com/video/av1171297/?ADUIN=147638804&ADSESSION=1401937254&ADTAG=CLIENT.QQ.5329_.0&ADPUBNO=26349)
+    * [十岁小女孩飙高音 PK 碧昂斯](http://v.youku.com/v_show/id_XMTMwMTIyODIw.html)
+    * [十岁女孩 Hollie Steel 天籁之音](http://v.youku.com/v_show/id_XMTMwMTE4ODI0.html)
+    * [37 岁披萨快递员震惊全场的演出](http://v.youku.com/v_show/id_XMTMwMTIyNTUy.html)
+    * [第二季决赛 小男孩 Andrew 天籁之音再现初赛曲目](http://v.youku.com/v_show/id_XMTMwMTIyMjI4.html)
+* [【Lunar 小婷初投稿】【恋空予报】](http://bilibili.kankanews.com/video/av1171297/?ADUIN=147638804&ADSESSION=1401937254&ADTAG=CLIENT.QQ.5329_.0&ADPUBNO=26349)

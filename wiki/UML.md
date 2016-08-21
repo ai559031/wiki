@@ -16,11 +16,12 @@
 * http://www.omnigroup.com/
 * [Astah](http://astah.net/)
 * [plantUML](http://plantuml.com/)
+  * [PlantUML Notes](plantuml-notes.md)
   * http://zh.plantuml.com/
   * http://www.planttext.com/planttext
   * http://uml.mvnsearch.org/
     * https://github.com/linux-china/plantuml-gist
-  * [使用Emacs敲出UML，PlantUML快速指南](http://archive.3zso.com/archives/plantuml-quickstart.html)
+  * [使用 Emacs 敲出 UML，PlantUML 快速指南](http://archive.3zso.com/archives/plantuml-quickstart.html)
 
 ## tools @web
 
