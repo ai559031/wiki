@@ -23,6 +23,10 @@
 
 * [mdv](https://github.com/toolkitchen/mdv)
 
+## React Components
+
+- [React Sticky](https://github.com/captivationsoftware/react-sticky)
+
 ## Virtual DOM
 
 * [The Secrets of React's Virtual DOM](http://fluentconf.com/fluent2014/public/schedule/detail/32395)

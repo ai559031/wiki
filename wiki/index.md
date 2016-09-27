@@ -6,6 +6,7 @@
 ## Inbox
 
 * [Inbox](inbox.md)
+* [ ] [微信小程序 demo / 开发工具 / 文档资源](https://github.com/xwartz/wechatApp-demo)
 
 
 ## 软件开发进阶
@@ -110,6 +111,14 @@ $ kill pid
 ## 开发者大会
 
 * [蘑菇街 (MDay)](http://mday.mogu.io/)
+
+## 软件
+
+- [Mac 常用软件](softwares-on-mac.md)
+
+## 硬件
+
+- [Poker II](poker.md)
 
 ## 萨摩耶
 

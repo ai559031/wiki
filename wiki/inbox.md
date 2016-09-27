@@ -93,11 +93,15 @@
 * [浅谈聚合与耦合](http://www.cnblogs.com/arthurliu/archive/2011/03/08/1936914.html)
 * [referrer](referrer.md)
 * [ABTest](ABTest.md)
-* [dns-prefetch|DNS-Prefetching](dns-prefetch|DNS-Prefetching.md)
+* [NeoDNS](https://rot256.io/post/neodns/)
+* [DNS-Prefetching](dns-prefetch.md)
 * [realtime-log|实时日志分析](realtime-log|实时日志分析.md)
 * [iBeacon](iBeacon.md)
 * [风铃](http://zhan.qq.com/)
+* [HTTP 推送](http://www.zcfy.cc/article/being-pushy-yoav-weiss-1149.html)
+  * [Being Pushy](https://blog.yoav.ws/being_pushy/)
 * [HTTP2](http2.md)
+* [VR](vr.md)
 
 * [代码覆盖率](code-coverage.md)
 
@@ -199,7 +203,7 @@
 * [Maxthon|傲游](Maxthon|傲游.md) | [The World Browser|世界之窗](The World Browser|世界之窗.md) | [Green Browser](Green Browser.md)
 * [phantomjs](http://phantomjs.org/)
 * [StatCounter Global Stats](http://gs.statcounter.com/)
-* 瀏覽器的發展簡史：[中文 PDF 版](http://moztw.org/foxmosa/download/2009_Browser_History_zh.pdf)
+* 瀏覽器的發展簡史[中文 PDF 版](http://moztw.org/foxmosa/download/2009_Browser_History_zh.pdf)
     [中文 PNG 版](http://moztw.org/foxmosa/download/2009_Browser_History_zh.png)
     [En PDF](http://www.foxkeh.com/downloads/history/history-original.pdf)
     [2006 中文 PNG](http://moztw.org/foxmosa/download/2006_Firefox_History_zh.png)
@@ -247,6 +251,8 @@
   [@github](https://github.com/ecomfe/echarts)
 * [paperjs](http://paperjs.org/)
   [@github](https://github.com/paperjs/paper.js)
+* [Sketch](sketch.md)
+* [matter.js](https://github.com/liabru/matter-js) 2D 物理引擎
 
 * Server 端
   * [nchart](http://www.chartjs.org/)
@@ -281,6 +287,24 @@
 * ![pic](http://snip.qq.com/) - 腾讯截屏工具
 * [licecap](http://www.cockos.com/licecap/) [中文文档 - xbeta.info](http://xbeta.info/files/licecap.htm)
 
+Mac 使用 QuickTime Player 录屏并转成 gif 动画
+
+- File -> New Screen Recording
+- 选择录屏区域，开始并完成录屏。
+- [OS X Screencast to animated GIF](https://gist.github.com/dergachev/4627207)
+  - 安装
+
+    ```
+    brew install ffmpeg
+    brew cask install x-quartz #dependency for gifsicle, only required for mountain-lion and above
+    open /usr/local/Cellar/x-quartz/2.7.4/XQuartz.pkg # runs the XQuartz installer
+    brew install gifsicle
+    ```
+  - 转换
+    ```
+    ffmpeg -i in.mov -s 600x400 -pix_fmt rgb24 -r 10 -f gif - | gifsicle --optimize=3 --delay=3 > out.gif
+    ```
+
 ### 屏幕亮度、颜色自动调节
 
 - [f.lux](https://justgetflux.com/)
@@ -303,7 +327,7 @@
 * 演示文檔 (Slide)
     * [Slide Share](http://www.slideshare.net/)
     * [Prezi - The zooming presentation](http://prezi.com/)
-        [非线性 ppt 示例：《Math is not linear》](http://blog.est.im/archives/1926)
+        [非线性 ppt 示例《Math is not linear》](http://blog.est.im/archives/1926)
     * [非线性 HTML5 演示文档](http://bartaz.github.com/impress.js/)
         [@github](https://github.com/bartaz/impress.js)
         [a jQuery port of impress.js](http://shama.github.com/jmpress.js)
@@ -664,6 +688,7 @@
     * [Wacom](http://www.wacom.com/) - 多点触摸数位板
     * [iPhone](iPhone.md)
     * [SSD](SSD.md)
+    * [机械键盘](mechanical-keyboard.md)
 * 新农村
     * [沼气](biogas.md)
     * 垃圾处理 : [农村垃圾处理专题](http://report.solidwaste.com.cn/nongcunlaji/index.htm) - 中国固废网
