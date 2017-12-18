@@ -3,7 +3,7 @@
 
 ----
 
-* [正则表达式30分钟入门教程](http://deerchao.net/tutorials/regex/regex.htm)
+* [正则表达式 30 分钟入门教程](http://deerchao.net/tutorials/regex/regex.htm)
     [2](http://help.locoy.com/Document/Learn_Regex_For_30_Minutes.htm)
 * [正则表达式工作室](http://www.regexlab.com/zh/)
     [揭开正则表达式的神秘面纱](http://www.regexlab.com/zh/regref.htm)
@@ -20,21 +20,21 @@
 * [构建用于正则表达式的抽象 Java API](http://www.ibm.com/developerworks/cn/java/wa-regexp/index.html)
 * [Regexp Syntax Summary](http://www.greenend.org.uk/rjk/2002/06/regexp.html)
 * [JavaScript, Regex, and Unicode](http://blog.stevenlevithan.com/archives/javascript-regex-and-unicode)
-* [《理解正则表达式（程序员第3期文章）》](http://blog.csdn.net/myan/archive/2007/03/03/1520033.aspx)
+* [《理解正则表达式（程序员第 3 期文章）》](http://blog.csdn.net/myan/archive/2007/03/03/1520033.aspx)
 * [利用有限自动机分析正则表达式](http://tech.idv2.com/2006/05/08/parse-regex-with-dfa/)
-* [《Linux系统最佳实践工具：命令行技术》](http://book.51cto.com/art/200902/111541.htm)
+* [《Linux 系统最佳实践工具：命令行技术》](http://book.51cto.com/art/200902/111541.htm)
 * [我爱正则表达式](http://iregex.org/)
 * [正则表达式论坛](http://regex.me/)
-* [Linux/Unix工具与正则表达式的POSIX规范](http://www.lupaworld.com/home-space-uid-22802-do-blog-id-237935.html)
+* [Linux/Unix 工具与正则表达式的 POSIX 规范](http://www.lupaworld.com/home-space-uid-22802-do-blog-id-237935.html)
 * [正则表达式的实现和效率](http://blog.zhengdong.me/2011/08/20/implementation-and-efficiency-of-regular-expression/)
 * [检查素数的正则表达式](http://coolshell.cn/articles/2704.html)
-* [牛B的正则表达式：素数判定与线性方程求解](http://www.matrix67.com/blog/archives/475)
+* [牛 B 的正则表达式：素数判定与线性方程求解](http://www.matrix67.com/blog/archives/475)
 
 [http://imgs.xkcd.com/comics/regular_expressions.png](http://xkcd.com/208/)
 
 ## Oracle
 
-* [使用正则表达式(Oracle 10g)](http://www.oracle.com/technology/global/cn/obe/obe10gdb/develop/regexp/regexp.htm)
+* [使用正则表达式 (Oracle 10g)](http://www.oracle.com/technology/global/cn/obe/obe10gdb/develop/regexp/regexp.htm)
 * [使用正规表达式编写更好的 SQL](http://www.oracle.com/technology/global/cn/oramag/webcolumns/2003/techarticles/rischert_regexp_pt1.html)
 * [使用正则表达式编写更好的 SQL （续）](http://www.oracle.com/technology/global/cn/oramag/webcolumns/2003/techarticles/rischert_regexp_pt2.html)
 
@@ -42,19 +42,19 @@
 
 * [Optimizing regular expressions in Java](http://www.javaworld.com/javaworld/jw-09-2007/jw-09-optimizingregex.html)
 * [Optimizing Regular Expressions(Python)](http://diveintopython.org/performance_tuning/regular_expressions.html)
-* [Java正则表达式的性能问题](http://www.jiehoo.me/java-regex-performance-problem.htm)
-* [.NET程序中的正则表达式性能问题](http://developer.51cto.com/art/200908/144916.htm)
+* [Java 正则表达式的性能问题](http://www.jiehoo.me/java-regex-performance-problem.htm)
+* [.NET 程序中的正则表达式性能问题](http://developer.51cto.com/art/200908/144916.htm)
 
 ## Books
 
 * ![pic](http://www.oreilly.com/catalog/regex2/chapter/ch09.pdf)
-* [《理解正则表达式（程序员第3期文章）》](http://blog.csdn.net/myan/archive/2007/03/03/1520033.aspx)
+* [《理解正则表达式（程序员第 3 期文章）》](http://blog.csdn.net/myan/archive/2007/03/03/1520033.aspx)
     [2](http://tech.idv2.com/2006/05/08/parse-regex-with-dfa/)
 * ![pic](http://book.51cto.com/art/200801/64630.htm《精通正则表达式》)
 * [《Mastering Regular Expressions》Jeffrey E.F. Friedl](http://www.amazon.com/Mastering-Regular-Expressions-Jeffrey-Friedl/dp/0596528124/ref=dp_cp_ob_b_title_1)
 * [《Regular Expressions Cookbook》](http://www.amazon.com/Regular-Expressions-Cookbook-Jan-Goyvaerts/dp/0596520689/ref=dp_cp_ob_b_title_2)
 * [《Regular Expression Pocket Reference》](http://www.amazon.com/exec/obidos/ASIN/059600415X/aspalliancecom)
-* [《Linux系统最佳实践工具：命令行技术》](http://book.51cto.com/art/200902/111541.htm)
+* [《Linux 系统最佳实践工具：命令行技术》](http://book.51cto.com/art/200902/111541.htm)
 * [《Programming PHP 中文版》](http://book.csdn.net/bookfiles/253/index.html)
 * 《C# Text Manipulation String Handling and Regular Expression Handbook》Francois Liger、Craig McQueen、Paul Wilton
 
@@ -71,3 +71,11 @@
 * [HiFi Regex Tester](http://www.gethifi.com/tools/regex)
 * [RegEx Builder](http://www.redfernplace.com/software-projects/regex-builder/)
 * [Rubular](http://www.rubular.com/)
+
+## 经典正则表达式收藏
+
+- 大于 0 的数值
+```
+/^\s*(?=.*[1-9])\d*(?:\.\d{1,2})?\s*$/
+```
+- 千分位格式化：`'99999999999'.replace(/\d{1,3}(?=(\d{3})+$)/g, '$&,')`

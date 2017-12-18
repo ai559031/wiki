@@ -4,7 +4,14 @@
 ----
 
 * [文泉驿](http://wenq.org/) - 开源字体。开彼源兮，斯流永继。
-* [让代码更美:10大编程字体](http://www.cnbeta.com/articles/102609.htm)
+* https://github.com/adobe-fonts/source-han-serif - Google 和 Adobe 合作的开源字体，支持 7 种粗细字重。
+  * https://source.typekit.com/source-han-serif/?scid=social71226596
+  * https://typekit.com/fonts/source-han-serif-traditional-chinese
+  * https://www.septillion.cn/archives/2560
+  * [感谢 Google，为了更美的中文互联网，带来了新的免费字体](http://www.ifanr.com/813974)
+* [Google Fonts](https://fonts.google.com/)
+  * https://github.com/google/fonts
+* [让代码更美：10 大编程字体](http://www.cnbeta.com/articles/102609.htm)
 * [Type is Beautiful](http://www.typeisbeautiful.com/) - 字体排版
     * [WOFF 使用指南](http://www.typeisbeautiful.com/2010/01/1903) - Type is Beautiful.
 * [Monotype Imaging](http://www.monotypeimaging.com/)

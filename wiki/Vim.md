@@ -173,6 +173,12 @@ vnoremap  #  y?<C-R>=escape(@", '\\/.*$^~[]')<CR><CR>
 * [Making Parenthesis And Brackets Handling Easier](http://vim.wikia.com/wiki/Making_Parenthesis_And_Brackets_Handling_Easier)
 * [自动补全括号](http://aoyme.wordpress.com/2010/05/31/%E5%9C%A8vim%E4%B8%AD%E5%B0%86%E6%8B%AC%E5%8F%B7%E8%87%AA%E5%8A%A8%E8%A1%A5%E5%85%A8%EF%BC%9A/)
 
+- tern.js
+  - http://ternjs.net/
+  - https://github.com/ternjs
+  - https://github.com/ternjs/tern
+  - https://github.com/ternjs/tern_for_vim
+
 
 普通模式下使用空格键可以参考 [gist:549200](http://gist.github.com/549200)，
 这个脚本可以让你在 normal 模式下输入 `![pic](count)<Space>`。

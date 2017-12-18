@@ -17,6 +17,17 @@
 * http://a.singlediv.com/
 * http://one-div.com/
 
+## requestAnimationFrame
+
+webkitRequestAnimationFrame
+
+- [window.requestAnimationFrame()](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame)
+  - [中文](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/requestAnimationFrame)
+- [requestAnimationFrame - IE](https://msdn.microsoft.com/en-us/library/hh773174(v=vs.85\).aspx)
+- [requestAnimationFrame - 阮一峰](http://javascript.ruanyifeng.com/htmlapi/requestanimationframe.html)
+- [Using requestAnimationFrame](https://css-tricks.com/using-requestanimationframe/)
+- [requestAnimationFrame，Web 中写动画的另一种选择](http://www.cnblogs.com/Wayou/p/requestAnimationFrame.html)
+
 ## Tools
 
 * [westciv](http://westciv.com/) - 有一些非常好的 CSS 演示和工具。

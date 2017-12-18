@@ -16,6 +16,7 @@
   * [component](https://github.com/componentjs/component)
   * [polymer](https://github.com/Polymer)
   * [React](react.md) | [React Native](react-native))
+  * [Inferno.js](https://github.com/infernojs/inferno)
   * [webpack](webpack.md) - Module Bundler
     [ExtJS](ExtJS.md) | [Dojo](http://www.dojotoolkit.org/) | [MS Ajax](http://www.asp.net/ajax/) |
     [moment.js](http://momentjs.com/)
@@ -24,6 +25,9 @@
         [AJAXRPC](http://ajaxrpc.com/)([中文](http://ajaxrpc.com/cn/index.html))
     * [Kissy - Taobao](kissy.md) | [Tangram - Baidu](http://tangram.baidu.com/)
 * [ECMAScript6](ecmascript6.md)
+* TypeScript
+  * https://github.com/basarat/typescript-book
+  * https://ts.xcatliu.com/
 * [koa](http://koajs.com/)
   [@github](https://github.com/koajs/koa)
   [中文文档](http://koa.rednode.cn/)
@@ -55,7 +59,7 @@
 * [Apple Swift](apple-swift.md)
 * [mobile-develop|无线开发](mobile-develop|无线开发.md)
 * [ActionScript|ActionScript/Flash](ActionScript|ActionScript/Flash.md) | [Flex](Flex.md) | [Silverlight](Silverlight.md) | [Processing](Processing.md)
-* [RegExp|正则表达式 (RegExp)](RegExp|正则表达式 (RegExp).md) | [Shell](Shell.md) | [AutoHotKey](AutoHotKey.md)
+* [正则表达式 (RegExp)](RegExp.md) | [Shell](Shell.md) | [AutoHotKey](AutoHotKey.md)
 * [Programming-Lnaguage|编程语言](Programming-Lnaguage|编程语言.md) | [Functional-programming|函数式编程](Functional-programming|函数式编程.md)
 * [WebService](WebService.md)
 * [REST](REST.md) | [Mashups](Mashups.md)
@@ -177,7 +181,7 @@
 
 ## Design
 
-* [Design](Design.md) | [icons|图标](icons|图标.md) | [fonts|字体 (Fonts)](fonts|字体 (Fonts).md) | [Photoshop](Photoshop.md) | [GIMP](http://www.gimp.org/)
+* [Design](Design.md) | [图标](icons.md) | [字体 (Fonts)](fonts.md) | [Photoshop](Photoshop.md) | [GIMP](http://www.gimp.org/)
 * 取色器 : [Color Schemer](http://www.colorschemer.com/) |
     [kuler](http://kuler.adobe.com/) |
     [Piknik Color Picker](http://color.aurlien.net/)
@@ -280,8 +284,19 @@
     * [ScreenRuler](http://gnomecoder.wordpress.com/screenruler/)
     * [Screen Ruler](http://www.microfox.com/)
 
+### Menu bar
+
+- [VANILLA](http://matthewpalmer.net/vanilla/)
+- [Bartender](https://www.macbartender.com/)
+
+### 日记
+
+- [Day One](http://dayoneapp.com/)
+- [Grid Diary](https://type.griddiaryapp.com/)
+
 ##  截屏
 
+* [Teampaper Snap](http://teampaper.me/snap/) - 一款截屏及标注软件。
 * [screenshots|截屏（截图）工具](screenshots|截屏（截图）工具.md)
 * [Shutter - ScreenShot Tool](http://shutter-project.org/)
 * ![pic](http://snip.qq.com/) - 腾讯截屏工具
@@ -673,7 +688,7 @@ Mac 使用 QuickTime Player 录屏并转成 gif 动画
 * [族谱](Genealogy.md)
 * [Getting Things Done(GTD)](GTD.md)
     * [ManicTime](http://www.manictime.com/) - Time management software.
-* [游戏](Games.md) | [iGo 圍棋](iGo.md) | [象棋](Chess.md) | [口琴](Harmonica.md) | [体育运动](sports.md)
+* [游戏](Games.md) | [iGo 圍棋](iGo.md) | [象棋](Chess.md) | [五子棋](Gomoku.md) | [口琴](Harmonica.md) | [体育运动](sports.md)
   [书法](calligraphy.md)
 * [驾校一点通](http://www.jxedt.com/) | [自行车](bicycle.md)
 * [网络电视 (TV)](Online-TVs.md) | [影视](video.md) | [音乐](music.md) | [网络电话](VoIP.md) | [卡通 & 漫画](cartoon.md)
@@ -707,6 +722,12 @@ Mac 使用 QuickTime Player 录屏并转成 gif 动画
 * [SMART 原则](http://zh.wikipedia.org/wiki/SMART%E5%8E%9F%E5%88%99)
 %%* [sexy](sexy.md)
 
+## 加油跳枪
+
+- [加油为什么会频繁跳枪？是加油站问题还是油箱问题](http://auto.sohu.com/20160418/n444765548.shtml)
+- [汽车加油没加满就跳枪是什么原因造成的？](https://www.zhihu.com/question/29221255)
+- [汽车加油跳枪了再加油还能加多少？对车辆有什么影响？](https://www.zhihu.com/question/28004628)
+
 ## 职业
 
 * [人事档案](public-records-in-china.md)
@@ -717,6 +738,7 @@ Mac 使用 QuickTime Player 录屏并转成 gif 动画
 
 * [关于股权激励有关个人所得税问题的通知](http://www.chinatax.gov.cn/n8136506/n8136593/n8137537/n8138502/9249422.html)
 * [关于个人股票期权所得缴纳个人所得税有关问题的补充通知](http://www.chinatax.gov.cn/n8136506/n8136563/n8193451/n8193496/n8194070/8242521.html)
+* [征信中心 - 中国人民银行 - 个人信用信息服务平台](https://ipcrs.pbccrc.org.cn/)
 
 ## 收集
 

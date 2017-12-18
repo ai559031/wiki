@@ -166,3 +166,32 @@
 ## 视频 (Video)
 
 * [浏览器的背后（续）](http://v.youku.com/v_show/id_XMjMzMzU2NDc2.html)
+
+## 适配
+
+iPhone X:
+
+```css
+@media only screen
+  and (device-width: 375px)
+  and (device-height: 812px)
+  and (-webkit-device-pixel-radio: 3) { }
+```
+
+iPhone 8:
+
+```css
+@media only screen
+  and (device-width: 375px)
+  and (device-height: 667px)
+  and (-webkit-device-pixel-ratio: 2) { }
+```
+
+iPhone 8 Plus:
+
+```css
+@media only screen
+  and (device-width: 414px)
+  and (device-height: 736px)
+  and (-webkit-device-pixel-ratio: 3) { }
+```

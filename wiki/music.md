@@ -18,7 +18,7 @@
 * [SKY.fm Internet Radio](http://www.sky.fm/)
     [New Age](http://www.sky.fm/play/newage) [NewAge.pls](http://listen.sky.fm/webplayer/newage.pls)
     [SKY.fm Radio 高品質網路電台，各式音樂頻道免費聽！](http://www.freegroup.org/2009/11/free-internet-radio-skyfm/)
-    [![pic](http://iapp.com.tw/topic_inside.php?id=771)(好好聽免費電台工具) SKY.FM / AccuRadio (上)]
+    [![pic](http://iapp.com.tw/topic_inside.php?id=771)（好好聽免費電台工具） SKY.FM / AccuRadio （上）]
     [优质音乐电台在线听 Sky.fm](http://bjnahan.net/sky-fm/)
 * [Hi Channel 广播](http://hichannel.hinet.net/radio.html)
 
@@ -28,35 +28,36 @@
     [beyondmusic](http://www.beyondmusic.net/)
     [永远的 BEYOND](http://www.lovebeyond.com/)
     [OurBeyond](http://www.ourbeyond.com/)
-* [喜多郎(Kitora)](http://music.sina.com.cn/yueku/s/3141.html)
-* [久石让(Joe Hisaishi)](http://music.sina.com.cn/yueku/s/10750.html)
+* [喜多郎 (Kitora)](http://music.sina.com.cn/yueku/s/3141.html)
+* [久石让 (Joe Hisaishi)](http://music.sina.com.cn/yueku/s/10750.html)
     * 《太阳照常升起》
         * 狩猎者进行曲
         * 太阳照常升起
-* [神思者(S.E.N.S)](http://music.sina.com.cn/yueku/s/26580.html)
-* [Enya.恩雅](http://music.sina.com.cn/yueku/s/2230.html)
+* [神思者 (S.E.N.S)](http://music.sina.com.cn/yueku/s/26580.html)
+* [Enya. 恩雅](http://music.sina.com.cn/yueku/s/2230.html)
 * [Cusco](http://music.sina.com.cn/yueku/s/21443.html)
-* [Vangelis.范吉利斯](http://music.sina.com.cn/yueku/s/2874.html)
+* [Vangelis. 范吉利斯](http://music.sina.com.cn/yueku/s/2874.html)
     [@google.music](http://www.google.cn/music/artist?id=Af08419208ceaf4ec)
-* [神姬(Himekami)](http://music.sina.com.cn/yueku/s/24396.html)
-* [雅尼(Yanni)](http://music.sina.com.cn/yueku/s/6968.html)
+* [神姬 (Himekami)](http://music.sina.com.cn/yueku/s/24396.html)
+* [雅尼 (Yanni)](http://music.sina.com.cn/yueku/s/6968.html)
 * [《棋魂》音乐集](http://www.tudou.com/playlist/id/773490)
 * [COBUS](http://www.youku.com/playlist_show/id_4407606.html) - youtube 最受欢迎的鼓手。
 * Owl City
 * [爱很美](http://www.yinyuetai.com/video/144341) - Sara & 刘佳
 * 陈奕迅
-    * [ 一丝不挂2010](http://v.youku.com/v_show/id_XMTU4MDM4OTcy.html) - 沙画
+    * [ 一丝不挂 2010](http://v.youku.com/v_show/id_XMTU4MDM4OTcy.html) - 沙画
     * [十年](http://v.youku.com/v_show/id_XMzM2MDQwMjI0.html)
-    * [K歌之王（国）](http://v.youku.com/v_show/id_XMzM2MDI5ODA4.html)
+    * [K 歌之王（国）](http://v.youku.com/v_show/id_XMzM2MDI5ODA4.html)
     * [好久不见](http://v.youku.com/v_show/id_XMjE3MzkwOTAw.html)
 * Sarah Mclachlan《Ordinary Miracle》
 
 ## MV
 
 * [sunshine girl](http://v.youku.com/v_show/id_XMTgwMzUzNjQ0.html)
-* [SoulJa-ここにいるよ feat.青山テルマ](http://www.tudou.com/programs/view/wjmp787_lhU/)
+* [SoulJa- ここにいるよ feat. 青山テルマ](http://www.tudou.com/programs/view/wjmp787_lhU/)
     [@xiami](http://www.xiami.com/song/3368090)
     [@youtube](http://www.youtube.com/watch?v=5ndRYEIQG9o)
+- [孩子問：誰還未覺醒](https://www.youtube.com/watch?v=RNbXLbHrMds&feature=youtu.be) 2014 香港占中环
 
 ## NewAge
 

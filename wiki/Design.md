@@ -3,6 +3,7 @@
 
 ----
 
+* [Material Design](https://material.io/)
 * [Design lol 全球设计精华分享](http://designlol.net/)
 * [Designboom](http://cn.designboom.com/)
 * [手绘插画](http://q.163.com/lazy-draw/)
@@ -13,14 +14,14 @@
 
 * [当我们谈论颜色时，我们在谈论什么 - 基础知识篇](http://efe.baidu.com/blog/what-we-talk-about-when-we-talk-about-color-basic/)
 
-## 表格(Table)
+## 表格 (Table)
 
-* [15个优秀的表格设计技巧](http://article.yeeyan.org/view/155461/108136)
+* [15 个优秀的表格设计技巧](http://article.yeeyan.org/view/155461/108136)
 * [Creating a table with dynamically highlighted columns like Crazy Egg's pricing table](http://www.askthecssguy.com/2007/08/creating_a_table_with_dynamica.html)
 * [越减越妙：简单表格的再设计](http://www.junchenwu.com/2007/02/redesign_a_simple_table.html)
 * [数据表格的设计](http://focusec.cn/index.php/%E6%95%B0%E6%8D%AE%E8%A1%A8%E6%A0%BC%E7%9A%84%E8%AE%BE%E8%AE%A1/)
-* [15款提高表格操作的jQuery插件](http://blog.bingo929.com/15-jquery-plugins-for-better-table-manipulation.html/comment-page-1)
-* [jQuery表格插件:帮助Web设计者驾御HTML表格](http://www.webjx.com/javascript/jsajax-23161.html)
+* [15 款提高表格操作的 jQuery 插件](http://blog.bingo929.com/15-jquery-plugins-for-better-table-manipulation.html/comment-page-1)
+* [jQuery 表格插件：帮助 Web 设计者驾御 HTML 表格](http://www.webjx.com/javascript/jsajax-23161.html)
 * [如何设计表格](http://www.logosky.net/webpage/artreview/small_chart_20051224.htm)
 
 

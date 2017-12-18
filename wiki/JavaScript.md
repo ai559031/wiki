@@ -8,7 +8,7 @@
 * [Douglas Crockford's Wrrrld Wide Web](http://www.crockford.com/)
     [2](http://www.jcfang.com/)
 * [ecmascript](http://www.ecmascript.org/)
-* [Javascript 森林(jsforest)](http://www.jsforest.org/)
+* [Javascript 森林 (jsforest)](http://www.jsforest.org/)
 * [Sizzle](http://sizzlejs.com/)
     [src](http://github.com/jeresig/sizzle) - JavaScript CSS selector.
 * [JS1K, 1k Javascript contest](http://js1k.com/)
@@ -21,7 +21,7 @@
 * [Perfection Kills](http://perfectionkills.com/)
 * [JSMentors](http://jsmentors.com/)
 * [JavaScript 秘密花园](http://bonsaiden.github.com/JavaScript-Garden/zh/)
-* [JavaScript 之神 Douglas Crockford 座談會 (@ OSDC 會前技術饗宴)](http://www.josephj.com/entry.php?id=328)
+* [JavaScript 之神 Douglas Crockford 座談會 (@ OSDC 會前技術饗宴）](http://www.josephj.com/entry.php?id=328)
 * [The cost of privacy](http://blog.jcoglan.com/2012/01/19/the-cost-of-privacy/)
 * [JSAN](http://openjsan.org/) - JavaScript Archive Network. like CPAN.
 * [Saltarelle C# to JavaScript Compiler](http://www.saltarelle-compiler.com/)
@@ -53,13 +53,13 @@
 
 ## 闭包
 
-    * [闭包 (计算机科学)](http://zh.wikipedia.org/zh-cn/%E9%97%AD%E5%8C%85_(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6))
+    * [闭包 （计算机科学）](http://zh.wikipedia.org/zh-cn/%E9%97%AD%E5%8C%85_(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6))
     * [Javascript Closures](http://jibbering.com/faq/notes/closures/)
     * [什么是闭包](http://roshanca.com/?p=153)
     * [Javascript Closures](http://www.jibbering.com/faq/faq_notes/closures.html)
         [中文](http://www.cn-cuckoo.com/2007/08/01/understand-javascript-closures-72.html)
         [2](http://www.aspxhome.com/examples/javascript/program/483628/javascriptclosures.html)
-    * [学习Javascript闭包（Closure）](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html)
+    * [学习 Javascript 闭包（Closure）](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html)
     * [作用域链 词法作用域 与 闭包（一）](http://www.mikkolee.com/81)
         [（二）](http://www.mikkolee.com/84)
 
@@ -70,9 +70,9 @@
 * TreeView
     * [jsTree](http://www.jstree.com/)^[2](http://code.google.com/p/jstree/)^
     * [eXtree](http://hi.baidu.com/apollo47)
-        [eXtree—(Extended XTree) 扩展Xtree.](http://www.cssrain.cn/?p=513)
+        [eXtree—(Extended XTree) 扩展 Xtree.](http://www.cssrain.cn/?p=513)
 * DataGrid/Table
-* [12款Javascript表格控件(DataGrid)](http://paranimage.com/12-javascipt-datagrid-control/)
+* [12 款 Javascript 表格控件 (DataGrid)](http://paranimage.com/12-javascipt-datagrid-control/)
 * [Select UI](http://harvesthq.github.com/chosen/)
 * [nude.js](http://www.patrick-wied.at/static/nudejs/) - 能识别露点图片的 Javascript。
 
@@ -111,15 +111,15 @@ var a = null;
 ## BUGs
 
 * [The dreaded Operation Aborted error](http://www.nczonline.net/blog/2008/03/17/the-dreaded-operation-aborted-error/) - IE “操作已取消”的问题。
-* [理解并解决IE的内存泄漏方式](http://birdshome.cnblogs.com/archive/2006/05/28/IE_MemoryLeak.html)
+* [理解并解决 IE 的内存泄漏方式](http://birdshome.cnblogs.com/archive/2006/05/28/IE_MemoryLeak.html)
     [2](http://birdshome.cnblogs.com/archive/2006/06/01/ClosureReferences.html)
     [3](http://birdshome.cnblogs.com/archive/2006/06/17/Cross_Page_Leaks.html)
     [4](http://birdshome.cnblogs.com/archive/2006/06/30/Pseudo_Leaks.html)<br />
     [Understanding and Solving Internet Explorer Leak Patterns](http://msdn.microsoft.com/en-us/library/bb250448.aspx)
-* [Javascript内存泄漏](http://adamlu.com/?p=418)
+* [Javascript 内存泄漏](http://adamlu.com/?p=418)
 
 由标点符号不正确造成的变量未预定义，成为全局变量而导致框架页的名字被修改，
-然后指定到这个框架页的导航失效，全部在_self中打开。示例代码：
+然后指定到这个框架页的导航失效，全部在_self 中打开。示例代码：
 
 ```javascript
 function(){
@@ -129,9 +129,9 @@ function(){
 }
 ```
 
-* [IE运行时设置name属性的BUG](http://blog.guitarbean.com/2009/07/setting-the-name-attribute-in-internet-explorer.html)
+* [IE 运行时设置 name 属性的 BUG](http://blog.guitarbean.com/2009/07/setting-the-name-attribute-in-internet-explorer.html)
 * [Creating Dynamic Forms with MVC and jQuery](http://weblogs.asp.net/jacqueseloff/archive/2009/04/17/creating-dynamic-forms-with-mvc-and-jquery.aspx)
-* [document.createElement()赋值name属性，在IE下的疑问](http://bbs.51js.com/viewthread.php?tid=62544)
+* [document.createElement() 赋值 name 属性，在 IE 下的疑问](http://bbs.51js.com/viewthread.php?tid=62544)
 * [ie 下使用 name 属性](http://q.sohu.com/forum/5/topic/2691378)
 
 ## WYSIWYG Editor
@@ -147,7 +147,7 @@ function(){
 
 * [Vapor.js](http://vaporjs.com/) - The World's Smallest & Fastest JavaScript Library.
     [@github](http://github.com/madrobby/vapor.js)
-* [ComoJS](http://www.comojs.com/) - 国产Javascript框架。
+* [ComoJS](http://www.comojs.com/) - 国产 Javascript 框架。
 * [Rapid framework](http://code.google.com/p/rapid-framework/)
     [Rapid javascript validation rramework](http://code.google.com/p/rapid-validation/)
 * [rapid-framework](http://www.rapid-framework.org.cn/)
@@ -162,13 +162,13 @@ function(){
 
 ## 测试
 
-* [Web 2.0 浏览器端可靠性测试，第 1 部分: 带你走进 Web 2.0 浏览器端可靠性测试](http://www.ibm.com/developerworks/cn/web/1106_hujj_browsertest1/index.html?ca=drs-)
-* [Web 2.0 浏览器端可靠性测试，第 2 部分: 如何发现和分析 Web 2.0 浏览器端的内存泄漏](http://www.ibm.com/developerworks/cn/web/1106_zhanghb_browsertest2/index.html?ca=drs-)
-* [js-test-driver](http://code.google.com/p/js-test-driver/) - 牛X测试工具，顺便尝试开发一个基于 Vim 的插件试试。
+* [Web 2.0 浏览器端可靠性测试，第 1 部分：带你走进 Web 2.0 浏览器端可靠性测试](http://www.ibm.com/developerworks/cn/web/1106_hujj_browsertest1/index.html?ca=drs-)
+* [Web 2.0 浏览器端可靠性测试，第 2 部分：如何发现和分析 Web 2.0 浏览器端的内存泄漏](http://www.ibm.com/developerworks/cn/web/1106_zhanghb_browsertest2/index.html?ca=drs-)
+* [js-test-driver](http://code.google.com/p/js-test-driver/) - 牛 X 测试工具，顺便尝试开发一个基于 Vim 的插件试试。
 * [JavaScript Performance Rundown](http://ejohn.org/blog/javascript-performance-rundown/)
-    [(翻译)JavaScript性能测试](http://www.cnblogs.com/Reeezak/archive/2008/09/11/1288777.html)
+    [（翻译）JavaScript 性能测试](http://www.cnblogs.com/Reeezak/archive/2008/09/11/1288777.html)
     [2](http://news.cnblogs.com/n/42284/)
-* [Javascript性能测试工具 FireJSPT](http://www.kacakong.com/archives/300)
+* [Javascript 性能测试工具 FireJSPT](http://www.kacakong.com/archives/300)
     [@google.code](http://code.google.com/p/firejspt/)
 * [JSBenchmark](http://jsbenchmark.celtickane.com/Run.aspx)
     * [Web Browser Javascript Benchmark](http://celtickane.com/labs/web-browser-javascript-benchmark/)
@@ -197,17 +197,17 @@ function(){
     * [JSLint](http://www.jslint.com/)
     * [JavaScript Lint](http://javascriptlint.com/)
     * [Fork of hallettj/jslint.vim](http://github.com/rainux/jslint.vim)
-        [JSLint的Vim插件，支持高亮显示错误代码以及Quickfix模式。Fork过来打了个读取~/.jslintrc的小补丁。](http://dabr.co.uk/status/4026010567)
+        [JSLint 的 Vim 插件，支持高亮显示错误代码以及 Quickfix 模式。Fork 过来打了个读取~/.jslintrc 的小补丁。](http://dabr.co.uk/status/4026010567)
         [JsLint Helper](http://www.vim.org/scripts/script.php?script_id=3174) - 在 sign 栏显示验证状态。
         [Closure Linter](http://code.google.com/p/closure-linter/)
 * Google Closure Compiler
     * [Google Closure Tools](http://code.google.com/intl/zh-CN/closure/)
     * [Closure Compiler Service](http://closure-compiler.appspot.com/home)
     * [Google Closure Compiler with PHP](http://bohuco.net/blog/2009/11/google-closure-compiler-with-php/)
-    * [Google Closure Compiler压缩优化规则初探](http://varnow.org/?p=174)
-    * [使用Google 的Closure Compiler来压缩javascript](http://www.phpblog.cn/archives/242)
-    * [在项目中使用Google Closure Compiler](http://www.cnblogs.com/JeffreyZhao/archive/2009/12/09/ikvm-google-closure-compiler.html)
-    * [Mac下用Closure compiler](http://hikejun.com/blog/?p=476&cpage=1)
+    * [Google Closure Compiler 压缩优化规则初探](http://varnow.org/?p=174)
+    * [使用 Google 的 Closure Compiler 来压缩 javascript](http://www.phpblog.cn/archives/242)
+    * [在项目中使用 Google Closure Compiler](http://www.cnblogs.com/JeffreyZhao/archive/2009/12/09/ikvm-google-closure-compiler.html)
+    * [Mac 下用 Closure compiler](http://hikejun.com/blog/?p=476&cpage=1)
     * [JS 库浅析之 Google Closure](http://ued.sohu.com/article/611)
     * [Closure Compiler 高级模式及更多思考](http://www.pushiming.com/blog/2010/12/advanced-optimization-in-closure-compiler-and-more/)
 * YUI
@@ -218,7 +218,7 @@ function(){
 * Javascript Docs
     * [jsDoc-toolkit](http://code.google.com/p/jsdoc-toolkit/)^[2](http://jsdoc.sourceforge.net/)^
     * [Helper tools & scripts](http://www.stack.nl/~dimitri/doxygen/helpers.html)
-    * [JsDoc Toolkit:Javascript文档利器](http://blog.tugai.net/2010/01/08/jsdoc-toolkit-usage/)
+    * [JsDoc Toolkit:Javascript 文档利器](http://blog.tugai.net/2010/01/08/jsdoc-toolkit-usage/)
     * [jGrouseDoc](http://code.google.com/p/jgrousedoc/)
 * [JsUnit](http://www.jsunit.net/)
     [@github](http://github.com/pivotal/jsunit)
@@ -250,14 +250,14 @@ function(){
 * [Dive into Greasemonkey 中文翻譯計畫](http://gslin.org/2005/05/29/1269/)
 * [深入浅出 Greasemonkey](http://www.firefox.net.cn/dig/toc/)
 * [userscripts.org](http://userscripts.org/)
-* [如何为greasemonkey开发userScript](http://www.robinlu.com/blog/archives/15)
+* [如何为 greasemonkey 开发 userScript](http://www.robinlu.com/blog/archives/15)
 * [GreaseMonkey 简介与使用教程](http://www.pythonclub.org/html/javascript/greasemonkey/usage)
 * [User Script Compiler](http://arantius.com/misc/greasemonkey/script-compiler)
 * [GreaseMonkey 开发教程](http://www.pythonclub.org/html/javascript/greasemonkey)
 
 ## Event
 
-* [深入了解iPad上的MouseEvent](http://www.cnblogs.com/hokyhu/archive/2012/01/18/2325833.html)
+* [深入了解 iPad 上的 MouseEvent](http://www.cnblogs.com/hokyhu/archive/2012/01/18/2325833.html)
 
 
 ## Detector
@@ -279,8 +279,8 @@ function(){
 
 ## Games
 
-* [辣妈.植物大战僵尸](http://pvz.lonelystar.org/)
-* [JS游戏引擎列表](http://coolshell.cn/articles/3516.html)
+* [辣妈。植物大战僵尸](http://pvz.lonelystar.org/)
+* [JS 游戏引擎列表](http://coolshell.cn/articles/3516.html)
 * [地址栏游戏](http://probablyinteractive.com/url-hunter)
 
 ## Books
@@ -306,8 +306,8 @@ Screen 对象属性
 
 | 属性                 | 描述                                         | IE | F | O |
 |----------------------+----------------------------------------------+----+---+---|
-| availHeight          | 返回显示屏幕的高度(除 Windows 任务栏之外)    | 4  | 1 | 9 |
-| availWidth           | 返回显示屏幕的宽度(除 Windows 任务栏之外)    | 4  | 1 | 9 |
+| availHeight          | 返回显示屏幕的高度（除 Windows 任务栏之外）    | 4  | 1 | 9 |
+| availWidth           | 返回显示屏幕的宽度（除 Windows 任务栏之外）    | 4  | 1 | 9 |
 | bufferDepth          | 设置或返回调色板的比特深度。                 | 4  | - | - |
 | colorDepth           | 返回目标设备或缓冲器上的调色板的比特深度。   | 4  | 1 | 9 |
 | deviceXDPI           | 返回显示屏幕的每英寸水平点数。               | 6  | - | - |
@@ -325,13 +325,13 @@ width:: 返回屏幕的宽度（像素数）。
 height:: 返回屏幕的高度。
 availWidth:: 返回屏幕的可用宽度（除去了一些不自动隐藏的类似任务栏的东西所占用的宽度）。
 availHeight:: 返回屏幕的可用高度。
-colorDepth:: 返回当前颜色设置所用的位数 -1：黑白；8：256色；16：增强色；24/32：真彩色
+colorDepth:: 返回当前颜色设置所用的位数 -1：黑白；8：256 色；16：增强色；24/32：真彩色
 
 
-## 编码(Encoding)
+## 编码 (Encoding)
 
-* [1kjs,独创压缩算法,纯Js实现GBK编码,超小体积挑战纯忽悠版本VBS版](http://www.iteye.com/topic/1114934)
-* ![pic](http://www.1kjs.com/lib/widget/gbk/GBK转码组件)
+* [1kjs, 独创压缩算法，纯 Js 实现 GBK 编码，超小体积挑战纯忽悠版本 VBS 版](http://www.iteye.com/topic/1114934)
+* ![pic](http://www.1kjs.com/lib/widget/gbk/GBK 转码组件)
 * [aaencode](http://utf-8.jp/public/aaencode.html) - Encode any JavaScript program to Japanese style emoticons (`^_^`)
 
 ## 混淆加密解密
@@ -339,10 +339,15 @@ colorDepth:: 返回当前颜色设置所用的位数 -1：黑白；8：256色；
 * [packer](http://dean.edwards.name/packer/)
   * https://github.com/evanw/packer
   * [@51js](http://www.jb51.net/tools/packer.htm)
-  * [packer之base62分析](http://51hired.com/questions/14003/packer%E4%B9%8Bbase62%E5%88%86%E6%9E%90)
-  * [packer和base62分析](http://www.cnblogs.com/chyong168/archive/2012/06/27/2565347.html)
-* [HDS 在线JS混淆加密器](http://www.moralsoft.com/jso-online/hdojso.htm)
+  * [packer 之 base62 分析](http://51hired.com/questions/14003/packer%E4%B9%8Bbase62%E5%88%86%E6%9E%90)
+  * [packer 和 base62 分析](http://www.cnblogs.com/chyong168/archive/2012/06/27/2565347.html)
+* [HDS 在线 JS 混淆加密器](http://www.moralsoft.com/jso-online/hdojso.htm)
 
 ## console
 
 * [Blackbird](http://www.gscottolson.com/blackbirdjs/)
+
+## 音频 (Audio)
+
+- [mattdiamond/Recorderjs](https://github.com/mattdiamond/Recorderjs) - A plugin for recording/exporting the output of Web Audio API nodes
+- [Getting Started with Web Audio API](https://www.html5rocks.com/en/tutorials/webaudio/intro/)
