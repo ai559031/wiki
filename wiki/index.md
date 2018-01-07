@@ -6,7 +6,10 @@
 ## Inbox
 
 * [Inbox](inbox.md)
-* [ ] [微信小程序 demo / 开发工具 / 文档资源](https://github.com/xwartz/wechatApp-demo)
+* [ ] 微信小程序
+  * [ ] [微信小程序 demo / 开发工具 / 文档资源](https://github.com/xwartz/wechatApp-demo)
+  * [ ] https://mp.weixin.qq.com/debug/wxagame/dev/index.html
+  * [ ] https://zhuanlan.zhihu.com/p/32451197
 
 - [TeeHour.fm](http://teahour.fm/)
 
