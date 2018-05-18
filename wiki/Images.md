@@ -5,12 +5,14 @@
 
 * [Smush.it™](http://smushit.com/) [2](http://www.smushit.com/ysmush.it/)
     * [使用 Smush.it 在线无损压缩网页图片](http://fairyfish.net/2009/12/14/smush-it/)
-* [10种意想不到的验证码风格设计](http://news.cnblogs.com/n/99410/)
+* [10 种意想不到的验证码风格设计](http://news.cnblogs.com/n/99410/)
 * [JPEGmini](http://www.jpegmini.com)
 
 ## Image Engine
 * [IconPng](http://www.iconpng.com/)
 * [TinyPNG](https://tinypng.com/)
+* [pngquant](https://pngquant.org/)
+  - https://github.com/kornelski/pngquant
 
 ## Share
 * [min.us](http://minus.com/)

@@ -13,6 +13,11 @@
 
 - [TeeHour.fm](http://teahour.fm/)
 
+## 在读
+
+- [GraphQL](graphql)
+- [深度学习 Deep Learning](deep-learning)
+
 ## Web App
 
 - PWA
@@ -30,6 +35,8 @@
     - [PWA 具体实践](https://www.villainhr.com/page/2017/03/09/PWA%20%E5%85%B7%E4%BD%93%E5%AE%9E%E8%B7%B5)
   - https://offline-plugin.now.sh/
   - http://gitlab.alipay-inc.com/zengyue.yezy/work/issues/4
+  - [PWA 技术体系](https://www.atatech.org/articles/80991)
+  - [PWA 之通过 ServiceWorker 实现预加载的业务实践](https://www.atatech.org/articles/89955)
 - [PhoneGap 中国](http://www.phonegapcn.com/)
 - [Ionic](http://ionicframework.net/index.html)
   - [如何快速地开发一款 Android App？](https://www.zhihu.com/question/28606284/answer/81489590)
@@ -162,3 +169,7 @@ $ kill pid
 ## 萨摩耶
 
 - [萨摩耶](samoyed.md)
+
+## 住房
+
+- [世界各城市的房价和收入比地图](https://www.numbeo.com/property-investment/gmaps_rankings.jsp)

@@ -10,3 +10,7 @@
 
 - http://reapp.io/
 - https://github.com/reapp/reapp
+
+## Proton Native
+
+- [Create native desktop applications through a React syntax, on all platforms](https://proton-native.js.org/)
